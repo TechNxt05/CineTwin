@@ -1,0 +1,256 @@
+{
+  "info": {
+    "name": "Which Character Are You API",
+    "description": "API collection for the Which Character Are You web application",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Questions",
+      "item": [
+        {
+          "name": "Get All Questions",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/questions",
+              "host": ["{{base_url}}"],
+              "path": ["api", "questions"]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Characters",
+      "item": [
+        {
+          "name": "Get All Characters",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/characters",
+              "host": ["{{base_url}}"],
+              "path": ["api", "characters"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Get Characters by Universe",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/characters?universe=Marvel&limit=5",
+              "host": ["{{base_url}}"],
+              "path": ["api", "characters"],
+              "query": [
+                {
+                  "key": "universe",
+                  "value": "Marvel"
+                },
+                {
+                  "key": "limit",
+                  "value": "5"
+                }
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Quiz",
+      "item": [
+        {
+          "name": "Submit Quiz",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"John Doe\",\n  \"universe\": [\"Marvel\", \"DC\"],\n  \"answers\": [\n    {\"question_id\": 1, \"option_id\": \"1A\"},\n    {\"question_id\": 2, \"option_id\": \"2B\"},\n    {\"question_id\": 3, \"option_id\": \"3C\"}\n  ],\n  \"songs\": [\"Bohemian Rhapsody\", \"Imagine\"],\n  \"movies\": [\"The Dark Knight\", \"Inception\"]\n}"
+            },
+            "url": {
+              "raw": "{{base_url}}/api/score",
+              "host": ["{{base_url}}"],
+              "path": ["api", "score"]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Feedback",
+      "item": [
+        {
+          "name": "Submit Amritanshu Feedback",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"John Doe\",\n  \"selected_trait\": \"humor\",\n  \"note\": \"Amritanshu has a great sense of humor and always makes people laugh.\",\n  \"consent\": true\n}"
+            },
+            "url": {
+              "raw": "{{base_url}}/api/feedback/amritanshu",
+              "host": ["{{base_url}}"],
+              "path": ["api", "feedback", "amritanshu"]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Media Mapping",
+      "item": [
+        {
+          "name": "Map Media to Traits",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"title\": \"Bohemian Rhapsody\",\n  \"type\": \"song\"\n}"
+            },
+            "url": {
+              "raw": "{{base_url}}/api/media/map",
+              "host": ["{{base_url}}"],
+              "path": ["api", "media", "map"]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Admin",
+      "item": [
+        {
+          "name": "Get Statistics",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{admin_token}}"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/admin/stats",
+              "host": ["{{base_url}}"],
+              "path": ["admin", "stats"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Get Recent Results",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{admin_token}}"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/admin/results?limit=10",
+              "host": ["{{base_url}}"],
+              "path": ["admin", "results"],
+              "query": [
+                {
+                  "key": "limit",
+                  "value": "10"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Get Amritanshu Feedback",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{admin_token}}"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/admin/feedback?limit=10",
+              "host": ["{{base_url}}"],
+              "path": ["admin", "feedback"],
+              "query": [
+                {
+                  "key": "limit",
+                  "value": "10"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Re-map Media",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer {{admin_token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"title\": \"Bohemian Rhapsody\",\n  \"type\": \"song\"\n}"
+            },
+            "url": {
+              "raw": "{{base_url}}/admin/media-mapping",
+              "host": ["{{base_url}}"],
+              "path": ["admin", "media-mapping"]
+            }
+          },
+          "response": []
+        }
+      ]
+    }
+  ],
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://localhost:5000"
+    },
+    {
+      "key": "admin_token",
+      "value": "admin123"
+    }
+  ]
+}

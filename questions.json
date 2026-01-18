@@ -1,0 +1,219 @@
+[
+    {
+      "id": 1,
+      "question": "Do you prefer spending time alone or with a group of people?",
+      "trait": "introversion",
+      "options": [
+        {"id": "1A", "text": "Always alone", "score": 1.0},
+        {"id": "1B", "text": "Mostly alone", "score": 0.7},
+        {"id": "1C", "text": "Balanced mix", "score": 0.5},
+        {"id": "1D", "text": "Mostly groups", "score": 0.3},
+        {"id": "1E", "text": "Always groups", "score": 0.0}
+      ]
+    },
+    {
+      "id": 2,
+      "question": "How do you usually recharge your energy?",
+      "trait": "introversion",
+      "options": [
+        {"id": "2A", "text": "Quiet personal time", "score": 1.0},
+        {"id": "2B", "text": "With 1–2 close people", "score": 0.7},
+        {"id": "2C", "text": "A mix of both", "score": 0.5},
+        {"id": "2D", "text": "With friends around", "score": 0.3},
+        {"id": "2E", "text": "Big social events", "score": 0.0}
+      ]
+    },
+    {
+      "id": 3,
+      "question": "How would your friends describe your sense of humor?",
+      "trait": "humor",
+      "options": [
+        {"id": "3A", "text": "Very serious", "score": 0.0},
+        {"id": "3B", "text": "Slightly funny", "score": 0.3},
+        {"id": "3C", "text": "Sometimes funny", "score": 0.5},
+        {"id": "3D", "text": "Often crack jokes", "score": 0.7},
+        {"id": "3E", "text": "Life of the party", "score": 1.0}
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Do you enjoy making others laugh?",
+      "trait": "humor",
+      "options": [
+        {"id": "4A", "text": "Not at all", "score": 0.0},
+        {"id": "4B", "text": "Rarely", "score": 0.3},
+        {"id": "4C", "text": "Sometimes", "score": 0.5},
+        {"id": "4D", "text": "Often", "score": 0.7},
+        {"id": "4E", "text": "Always, it’s my thing", "score": 1.0}
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Do you take risks even if it’s dangerous?",
+      "trait": "bravery",
+      "options": [
+        {"id": "5A", "text": "Never", "score": 0.0},
+        {"id": "5B", "text": "Rarely", "score": 0.3},
+        {"id": "5C", "text": "Sometimes", "score": 0.5},
+        {"id": "5D", "text": "Often", "score": 0.7},
+        {"id": "5E", "text": "Always", "score": 1.0}
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Would you stand up against a stronger opponent for what’s right?",
+      "trait": "bravery",
+      "options": [
+        {"id": "6A", "text": "Never", "score": 0.0},
+        {"id": "6B", "text": "Only if forced", "score": 0.3},
+        {"id": "6C", "text": "Sometimes", "score": 0.5},
+        {"id": "6D", "text": "Mostly yes", "score": 0.7},
+        {"id": "6E", "text": "Always", "score": 1.0}
+      ]
+    },
+    {
+      "id": 7,
+      "question": "How loyal are you to your friends and family?",
+      "trait": "loyalty",
+      "options": [
+        {"id": "7A", "text": "Not loyal", "score": 0.0},
+        {"id": "7B", "text": "A little loyal", "score": 0.3},
+        {"id": "7C", "text": "Somewhat loyal", "score": 0.5},
+        {"id": "7D", "text": "Very loyal", "score": 0.7},
+        {"id": "7E", "text": "Unshakably loyal", "score": 1.0}
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Do you prioritize personal goals over loyalty to others?",
+      "trait": "loyalty",
+      "options": [
+        {"id": "8A", "text": "Always personal goals", "score": 0.0},
+        {"id": "8B", "text": "Mostly personal", "score": 0.3},
+        {"id": "8C", "text": "Balanced mix", "score": 0.5},
+        {"id": "8D", "text": "Mostly loyal", "score": 0.7},
+        {"id": "8E", "text": "Always loyal", "score": 1.0}
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Do you dream of achieving something great?",
+      "trait": "ambition",
+      "options": [
+        {"id": "9A", "text": "Not at all", "score": 0.0},
+        {"id": "9B", "text": "Rarely", "score": 0.3},
+        {"id": "9C", "text": "Sometimes", "score": 0.5},
+        {"id": "9D", "text": "Often", "score": 0.7},
+        {"id": "9E", "text": "Always, I aim big", "score": 1.0}
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Would you sacrifice friendships for success?",
+      "trait": "ambition",
+      "options": [
+        {"id": "10A", "text": "Never", "score": 0.0},
+        {"id": "10B", "text": "Rarely", "score": 0.3},
+        {"id": "10C", "text": "Sometimes", "score": 0.5},
+        {"id": "10D", "text": "Often", "score": 0.7},
+        {"id": "10E", "text": "Always, success first", "score": 1.0}
+      ]
+    },
+    {
+      "id": 11,
+      "question": "How easily do you feel empathy for others?",
+      "trait": "compassion",
+      "options": [
+        {"id": "11A", "text": "Never", "score": 0.0},
+        {"id": "11B", "text": "Rarely", "score": 0.3},
+        {"id": "11C", "text": "Sometimes", "score": 0.5},
+        {"id": "11D", "text": "Often", "score": 0.7},
+        {"id": "11E", "text": "Always deeply", "score": 1.0}
+      ]
+    },
+    {
+      "id": 12,
+      "question": "Would you help a stranger in need?",
+      "trait": "compassion",
+      "options": [
+        {"id": "12A", "text": "Never", "score": 0.0},
+        {"id": "12B", "text": "Rarely", "score": 0.3},
+        {"id": "12C", "text": "Sometimes", "score": 0.5},
+        {"id": "12D", "text": "Often", "score": 0.7},
+        {"id": "12E", "text": "Always", "score": 1.0}
+      ]
+    },
+    {
+      "id": 13,
+      "question": "Do you enjoy outsmarting others?",
+      "trait": "cunning",
+      "options": [
+        {"id": "13A", "text": "Not at all", "score": 0.0},
+        {"id": "13B", "text": "Rarely", "score": 0.3},
+        {"id": "13C", "text": "Sometimes", "score": 0.5},
+        {"id": "13D", "text": "Often", "score": 0.7},
+        {"id": "13E", "text": "Always, it excites me", "score": 1.0}
+      ]
+    },
+    {
+      "id": 14,
+      "question": "Would you bend rules to achieve your goal?",
+      "trait": "cunning",
+      "options": [
+        {"id": "14A", "text": "Never", "score": 0.0},
+        {"id": "14B", "text": "Rarely", "score": 0.3},
+        {"id": "14C", "text": "Sometimes", "score": 0.5},
+        {"id": "14D", "text": "Often", "score": 0.7},
+        {"id": "14E", "text": "Always, rules are flexible", "score": 1.0}
+      ]
+    },
+    {
+      "id": 15,
+      "question": "Do you take responsibility for your mistakes?",
+      "trait": "responsibility",
+      "options": [
+        {"id": "15A", "text": "Never", "score": 0.0},
+        {"id": "15B", "text": "Rarely", "score": 0.3},
+        {"id": "15C", "text": "Sometimes", "score": 0.5},
+        {"id": "15D", "text": "Often", "score": 0.7},
+        {"id": "15E", "text": "Always, I own up", "score": 1.0}
+      ]
+    },
+    {
+      "id": 16,
+      "question": "How disciplined are you in keeping promises?",
+      "trait": "responsibility",
+      "options": [
+        {"id": "16A", "text": "Not at all", "score": 0.0},
+        {"id": "16B", "text": "Slightly", "score": 0.3},
+        {"id": "16C", "text": "Sometimes", "score": 0.5},
+        {"id": "16D", "text": "Usually yes", "score": 0.7},
+        {"id": "16E", "text": "Always without fail", "score": 1.0}
+      ]
+    },
+    {
+      "id": 17,
+      "question": "Do you often use sarcasm?",
+      "trait": "sarcasm",
+      "options": [
+        {"id": "17A", "text": "Never", "score": 0.0},
+        {"id": "17B", "text": "Rarely", "score": 0.3},
+        {"id": "17C", "text": "Sometimes", "score": 0.5},
+        {"id": "17D", "text": "Often", "score": 0.7},
+        {"id": "17E", "text": "Always, it’s my language", "score": 1.0}
+      ]
+    },
+    {
+      "id": 18,
+      "question": "Do you remain hopeful even in hard times?",
+      "trait": "optimism",
+      "options": [
+        {"id": "18A", "text": "Never", "score": 0.0},
+        {"id": "18B", "text": "Rarely hopeful", "score": 0.3},
+        {"id": "18C", "text": "Sometimes", "score": 0.5},
+        {"id": "18D", "text": "Often positive", "score": 0.7},
+        {"id": "18E", "text": "Always hopeful", "score": 1.0}
+      ]
+    }
+  ]
+  

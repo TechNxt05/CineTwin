@@ -1,0 +1,1522 @@
+[
+  {
+    "name": "Eleven",
+    "alias": "Jane Hopper",
+    "universe": "Stranger Things",
+    "series": "Stranger Things",
+    "image_url": "https://...",
+    "bio": "A girl with telekinetic powers, raised in a lab and later finding a family in Hawkins.",
+    "traits": {
+      "introversion": 0.6,
+      "humor": 0.2,
+      "bravery": 0.9,
+      "loyalty": 0.95,
+      "ambition": 0.4,
+      "compassion": 0.8,
+      "cunning": 0.6,
+      "responsibility": 0.85,
+      "sarcasm": 0.3,
+      "optimism": 0.5
+    }
+  },
+  {
+    "name": "Mike Wheeler",
+    "alias": null,
+    "universe": "Stranger Things",
+    "series": "Stranger Things",
+    "image_url": "https://...",
+    "bio": "Loyal and determined, Mike is Eleven’s closest friend and often the emotional heart of the group.",
+    "traits": {
+      "introversion": 0.5,
+      "humor": 0.4,
+      "bravery": 0.7,
+      "loyalty": 0.9,
+      "ambition": 0.5,
+      "compassion": 0.7,
+      "cunning": 0.4,
+      "responsibility": 0.6,
+      "sarcasm": 0.4,
+      "optimism": 0.7
+    }
+  },
+  {
+    "name": "Will Byers",
+    "alias": null,
+    "universe": "Stranger Things",
+    "series": "Stranger Things",
+    "image_url": "https://...",
+    "bio": "Gentle and creative, Will has endured the horrors of the Upside Down but remains sensitive and caring.",
+    "traits": {
+      "introversion": 0.7,
+      "humor": 0.3,
+      "bravery": 0.6,
+      "loyalty": 0.8,
+      "ambition": 0.3,
+      "compassion": 0.9,
+      "cunning": 0.3,
+      "responsibility": 0.6,
+      "sarcasm": 0.2,
+      "optimism": 0.6
+    }
+  },
+  {
+    "name": "Dustin Henderson",
+    "alias": null,
+    "universe": "Stranger Things",
+    "series": "Stranger Things",
+    "image_url": "https://...",
+    "bio": "Smart, witty, and endlessly optimistic, Dustin is the comic relief and brains of the group.",
+    "traits": {
+      "introversion": 0.3,
+      "humor": 0.95,
+      "bravery": 0.7,
+      "loyalty": 0.8,
+      "ambition": 0.6,
+      "compassion": 0.8,
+      "cunning": 0.6,
+      "responsibility": 0.7,
+      "sarcasm": 0.6,
+      "optimism": 0.9
+    }
+  },
+  {
+    "name": "Lucas Sinclair",
+    "alias": null,
+    "universe": "Stranger Things",
+    "series": "Stranger Things",
+    "image_url": "https://...",
+    "bio": "Practical and sometimes skeptical, Lucas is brave and always ready to defend his friends.",
+    "traits": {
+      "introversion": 0.4,
+      "humor": 0.5,
+      "bravery": 0.8,
+      "loyalty": 0.7,
+      "ambition": 0.6,
+      "compassion": 0.6,
+      "cunning": 0.6,
+      "responsibility": 0.7,
+      "sarcasm": 0.5,
+      "optimism": 0.6
+    }
+  },
+  {
+    "name": "Max Mayfield",
+    "alias": "Mad Max",
+    "universe": "Stranger Things",
+    "series": "Stranger Things",
+    "image_url": "https://...",
+    "bio": "Independent and tough, Max joins the group with a rebellious spirit but proves loyal and courageous.",
+    "traits": {
+      "introversion": 0.5,
+      "humor": 0.5,
+      "bravery": 0.8,
+      "loyalty": 0.7,
+      "ambition": 0.6,
+      "compassion": 0.7,
+      "cunning": 0.5,
+      "responsibility": 0.6,
+      "sarcasm": 0.7,
+      "optimism": 0.5
+    }
+  },
+  {
+    "name": "Jim Hopper",
+    "alias": "Chief Hopper",
+    "universe": "Stranger Things",
+    "series": "Stranger Things",
+    "image_url": "https://...",
+    "bio": "Gruff but kind-hearted police chief of Hawkins, who becomes Eleven’s adoptive father.",
+    "traits": {
+      "introversion": 0.4,
+      "humor": 0.4,
+      "bravery": 0.9,
+      "loyalty": 0.9,
+      "ambition": 0.5,
+      "compassion": 0.7,
+      "cunning": 0.6,
+      "responsibility": 0.9,
+      "sarcasm": 0.6,
+      "optimism": 0.5
+    }
+  },
+  {
+    "name": "Joyce Byers",
+    "alias": null,
+    "universe": "Stranger Things",
+    "series": "Stranger Things",
+    "image_url": "https://...",
+    "bio": "A fiercely protective mother, Joyce will stop at nothing to protect her sons.",
+    "traits": {
+      "introversion": 0.5,
+      "humor": 0.3,
+      "bravery": 0.8,
+      "loyalty": 0.95,
+      "ambition": 0.4,
+      "compassion": 0.9,
+      "cunning": 0.5,
+      "responsibility": 0.85,
+      "sarcasm": 0.4,
+      "optimism": 0.6
+    }
+  },
+  {
+    "name": "Steve Harrington",
+    "alias": null,
+    "universe": "Stranger Things",
+    "series": "Stranger Things",
+    "image_url": "https://...",
+    "bio": "Former high-school jock turned protective babysitter and hero of Hawkins.",
+    "traits": {
+      "introversion": 0.3,
+      "humor": 0.6,
+      "bravery": 0.8,
+      "loyalty": 0.8,
+      "ambition": 0.5,
+      "compassion": 0.7,
+      "cunning": 0.5,
+      "responsibility": 0.8,
+      "sarcasm": 0.5,
+      "optimism": 0.7
+    }
+  },
+  {
+    "name": "Vecna",
+    "alias": "Henry Creel",
+    "universe": "Stranger Things",
+    "series": "Stranger Things",
+    "image_url": "https://...",
+    "bio": "The dark force behind the Upside Down, with immense psychic powers and hatred for humanity.",
+    "traits": {
+      "introversion": 0.8,
+      "humor": 0.0,
+      "bravery": 0.9,
+      "loyalty": 0.1,
+      "ambition": 0.95,
+      "compassion": 0.0,
+      "cunning": 0.95,
+      "responsibility": 0.8,
+      "sarcasm": 0.2,
+      "optimism": 0.1
+    }
+  },
+  {
+    "name": "Seong Gi-hun",
+    "alias": "Player 456",
+    "universe": "Squid Game",
+    "series": "Squid Game",
+    "image_url": "https://...",
+    "bio": "A kind but flawed man, struggling with debts, who values family and compassion above all else.",
+    "traits": {
+      "introversion": 0.5,
+      "humor": 0.5,
+      "bravery": 0.7,
+      "loyalty": 0.8,
+      "ambition": 0.4,
+      "compassion": 0.9,
+      "cunning": 0.4,
+      "responsibility": 0.5,
+      "sarcasm": 0.4,
+      "optimism": 0.6
+    }
+  },
+  {
+    "name": "Cho Sang-woo",
+    "alias": "Player 218",
+    "universe": "Squid Game",
+    "series": "Squid Game",
+    "image_url": "https://...",
+    "bio": "A brilliant businessman and Gi-hun’s childhood friend, willing to sacrifice morals to win.",
+    "traits": {
+      "introversion": 0.5,
+      "humor": 0.2,
+      "bravery": 0.8,
+      "loyalty": 0.2,
+      "ambition": 0.95,
+      "compassion": 0.2,
+      "cunning": 0.95,
+      "responsibility": 0.8,
+      "sarcasm": 0.3,
+      "optimism": 0.3
+    }
+  },
+  {
+    "name": "Kang Sae-byeok",
+    "alias": "Player 067",
+    "universe": "Squid Game",
+    "series": "Squid Game",
+    "image_url": "https://...",
+    "bio": "A North Korean defector fighting for her brother’s safety, resourceful and resilient.",
+    "traits": {
+      "introversion": 0.7,
+      "humor": 0.2,
+      "bravery": 0.9,
+      "loyalty": 0.8,
+      "ambition": 0.6,
+      "compassion": 0.6,
+      "cunning": 0.7,
+      "responsibility": 0.8,
+      "sarcasm": 0.3,
+      "optimism": 0.4
+    }
+  },
+  {
+    "name": "Ali Abdul",
+    "alias": "Player 199",
+    "universe": "Squid Game",
+    "series": "Squid Game",
+    "image_url": "https://...",
+    "bio": "A migrant worker from Pakistan, honest and compassionate, who values trust and friendship.",
+    "traits": {
+      "introversion": 0.5,
+      "humor": 0.4,
+      "bravery": 0.8,
+      "loyalty": 0.9,
+      "ambition": 0.5,
+      "compassion": 0.95,
+      "cunning": 0.4,
+      "responsibility": 0.7,
+      "sarcasm": 0.2,
+      "optimism": 0.8
+    }
+  },
+  {
+    "name": "Jang Deok-su",
+    "alias": "Player 101",
+    "universe": "Squid Game",
+    "series": "Squid Game",
+    "image_url": "https://...",
+    "bio": "A violent gangster who bullies his way through the games, ruthless and self-serving.",
+    "traits": {
+      "introversion": 0.3,
+      "humor": 0.1,
+      "bravery": 0.8,
+      "loyalty": 0.1,
+      "ambition": 0.8,
+      "compassion": 0.0,
+      "cunning": 0.7,
+      "responsibility": 0.2,
+      "sarcasm": 0.5,
+      "optimism": 0.3
+    }
+  },
+  {
+    "name": "Oh Il-nam",
+    "alias": "Player 001",
+    "universe": "Squid Game",
+    "series": "Squid Game",
+    "image_url": "https://...",
+    "bio": "An old man who seems frail and kind, later revealed as the mastermind behind the games.",
+    "traits": {
+      "introversion": 0.6,
+      "humor": 0.5,
+      "bravery": 0.6,
+      "loyalty": 0.1,
+      "ambition": 0.9,
+      "compassion": 0.3,
+      "cunning": 0.95,
+      "responsibility": 0.7,
+      "sarcasm": 0.4,
+      "optimism": 0.5
+    }
+  },
+  {
+    "name": "Han Mi-nyeo",
+    "alias": "Player 212",
+    "universe": "Squid Game",
+    "series": "Squid Game",
+    "image_url": "https://...",
+    "bio": "A manipulative woman who uses charm and deceit to survive, unpredictable but resourceful.",
+    "traits": {
+      "introversion": 0.4,
+      "humor": 0.4,
+      "bravery": 0.7,
+      "loyalty": 0.2,
+      "ambition": 0.7,
+      "compassion": 0.3,
+      "cunning": 0.9,
+      "responsibility": 0.3,
+      "sarcasm": 0.7,
+      "optimism": 0.5
+    }
+  },
+  {
+    "name": "Tony Stark",
+    "alias": "Iron Man",
+    "universe": "Marvel",
+    "series": "Avengers",
+    "image_url": "https://...",
+    "bio": "Genius billionaire inventor who becomes Iron Man, witty and self-sacrificing.",
+    "traits": {
+      "introversion": 0.2,
+      "humor": 0.9,
+      "bravery": 0.9,
+      "loyalty": 0.8,
+      "ambition": 0.95,
+      "compassion": 0.6,
+      "cunning": 0.9,
+      "responsibility": 0.8,
+      "sarcasm": 0.95,
+      "optimism": 0.6
+    }
+  },
+  {
+    "name": "Steve Rogers",
+    "alias": "Captain America",
+    "universe": "Marvel",
+    "series": "Avengers",
+    "image_url": "https://...",
+    "bio": "A noble soldier enhanced to super-soldier strength, devoted to justice and morality.",
+    "traits": {
+      "introversion": 0.5,
+      "humor": 0.3,
+      "bravery": 0.95,
+      "loyalty": 0.95,
+      "ambition": 0.6,
+      "compassion": 0.9,
+      "cunning": 0.5,
+      "responsibility": 0.95,
+      "sarcasm": 0.2,
+      "optimism": 0.8
+    }
+  },
+  {
+    "name": "Thor Odinson",
+    "alias": "Thor",
+    "universe": "Marvel",
+    "series": "Thor",
+    "image_url": "https://...",
+    "bio": "The Norse God of Thunder, mighty warrior with a heart of loyalty and humor.",
+    "traits": {
+      "introversion": 0.3,
+      "humor": 0.7,
+      "bravery": 0.95,
+      "loyalty": 0.9,
+      "ambition": 0.7,
+      "compassion": 0.7,
+      "cunning": 0.4,
+      "responsibility": 0.8,
+      "sarcasm": 0.5,
+      "optimism": 0.8
+    }
+  },
+  {
+    "name": "Bruce Banner",
+    "alias": "Hulk",
+    "universe": "Marvel",
+    "series": "Hulk",
+    "image_url": "https://...",
+    "bio": "A brilliant scientist with a monster inside, torn between intellect and rage.",
+    "traits": {
+      "introversion": 0.8,
+      "humor": 0.3,
+      "bravery": 0.8,
+      "loyalty": 0.7,
+      "ambition": 0.6,
+      "compassion": 0.7,
+      "cunning": 0.8,
+      "responsibility": 0.7,
+      "sarcasm": 0.2,
+      "optimism": 0.4
+    }
+  },
+  {
+    "name": "Natasha Romanoff",
+    "alias": "Black Widow",
+    "universe": "Marvel",
+    "series": "Avengers",
+    "image_url": "https://...",
+    "bio": "A skilled spy and assassin, haunted by her past but loyal to her team.",
+    "traits": {
+      "introversion": 0.6,
+      "humor": 0.3,
+      "bravery": 0.9,
+      "loyalty": 0.8,
+      "ambition": 0.6,
+      "compassion": 0.6,
+      "cunning": 0.95,
+      "responsibility": 0.85,
+      "sarcasm": 0.5,
+      "optimism": 0.4
+    }
+  },
+  {
+    "name": "Clint Barton",
+    "alias": "Hawkeye",
+    "universe": "Marvel",
+    "series": "Avengers",
+    "image_url": "https://...",
+    "bio": "Master archer and loyal Avenger, pragmatic and family-oriented.",
+    "traits": {
+      "introversion": 0.5,
+      "humor": 0.4,
+      "bravery": 0.8,
+      "loyalty": 0.9,
+      "ambition": 0.4,
+      "compassion": 0.6,
+      "cunning": 0.6,
+      "responsibility": 0.8,
+      "sarcasm": 0.4,
+      "optimism": 0.5
+    }
+  },
+  {
+    "name": "Peter Parker",
+    "alias": "Spider-Man",
+    "universe": "Marvel",
+    "series": "Spider-Man",
+    "image_url": "https://...",
+    "bio": "A young hero balancing high school with the responsibility of being Spider-Man.",
+    "traits": {
+      "introversion": 0.5,
+      "humor": 0.8,
+      "bravery": 0.9,
+      "loyalty": 0.9,
+      "ambition": 0.7,
+      "compassion": 0.9,
+      "cunning": 0.6,
+      "responsibility": 0.8,
+      "sarcasm": 0.5,
+      "optimism": 0.8
+    }
+  },
+  {
+    "name": "Stephen Strange",
+    "alias": "Doctor Strange",
+    "universe": "Marvel",
+    "series": "Doctor Strange",
+    "image_url": "https://...",
+    "bio": "Once an arrogant surgeon, he becomes the Sorcerer Supreme, protector of mystical realms.",
+    "traits": {
+      "introversion": 0.6,
+      "humor": 0.3,
+      "bravery": 0.85,
+      "loyalty": 0.7,
+      "ambition": 0.9,
+      "compassion": 0.6,
+      "cunning": 0.9,
+      "responsibility": 0.9,
+      "sarcasm": 0.6,
+      "optimism": 0.5
+    }
+  },
+  {
+    "name": "Wanda Maximoff",
+    "alias": "Scarlet Witch",
+    "universe": "Marvel",
+    "series": "Avengers",
+    "image_url": "https://...",
+    "bio": "A powerful sorceress with reality-bending abilities, driven by love and grief.",
+    "traits": {
+      "introversion": 0.6,
+      "humor": 0.2,
+      "bravery": 0.85,
+      "loyalty": 0.8,
+      "ambition": 0.8,
+      "compassion": 0.8,
+      "cunning": 0.7,
+      "responsibility": 0.8,
+      "sarcasm": 0.3,
+      "optimism": 0.4
+    }
+  },
+  {
+    "name": "T’Challa",
+    "alias": "Black Panther",
+    "universe": "Marvel",
+    "series": "Black Panther",
+    "image_url": "https://...",
+    "bio": "The king of Wakanda, noble and wise, blending tradition with progress.",
+    "traits": {
+      "introversion": 0.5,
+      "humor": 0.3,
+      "bravery": 0.95,
+      "loyalty": 0.9,
+      "ambition": 0.7,
+      "compassion": 0.8,
+      "cunning": 0.7,
+      "responsibility": 0.95,
+      "sarcasm": 0.2,
+      "optimism": 0.7
+    }
+  },
+  {
+    "name": "Carol Danvers",
+    "alias": "Captain Marvel",
+    "universe": "Marvel",
+    "series": "Captain Marvel",
+    "image_url": "https://...",
+    "bio": "A fearless fighter pilot turned cosmic superhero, independent and determined.",
+    "traits": {
+      "introversion": 0.4,
+      "humor": 0.3,
+      "bravery": 0.95,
+      "loyalty": 0.8,
+      "ambition": 0.9,
+      "compassion": 0.7,
+      "cunning": 0.7,
+      "responsibility": 0.8,
+      "sarcasm": 0.4,
+      "optimism": 0.7
+    }
+  },
+  {
+    "name": "Loki",
+    "alias": "God of Mischief",
+    "universe": "Marvel",
+    "series": "Thor",
+    "image_url": "https://...",
+    "bio": "The trickster god, complex and charismatic, torn between villainy and redemption.",
+    "traits": {
+      "introversion": 0.6,
+      "humor": 0.6,
+      "bravery": 0.7,
+      "loyalty": 0.3,
+      "ambition": 0.95,
+      "compassion": 0.3,
+      "cunning": 0.95,
+      "responsibility": 0.6,
+      "sarcasm": 0.9,
+      "optimism": 0.5
+    }
+  },
+  {
+    "name": "Thanos",
+    "alias": null,
+    "universe": "Marvel",
+    "series": "Avengers",
+    "image_url": "https://...",
+    "bio": "The Mad Titan seeking balance through destruction, strategic and relentless.",
+    "traits": {
+      "introversion": 0.7,
+      "humor": 0.1,
+      "bravery": 0.9,
+      "loyalty": 0.4,
+      "ambition": 1.0,
+      "compassion": 0.1,
+      "cunning": 0.95,
+      "responsibility": 0.9,
+      "sarcasm": 0.2,
+      "optimism": 0.2
+    }
+  },
+  {
+    "name": "Bruce Wayne",
+    "alias": "Batman",
+    "universe": "DC",
+    "series": "Justice League / Batman",
+    "image_url": "https://...",
+    "bio": "The Dark Knight of Gotham, a detective and vigilante who relies on intellect and training.",
+    "traits": {
+      "introversion": 0.8,
+      "humor": 0.2,
+      "bravery": 0.9,
+      "loyalty": 0.8,
+      "ambition": 0.8,
+      "compassion": 0.75,
+      "cunning": 0.95,
+      "responsibility": 0.95,
+      "sarcasm": 0.4,
+      "optimism": 0.3
+    }
+  },
+  {
+    "name": "Clark Kent",
+    "alias": "Superman",
+    "universe": "DC",
+    "series": "Justice League / Superman",
+    "image_url": "https://...",
+    "bio": "The Man of Steel from Krypton, symbol of hope, justice, and compassion.",
+    "traits": {
+      "introversion": 0.5,
+      "humor": 0.4,
+      "bravery": 0.95,
+      "loyalty": 0.95,
+      "ambition": 0.6,
+      "compassion": 0.95,
+      "cunning": 0.5,
+      "responsibility": 0.95,
+      "sarcasm": 0.2,
+      "optimism": 0.9
+    }
+  },
+  {
+    "name": "Diana Prince",
+    "alias": "Wonder Woman",
+    "universe": "DC",
+    "series": "Justice League / Wonder Woman",
+    "image_url": "https://...",
+    "bio": "An Amazonian warrior princess with divine powers, embodying truth and compassion.",
+    "traits": {
+      "introversion": 0.5,
+      "humor": 0.3,
+      "bravery": 0.95,
+      "loyalty": 0.9,
+      "ambition": 0.7,
+      "compassion": 0.9,
+      "cunning": 0.6,
+      "responsibility": 0.9,
+      "sarcasm": 0.2,
+      "optimism": 0.8
+    }
+  },
+  {
+    "name": "Barry Allen",
+    "alias": "Flash",
+    "universe": "DC",
+    "series": "Justice League / Flash",
+    "image_url": "https://...",
+    "bio": "The fastest man alive, witty and optimistic, using his speed to protect others.",
+    "traits": {
+      "introversion": 0.4,
+      "humor": 0.9,
+      "bravery": 0.85,
+      "loyalty": 0.85,
+      "ambition": 0.6,
+      "compassion": 0.8,
+      "cunning": 0.6,
+      "responsibility": 0.7,
+      "sarcasm": 0.7,
+      "optimism": 0.9
+    }
+  },
+  {
+    "name": "Arthur Curry",
+    "alias": "Aquaman",
+    "universe": "DC",
+    "series": "Justice League / Aquaman",
+    "image_url": "https://...",
+    "bio": "Half-human, half-Atlantean king, brave warrior who defends land and sea.",
+    "traits": {
+      "introversion": 0.5,
+      "humor": 0.5,
+      "bravery": 0.9,
+      "loyalty": 0.85,
+      "ambition": 0.7,
+      "compassion": 0.7,
+      "cunning": 0.6,
+      "responsibility": 0.8,
+      "sarcasm": 0.6,
+      "optimism": 0.7
+    }
+  },
+  {
+    "name": "Victor Stone",
+    "alias": "Cyborg",
+    "universe": "DC",
+    "series": "Justice League / Cyborg",
+    "image_url": "https://...",
+    "bio": "A young athlete turned half-human, half-machine, struggling with identity but loyal to his team.",
+    "traits": {
+      "introversion": 0.6,
+      "humor": 0.3,
+      "bravery": 0.8,
+      "loyalty": 0.85,
+      "ambition": 0.6,
+      "compassion": 0.7,
+      "cunning": 0.7,
+      "responsibility": 0.85,
+      "sarcasm": 0.3,
+      "optimism": 0.6
+    }
+  },
+  {
+    "name": "Hal Jordan",
+    "alias": "Green Lantern",
+    "universe": "DC",
+    "series": "Justice League / Green Lantern",
+    "image_url": "https://...",
+    "bio": "A fearless test pilot chosen to wield the Green Lantern ring, embodying willpower and courage.",
+    "traits": {
+      "introversion": 0.5,
+      "humor": 0.5,
+      "bravery": 0.9,
+      "loyalty": 0.8,
+      "ambition": 0.8,
+      "compassion": 0.7,
+      "cunning": 0.6,
+      "responsibility": 0.8,
+      "sarcasm": 0.5,
+      "optimism": 0.8
+    }
+  },
+  {
+    "name": "J'onn J'onzz",
+    "alias": "Martian Manhunter",
+    "universe": "DC",
+    "series": "Justice League",
+    "image_url": "https://...",
+    "bio": "A Martian with telepathy and shapeshifting abilities, wise, calm, and compassionate.",
+    "traits": {
+      "introversion": 0.7,
+      "humor": 0.2,
+      "bravery": 0.85,
+      "loyalty": 0.9,
+      "ambition": 0.6,
+      "compassion": 0.95,
+      "cunning": 0.7,
+      "responsibility": 0.9,
+      "sarcasm": 0.2,
+      "optimism": 0.6
+    }
+  },
+  {
+    "name": "Joker",
+    "alias": null,
+    "universe": "DC",
+    "series": "Batman",
+    "image_url": "https://...",
+    "bio": "The Clown Prince of Crime, chaotic and unpredictable, thrives on anarchy.",
+    "traits": {
+      "introversion": 0.4,
+      "humor": 0.9,
+      "bravery": 0.7,
+      "loyalty": 0.1,
+      "ambition": 0.8,
+      "compassion": 0.0,
+      "cunning": 0.95,
+      "responsibility": 0.1,
+      "sarcasm": 0.95,
+      "optimism": 0.3
+    }
+  },
+  {
+    "name": "Harley Quinn",
+    "alias": null,
+    "universe": "DC",
+    "series": "Batman / Suicide Squad",
+    "image_url": "https://...",
+    "bio": "A former psychiatrist turned chaotic anti-heroine, playful yet dangerous.",
+    "traits": {
+      "introversion": 0.4,
+      "humor": 0.9,
+      "bravery": 0.8,
+      "loyalty": 0.6,
+      "ambition": 0.7,
+      "compassion": 0.5,
+      "cunning": 0.8,
+      "responsibility": 0.4,
+      "sarcasm": 0.8,
+      "optimism": 0.6
+    }
+  },
+  {
+    "name": "Lex Luthor",
+    "alias": null,
+    "universe": "DC",
+    "series": "Superman",
+    "image_url": "https://...",
+    "bio": "A genius billionaire and Superman’s greatest rival, manipulative and ambitious.",
+    "traits": {
+      "introversion": 0.6,
+      "humor": 0.2,
+      "bravery": 0.7,
+      "loyalty": 0.1,
+      "ambition": 0.95,
+      "compassion": 0.0,
+      "cunning": 0.95,
+      "responsibility": 0.8,
+      "sarcasm": 0.4,
+      "optimism": 0.2
+    }
+  },
+  {
+    "name": "Selina Kyle",
+    "alias": "Catwoman",
+    "universe": "DC",
+    "series": "Batman",
+    "image_url": "https://...",
+    "bio": "A skilled thief with a complicated relationship with Batman, independent and cunning.",
+    "traits": {
+      "introversion": 0.5,
+      "humor": 0.5,
+      "bravery": 0.8,
+      "loyalty": 0.5,
+      "ambition": 0.7,
+      "compassion": 0.6,
+      "cunning": 0.9,
+      "responsibility": 0.5,
+      "sarcasm": 0.7,
+      "optimism": 0.6
+    }
+  },
+  {
+    "name": "Harry Potter",
+    "alias": "The Boy Who Lived",
+    "universe": "Harry Potter",
+    "series": "Harry Potter",
+    "image_url": "https://...",
+    "bio": "The brave young wizard destined to defeat Voldemort, loyal and selfless.",
+    "traits": {
+      "introversion": 0.5,
+      "humor": 0.5,
+      "bravery": 0.95,
+      "loyalty": 0.9,
+      "ambition": 0.6,
+      "compassion": 0.8,
+      "cunning": 0.5,
+      "responsibility": 0.85,
+      "sarcasm": 0.4,
+      "optimism": 0.7
+    }
+  },
+  {
+    "name": "Hermione Granger",
+    "alias": null,
+    "universe": "Harry Potter",
+    "series": "Harry Potter",
+    "image_url": "https://...",
+    "bio": "Exceptionally intelligent and diligent witch, fiercely loyal and principled.",
+    "traits": {
+      "introversion": 0.6,
+      "humor": 0.3,
+      "bravery": 0.85,
+      "loyalty": 0.9,
+      "ambition": 0.8,
+      "compassion": 0.8,
+      "cunning": 0.7,
+      "responsibility": 0.95,
+      "sarcasm": 0.4,
+      "optimism": 0.7
+    }
+  },
+  {
+    "name": "Ron Weasley",
+    "alias": null,
+    "universe": "Harry Potter",
+    "series": "Harry Potter",
+    "image_url": "https://...",
+    "bio": "Harry’s best friend, humorous and loyal, often underestimated but courageous.",
+    "traits": {
+      "introversion": 0.4,
+      "humor": 0.9,
+      "bravery": 0.8,
+      "loyalty": 0.95,
+      "ambition": 0.4,
+      "compassion": 0.7,
+      "cunning": 0.4,
+      "responsibility": 0.6,
+      "sarcasm": 0.6,
+      "optimism": 0.8
+    }
+  },
+  {
+    "name": "Albus Dumbledore",
+    "alias": null,
+    "universe": "Harry Potter",
+    "series": "Harry Potter",
+    "image_url": "https://...",
+    "bio": "The wise and compassionate headmaster of Hogwarts, powerful and strategic.",
+    "traits": {
+      "introversion": 0.6,
+      "humor": 0.5,
+      "bravery": 0.9,
+      "loyalty": 0.9,
+      "ambition": 0.6,
+      "compassion": 0.95,
+      "cunning": 0.8,
+      "responsibility": 0.95,
+      "sarcasm": 0.5,
+      "optimism": 0.9
+    }
+  },
+  {
+    "name": "Severus Snape",
+    "alias": null,
+    "universe": "Harry Potter",
+    "series": "Harry Potter",
+    "image_url": "https://...",
+    "bio": "The enigmatic potions master, stern and secretive but ultimately loyal.",
+    "traits": {
+      "introversion": 0.9,
+      "humor": 0.2,
+      "bravery": 0.85,
+      "loyalty": 0.9,
+      "ambition": 0.7,
+      "compassion": 0.4,
+      "cunning": 0.95,
+      "responsibility": 0.85,
+      "sarcasm": 0.8,
+      "optimism": 0.3
+    }
+  },
+  {
+    "name": "Lord Voldemort",
+    "alias": "Tom Riddle",
+    "universe": "Harry Potter",
+    "series": "Harry Potter",
+    "image_url": "https://...",
+    "bio": "The Dark Lord obsessed with immortality and domination, cunning and ruthless.",
+    "traits": {
+      "introversion": 0.8,
+      "humor": 0.0,
+      "bravery": 0.9,
+      "loyalty": 0.0,
+      "ambition": 1.0,
+      "compassion": 0.0,
+      "cunning": 0.95,
+      "responsibility": 0.8,
+      "sarcasm": 0.2,
+      "optimism": 0.1
+    }
+  },
+  {
+    "name": "Draco Malfoy",
+    "alias": null,
+    "universe": "Harry Potter",
+    "series": "Harry Potter",
+    "image_url": "https://...",
+    "bio": "Harry’s rival, ambitious and proud, struggling between family expectations and morality.",
+    "traits": {
+      "introversion": 0.6,
+      "humor": 0.3,
+      "bravery": 0.5,
+      "loyalty": 0.5,
+      "ambition": 0.9,
+      "compassion": 0.3,
+      "cunning": 0.85,
+      "responsibility": 0.6,
+      "sarcasm": 0.7,
+      "optimism": 0.4
+    }
+  },
+  {
+    "name": "Rubeus Hagrid",
+    "alias": null,
+    "universe": "Harry Potter",
+    "series": "Harry Potter",
+    "image_url": "https://...",
+    "bio": "Gentle half-giant and caretaker of magical creatures, deeply kind and loyal.",
+    "traits": {
+      "introversion": 0.5,
+      "humor": 0.7,
+      "bravery": 0.7,
+      "loyalty": 0.95,
+      "ambition": 0.3,
+      "compassion": 0.95,
+      "cunning": 0.3,
+      "responsibility": 0.7,
+      "sarcasm": 0.3,
+      "optimism": 0.9
+    }
+  },
+  {
+    "name": "Luna Lovegood",
+    "alias": null,
+    "universe": "Harry Potter",
+    "series": "Harry Potter",
+    "image_url": "https://...",
+    "bio": "Quirky and imaginative witch, kind-hearted and open-minded.",
+    "traits": {
+      "introversion": 0.7,
+      "humor": 0.6,
+      "bravery": 0.7,
+      "loyalty": 0.8,
+      "ambition": 0.4,
+      "compassion": 0.9,
+      "cunning": 0.4,
+      "responsibility": 0.6,
+      "sarcasm": 0.2,
+      "optimism": 0.9
+    }
+  },
+  {
+    "name": "Neville Longbottom",
+    "alias": null,
+    "universe": "Harry Potter",
+    "series": "Harry Potter",
+    "image_url": "https://...",
+    "bio": "Once shy and clumsy, Neville grows into a brave and loyal hero.",
+    "traits": {
+      "introversion": 0.6,
+      "humor": 0.3,
+      "bravery": 0.9,
+      "loyalty": 0.9,
+      "ambition": 0.5,
+      "compassion": 0.8,
+      "cunning": 0.5,
+      "responsibility": 0.7,
+      "sarcasm": 0.3,
+      "optimism": 0.7
+    }
+  },
+  {
+    "name": "Doraemon",
+    "alias": null,
+    "universe": "Doraemon",
+    "series": "Doraemon",
+    "image_url": "https://...",
+    "bio": "A robotic cat from the future who helps Nobita with futuristic gadgets.",
+    "traits": {
+      "introversion": 0.5,
+      "humor": 0.6,
+      "bravery": 0.7,
+      "loyalty": 0.95,
+      "ambition": 0.4,
+      "compassion": 0.9,
+      "cunning": 0.6,
+      "responsibility": 0.8,
+      "sarcasm": 0.3,
+      "optimism": 0.8
+    }
+  },
+  {
+    "name": "Nobita Nobi",
+    "alias": null,
+    "universe": "Doraemon",
+    "series": "Doraemon",
+    "image_url": "https://...",
+    "bio": "A lazy but kind-hearted boy who often gets into trouble and relies on Doraemon.",
+    "traits": {
+      "introversion": 0.6,
+      "humor": 0.5,
+      "bravery": 0.3,
+      "loyalty": 0.8,
+      "ambition": 0.2,
+      "compassion": 0.8,
+      "cunning": 0.2,
+      "responsibility": 0.3,
+      "sarcasm": 0.2,
+      "optimism": 0.6
+    }
+  },
+  {
+    "name": "Shizuka Minamoto",
+    "alias": null,
+    "universe": "Doraemon",
+    "series": "Doraemon",
+    "image_url": "https://...",
+    "bio": "Nobita’s intelligent and kind friend, admired for her caring nature.",
+    "traits": {
+      "introversion": 0.6,
+      "humor": 0.4,
+      "bravery": 0.6,
+      "loyalty": 0.9,
+      "ambition": 0.6,
+      "compassion": 0.95,
+      "cunning": 0.4,
+      "responsibility": 0.8,
+      "sarcasm": 0.2,
+      "optimism": 0.8
+    }
+  },
+  {
+    "name": "Takeshi Goda",
+    "alias": "Gian",
+    "universe": "Doraemon",
+    "series": "Doraemon",
+    "image_url": "https://...",
+    "bio": "The strong but often bullying friend, with surprising loyalty to his group.",
+    "traits": {
+      "introversion": 0.4,
+      "humor": 0.3,
+      "bravery": 0.7,
+      "loyalty": 0.7,
+      "ambition": 0.6,
+      "compassion": 0.3,
+      "cunning": 0.5,
+      "responsibility": 0.5,
+      "sarcasm": 0.5,
+      "optimism": 0.5
+    }
+  },
+  {
+    "name": "Suneo Honekawa",
+    "alias": null,
+    "universe": "Doraemon",
+    "series": "Doraemon",
+    "image_url": "https://...",
+    "bio": "A boastful and cunning boy, often siding with Gian but still part of the group.",
+    "traits": {
+      "introversion": 0.5,
+      "humor": 0.4,
+      "bravery": 0.3,
+      "loyalty": 0.4,
+      "ambition": 0.8,
+      "compassion": 0.3,
+      "cunning": 0.85,
+      "responsibility": 0.4,
+      "sarcasm": 0.6,
+      "optimism": 0.5
+    }
+  },
+  {
+    "name": "Dorami",
+    "alias": null,
+    "universe": "Doraemon",
+    "series": "Doraemon",
+    "image_url": "https://...",
+    "bio": "Doraemon’s younger sister, cheerful, responsible, and supportive.",
+    "traits": {
+      "introversion": 0.5,
+      "humor": 0.5,
+      "bravery": 0.7,
+      "loyalty": 0.9,
+      "ambition": 0.5,
+      "compassion": 0.9,
+      "cunning": 0.6,
+      "responsibility": 0.9,
+      "sarcasm": 0.2,
+      "optimism": 0.9
+    }
+  },
+  {
+    "name": "Dekisugi Hidetoshi",
+    "alias": null,
+    "universe": "Doraemon",
+    "series": "Doraemon",
+    "image_url": "https://...",
+    "bio": "An intelligent and well-mannered boy, admired by Shizuka and envied by Nobita.",
+    "traits": {
+      "introversion": 0.6,
+      "humor": 0.3,
+      "bravery": 0.7,
+      "loyalty": 0.7,
+      "ambition": 0.8,
+      "compassion": 0.7,
+      "cunning": 0.6,
+      "responsibility": 0.85,
+      "sarcasm": 0.2,
+      "optimism": 0.7
+    }
+  },
+  {
+    "name": "Shinnosuke Nohara",
+    "alias": "Shinchan",
+    "universe": "Shinchan",
+    "series": "Crayon Shinchan",
+    "image_url": "https://...",
+    "bio": "A mischievous 5-year-old known for his cheeky humor and unpredictable antics.",
+    "traits": {
+      "introversion": 0.3,
+      "humor": 0.95,
+      "bravery": 0.6,
+      "loyalty": 0.7,
+      "ambition": 0.4,
+      "compassion": 0.6,
+      "cunning": 0.7,
+      "responsibility": 0.3,
+      "sarcasm": 0.9,
+      "optimism": 0.9
+    }
+  },
+  {
+    "name": "Light Yagami",
+    "alias": "Kira",
+    "universe": "Death Note",
+    "series": "Death Note",
+    "image_url": "https://...",
+    "bio": "A genius student who discovers the Death Note and uses it to cleanse the world of criminals, becoming a god-like figure.",
+    "traits": {
+      "introversion": 0.7,
+      "humor": 0.1,
+      "bravery": 0.7,
+      "loyalty": 0.2,
+      "ambition": 1.0,
+      "compassion": 0.1,
+      "cunning": 1.0,
+      "responsibility": 0.9,
+      "sarcasm": 0.3,
+      "optimism": 0.4
+    }
+  },
+  {
+    "name": "L Lawliet",
+    "alias": "L",
+    "universe": "Death Note",
+    "series": "Death Note",
+    "image_url": "https://...",
+    "bio": "The world's greatest detective, eccentric and brilliant, determined to catch Kira.",
+    "traits": {
+      "introversion": 0.9,
+      "humor": 0.3,
+      "bravery": 0.8,
+      "loyalty": 0.7,
+      "ambition": 0.8,
+      "compassion": 0.4,
+      "cunning": 0.95,
+      "responsibility": 0.9,
+      "sarcasm": 0.5,
+      "optimism": 0.4
+    }
+  },
+  {
+    "name": "Ryuk",
+    "alias": null,
+    "universe": "Death Note",
+    "series": "Death Note",
+    "image_url": "https://...",
+    "bio": "A Shinigami who dropped the Death Note into the human world out of boredom.",
+    "traits": {
+      "introversion": 0.5,
+      "humor": 0.8,
+      "bravery": 0.5,
+      "loyalty": 0.1,
+      "ambition": 0.1,
+      "compassion": 0.0,
+      "cunning": 0.6,
+      "responsibility": 0.1,
+      "sarcasm": 0.8,
+      "optimism": 0.6
+    }
+  },
+  {
+    "name": "Misa Amane",
+    "alias": "Second Kira",
+    "universe": "Death Note",
+    "series": "Death Note",
+    "image_url": "https://...",
+    "bio": "A model and actress devoted to Light, willing to do anything for him.",
+    "traits": {
+      "introversion": 0.2,
+      "humor": 0.5,
+      "bravery": 0.6,
+      "loyalty": 1.0,
+      "ambition": 0.5,
+      "compassion": 0.5,
+      "cunning": 0.4,
+      "responsibility": 0.3,
+      "sarcasm": 0.2,
+      "optimism": 0.8
+    }
+  },
+  {
+    "name": "Abhishek Tripathi",
+    "alias": "Sachiv Ji",
+    "universe": "Panchayat",
+    "series": "Panchayat",
+    "image_url": "https://...",
+    "bio": "An engineering graduate working as a Panchayat Secretary in a remote village, struggling to adjust.",
+    "traits": {
+      "introversion": 0.6,
+      "humor": 0.4,
+      "bravery": 0.5,
+      "loyalty": 0.6,
+      "ambition": 0.8,
+      "compassion": 0.6,
+      "cunning": 0.3,
+      "responsibility": 0.8,
+      "sarcasm": 0.7,
+      "optimism": 0.3
+    }
+  },
+  {
+    "name": "Brij Bhushan Dubey",
+    "alias": "Pradhan Ji",
+    "universe": "Panchayat",
+    "series": "Panchayat",
+    "image_url": "https://...",
+    "bio": "The jovial Pradhan-Pati (acting village head), kind-hearted but driven by status.",
+    "traits": {
+      "introversion": 0.3,
+      "humor": 0.6,
+      "bravery": 0.6,
+      "loyalty": 0.8,
+      "ambition": 0.6,
+      "compassion": 0.8,
+      "cunning": 0.5,
+      "responsibility": 0.7,
+      "sarcasm": 0.3,
+      "optimism": 0.7
+    }
+  },
+  {
+    "name": "Prahlad Pandey",
+    "alias": "Up-Pradhan",
+    "universe": "Panchayat",
+    "series": "Panchayat",
+    "image_url": "https://...",
+    "bio": "The Up-Pradhan, a wise and laid-back man who enjoys life's simple pleasures.",
+    "traits": {
+      "introversion": 0.5,
+      "humor": 0.7,
+      "bravery": 0.5,
+      "loyalty": 0.9,
+      "ambition": 0.3,
+      "compassion": 0.8,
+      "cunning": 0.4,
+      "responsibility": 0.6,
+      "sarcasm": 0.5,
+      "optimism": 0.8
+    }
+  },
+  {
+    "name": "Vikas",
+    "alias": null,
+    "universe": "Panchayat",
+    "series": "Panchayat",
+    "image_url": "https://...",
+    "bio": "The office assistant, loyal to Pradhan Ji and Abhishek, simple yet insightful.",
+    "traits": {
+      "introversion": 0.4,
+      "humor": 0.6,
+      "bravery": 0.6,
+      "loyalty": 0.95,
+      "ambition": 0.4,
+      "compassion": 0.7,
+      "cunning": 0.3,
+      "responsibility": 0.7,
+      "sarcasm": 0.2,
+      "optimism": 0.7
+    }
+  },
+  {
+    "name": "Sheldon Cooper",
+    "alias": null,
+    "universe": "Young Sheldon",
+    "series": "Young Sheldon",
+    "image_url": "https://...",
+    "bio": "A child prodigy with a brilliant mind but difficulty understanding social cues.",
+    "traits": {
+      "introversion": 0.8,
+      "humor": 0.2,
+      "bravery": 0.4,
+      "loyalty": 0.6,
+      "ambition": 1.0,
+      "compassion": 0.3,
+      "cunning": 0.4,
+      "responsibility": 0.9,
+      "sarcasm": 0.1,
+      "optimism": 0.5
+    }
+  },
+  {
+    "name": "Mary Cooper",
+    "alias": null,
+    "universe": "Young Sheldon",
+    "series": "Young Sheldon",
+    "image_url": "https://...",
+    "bio": "Sheldon's deeply religious and protective mother.",
+    "traits": {
+      "introversion": 0.4,
+      "humor": 0.3,
+      "bravery": 0.7,
+      "loyalty": 0.95,
+      "ambition": 0.4,
+      "compassion": 0.9,
+      "cunning": 0.3,
+      "responsibility": 0.9,
+      "sarcasm": 0.3,
+      "optimism": 0.7
+    }
+  },
+  {
+    "name": "Missy Cooper",
+    "alias": null,
+    "universe": "Young Sheldon",
+    "series": "Young Sheldon",
+    "image_url": "https://...",
+    "bio": "Sheldon's twin sister, street-smart and socially savvy.",
+    "traits": {
+      "introversion": 0.3,
+      "humor": 0.8,
+      "bravery": 0.8,
+      "loyalty": 0.8,
+      "ambition": 0.5,
+      "compassion": 0.7,
+      "cunning": 0.7,
+      "responsibility": 0.5,
+      "sarcasm": 0.9,
+      "optimism": 0.6
+    }
+  },
+  {
+    "name": "Meemaw",
+    "alias": "Connie Tucker",
+    "universe": "Young Sheldon",
+    "series": "Young Sheldon",
+    "image_url": "https://...",
+    "bio": "Sheldon's fun-loving and rebellious grandmother.",
+    "traits": {
+      "introversion": 0.3,
+      "humor": 0.9,
+      "bravery": 0.8,
+      "loyalty": 0.8,
+      "ambition": 0.4,
+      "compassion": 0.7,
+      "cunning": 0.8,
+      "responsibility": 0.4,
+      "sarcasm": 0.8,
+      "optimism": 0.8
+    }
+  },
+  {
+    "name": "Phil Dunphy",
+    "alias": null,
+    "universe": "Modern Family",
+    "series": "Modern Family",
+    "image_url": "https://...",
+    "bio": "A fun-loving real estate agent who tries hard to be the 'cool dad'.",
+    "traits": {
+      "introversion": 0.2,
+      "humor": 0.95,
+      "bravery": 0.5,
+      "loyalty": 0.95,
+      "ambition": 0.7,
+      "compassion": 0.9,
+      "cunning": 0.3,
+      "responsibility": 0.7,
+      "sarcasm": 0.3,
+      "optimism": 1.0
+    }
+  },
+  {
+    "name": "Claire Dunphy",
+    "alias": null,
+    "universe": "Modern Family",
+    "series": "Modern Family",
+    "image_url": "https://...",
+    "bio": "A perfectionist mother and CEO who keeps the family running.",
+    "traits": {
+      "introversion": 0.4,
+      "humor": 0.5,
+      "bravery": 0.7,
+      "loyalty": 0.9,
+      "ambition": 0.8,
+      "compassion": 0.7,
+      "cunning": 0.6,
+      "responsibility": 1.0,
+      "sarcasm": 0.6,
+      "optimism": 0.5
+    }
+  },
+  {
+    "name": "Cameron Tucker",
+    "alias": "Cam",
+    "universe": "Modern Family",
+    "series": "Modern Family",
+    "image_url": "https://...",
+    "bio": "Dramatic, enthusiastic, and loving, Cam is the heart of the family.",
+    "traits": {
+      "introversion": 0.1,
+      "humor": 0.9,
+      "bravery": 0.6,
+      "loyalty": 0.9,
+      "ambition": 0.6,
+      "compassion": 0.9,
+      "cunning": 0.5,
+      "responsibility": 0.6,
+      "sarcasm": 0.5,
+      "optimism": 0.9
+    }
+  },
+  {
+    "name": "Mitchell Pritchett",
+    "alias": "Mitch",
+    "universe": "Modern Family",
+    "series": "Modern Family",
+    "image_url": "https://...",
+    "bio": "A high-strung lawyer who balances out Cam's drama with logic.",
+    "traits": {
+      "introversion": 0.7,
+      "humor": 0.7,
+      "bravery": 0.5,
+      "loyalty": 0.8,
+      "ambition": 0.8,
+      "compassion": 0.7,
+      "cunning": 0.6,
+      "responsibility": 0.9,
+      "sarcasm": 0.8,
+      "optimism": 0.4
+    }
+  }
+]
