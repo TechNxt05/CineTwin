@@ -41,7 +41,9 @@ except Exception as e:
 # Constants
 TRAIT_NAMES = [
     "leader", "smart", "kind", "brave", "calm", 
-    "funny", "loyal", "honest", "ambitious", "creative"
+    "funny", "loyal", "honest", "ambitious", "creative",
+    "cunning", "optimism", "sarcasm", "responsibility", 
+    "compassion", "introversion"
 ]
 
 # --- Helper Functions ---
