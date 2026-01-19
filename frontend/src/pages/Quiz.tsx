@@ -168,6 +168,22 @@ export default function Quiz() {
     )
   }
 
+  if (questions.length === 0) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-slate-950 p-4">
+        <div className="text-center max-w-md">
+          <h2 className="text-xl font-bold text-red-400 mb-2">No Questions Found</h2>
+          <p className="text-slate-400 mb-6">
+            The quiz questions couldn't be loaded. Please ensure the backend is running and the database is seeded.
+          </p>
+          <Button onClick={() => navigate('/')} variant="secondary">
+            Return Home
+          </Button>
+        </div>
+      </div>
+    )
+  }
+
   const currentQuestion = questions[currentQuestionIndex]
   const currentAnswer = answers.find(a => a.question_id === currentQuestion.id)
   const isFavorites = step === 'favorites'
