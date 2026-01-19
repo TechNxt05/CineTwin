@@ -22,7 +22,7 @@ logger = logging.getLogger(__name__)
 # MongoDB Setup
 MONGO_URI = os.getenv("MONGODB_URI") # Updated to MONGODB_URI to match existing env
 client = MongoClient(MONGO_URI)
-db = client.get_database("movie_match_db")
+db = client.get_database("whichcharacter")
 
 # Gemini API Setup
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
