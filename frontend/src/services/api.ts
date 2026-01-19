@@ -13,8 +13,8 @@ const api = axios.create({
 
 export const apiService = {
   // Questions
-  getQuestions: async (): Promise<Question[]> => {
-    const response = await api.get('/api/questions')
+  getQuestions: async (limit: number = 20): Promise<Question[]> => {
+    const response = await api.get(`/api/questions?count=${limit}`)
     return response.data
   },
 

@@ -1,0 +1,812 @@
+[
+    {
+        "id": 1,
+        "question": "The world is ending in 1 hour. What do you do?",
+        "trait": "calm",
+        "options": [
+            {
+                "id": "1a",
+                "text": "Panic and call everyone I know.",
+                "score": 0.1
+            },
+            {
+                "id": "1b",
+                "text": "Sit down with a drink and watch the sunset.",
+                "score": 1.0
+            },
+            {
+                "id": "1c",
+                "text": "Try to find a solution or a bunker.",
+                "score": 0.5
+            },
+            {
+                "id": "1d",
+                "text": "Spend it praying or meditating.",
+                "score": 0.8
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "question": "You find a wallet with $1000 and an ID. What's your move?",
+        "trait": "honest",
+        "options": [
+            {
+                "id": "2a",
+                "text": "Keep the cash, toss the wallet.",
+                "score": 0.1
+            },
+            {
+                "id": "2b",
+                "text": "Take the cash, return the ID.",
+                "score": 0.4
+            },
+            {
+                "id": "2c",
+                "text": "Return everything intact.",
+                "score": 1.0
+            },
+            {
+                "id": "2d",
+                "text": "Leave it there.",
+                "score": 0.7
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "question": "Your friend is being roasted in a group chat. You...",
+        "trait": "loyal",
+        "options": [
+            {
+                "id": "3a",
+                "text": "Join in, it's just a joke.",
+                "score": 0.2
+            },
+            {
+                "id": "3b",
+                "text": "Stay silent and watch.",
+                "score": 0.5
+            },
+            {
+                "id": "3c",
+                "text": "Defend them immediately.",
+                "score": 1.0
+            },
+            {
+                "id": "3d",
+                "text": "DM them to check if they're okay.",
+                "score": 0.9
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "question": "Choose a vacation destination:",
+        "trait": "creative",
+        "options": [
+            {
+                "id": "4a",
+                "text": "A popular beach resort.",
+                "score": 0.3
+            },
+            {
+                "id": "4b",
+                "text": "A historic European city.",
+                "score": 0.6
+            },
+            {
+                "id": "4c",
+                "text": "Backpacking through unknown mountains.",
+                "score": 0.8
+            },
+            {
+                "id": "4d",
+                "text": "An obscure art retreat in the desert.",
+                "score": 1.0
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "question": "A heavy object falls on your crush. You...",
+        "trait": "brave",
+        "options": [
+            {
+                "id": "5a",
+                "text": "Scream for help.",
+                "score": 0.4
+            },
+            {
+                "id": "5b",
+                "text": "Rush in to lift it without thinking.",
+                "score": 1.0
+            },
+            {
+                "id": "5c",
+                "text": "Assess the situation first.",
+                "score": 0.7
+            },
+            {
+                "id": "5d",
+                "text": "Freeze in shock.",
+                "score": 0.1
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "question": "You become the CEO of a company. Your first act is:",
+        "trait": "leader",
+        "options": [
+            {
+                "id": "6a",
+                "text": "Fire the lazy people.",
+                "score": 0.6
+            },
+            {
+                "id": "6b",
+                "text": "Give everyone a raise.",
+                "score": 0.4
+            },
+            {
+                "id": "6c",
+                "text": "Set a clear, ambitious 5-year vision.",
+                "score": 1.0
+            },
+            {
+                "id": "6d",
+                "text": "Organize a huge party.",
+                "score": 0.7
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "question": "Math test tomorrow. How do you prepare?",
+        "trait": "smart",
+        "options": [
+            {
+                "id": "7a",
+                "text": "I don't. I'll wing it.",
+                "score": 0.3
+            },
+            {
+                "id": "7b",
+                "text": "Study all night, panic.",
+                "score": 0.6
+            },
+            {
+                "id": "7c",
+                "text": "I studied weeks ago. Just reviewing.",
+                "score": 1.0
+            },
+            {
+                "id": "7d",
+                "text": "Make a cheat sheet.",
+                "score": 0.4
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "question": "A homeless person asks for food. You:",
+        "trait": "kind",
+        "options": [
+            {
+                "id": "8a",
+                "text": "Walk past, avoiding eye contact.",
+                "score": 0.1
+            },
+            {
+                "id": "8b",
+                "text": "Give them some change.",
+                "score": 0.6
+            },
+            {
+                "id": "8c",
+                "text": "Buy them a full meal and chat.",
+                "score": 1.0
+            },
+            {
+                "id": "8d",
+                "text": "Apologize that you have nothing.",
+                "score": 0.4
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "question": "Your goal in life is to:",
+        "trait": "ambitious",
+        "options": [
+            {
+                "id": "9a",
+                "text": "Just survive and be happy.",
+                "score": 0.3
+            },
+            {
+                "id": "9b",
+                "text": "Be famous.",
+                "score": 0.7
+            },
+            {
+                "id": "9c",
+                "text": "Change the world and leave a legacy.",
+                "score": 1.0
+            },
+            {
+                "id": "9d",
+                "text": "Rich enough to never work.",
+                "score": 0.8
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "question": "Someone cracks a joke at a funeral. You:",
+        "trait": "funny",
+        "options": [
+            {
+                "id": "10a",
+                "text": "Laugh loudly.",
+                "score": 1.0
+            },
+            {
+                "id": "10b",
+                "text": "Giggle silently.",
+                "score": 0.7
+            },
+            {
+                "id": "10c",
+                "text": "Glare at them.",
+                "score": 0.1
+            },
+            {
+                "id": "10d",
+                "text": "Look around awkwardly.",
+                "score": 0.4
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "question": "Which weapon do you choose in a zombie apocalypse?",
+        "trait": "brave",
+        "options": [
+            {
+                "id": "11a",
+                "text": "Sniper Rifle (Stay back).",
+                "score": 0.4
+            },
+            {
+                "id": "11b",
+                "text": "Katana (Up close).",
+                "score": 1.0
+            },
+            {
+                "id": "11c",
+                "text": "Pistol (Balanced).",
+                "score": 0.6
+            },
+            {
+                "id": "11d",
+                "text": "I'll hide.",
+                "score": 0.1
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "question": "You see a complex puzzle. Your reaction?",
+        "trait": "smart",
+        "options": [
+            {
+                "id": "12a",
+                "text": "Boring. Ignore it.",
+                "score": 0.1
+            },
+            {
+                "id": "12b",
+                "text": "Try it, get frustrated, quit.",
+                "score": 0.4
+            },
+            {
+                "id": "12c",
+                "text": "Obsess until I solve it.",
+                "score": 1.0
+            },
+            {
+                "id": "12d",
+                "text": "Look up the solution.",
+                "score": 0.5
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "question": "Choose a pet:",
+        "trait": "cunning",
+        "options": [
+            {
+                "id": "13a",
+                "text": "Dog (Loyal).",
+                "score": 0.2
+            },
+            {
+                "id": "13c",
+                "text": "Snake (Cool).",
+                "score": 0.8
+            },
+            {
+                "id": "13b",
+                "text": "Cat (Independent).",
+                "score": 0.6
+            },
+            {
+                "id": "13d",
+                "text": "Fox (Sly).",
+                "score": 1.0
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "question": "Your team is losing the game. You:",
+        "trait": "optimism",
+        "options": [
+            {
+                "id": "14a",
+                "text": "Give up immediately.",
+                "score": 0.1
+            },
+            {
+                "id": "14b",
+                "text": "Blame the referee.",
+                "score": 0.3
+            },
+            {
+                "id": "14c",
+                "text": "Rally everyone 'We can still win!'",
+                "score": 1.0
+            },
+            {
+                "id": "14d",
+                "text": "Play defensively to not lose worse.",
+                "score": 0.6
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "question": "Someone insults your outfit.",
+        "trait": "sarcasm",
+        "options": [
+            {
+                "id": "15a",
+                "text": "Start crying.",
+                "score": 0.1
+            },
+            {
+                "id": "15b",
+                "text": "'Thanks, I hate it too.'",
+                "score": 0.6
+            },
+            {
+                "id": "15c",
+                "text": "'Oh, I value your opinion so much.'",
+                "score": 1.0
+            },
+            {
+                "id": "15d",
+                "text": "Ignore them.",
+                "score": 0.3
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "question": "You are assigned a group project. You typically:",
+        "trait": "responsibility",
+        "options": [
+            {
+                "id": "16a",
+                "text": "Do all the work yourself.",
+                "score": 1.0
+            },
+            {
+                "id": "16b",
+                "text": "Do your part and leave.",
+                "score": 0.7
+            },
+            {
+                "id": "16c",
+                "text": "Encourage others but do little.",
+                "score": 0.5
+            },
+            {
+                "id": "16d",
+                "text": "Ghost the group.",
+                "score": 0.1
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "question": "A stray kitten follows you home.",
+        "trait": "compassion",
+        "options": [
+            {
+                "id": "17a",
+                "text": "Shoo it away.",
+                "score": 0.1
+            },
+            {
+                "id": "17b",
+                "text": "Call animal control.",
+                "score": 0.4
+            },
+            {
+                "id": "17c",
+                "text": "Feed it and leave it outside.",
+                "score": 0.7
+            },
+            {
+                "id": "17d",
+                "text": "Adopt it immediately.",
+                "score": 1.0
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "question": "You have a free Saturday. You spend it:",
+        "trait": "introversion",
+        "options": [
+            {
+                "id": "18a",
+                "text": "Partying with 20 people.",
+                "score": 0.1
+            },
+            {
+                "id": "18b",
+                "text": "Hanging with 2-3 close friends.",
+                "score": 0.4
+            },
+            {
+                "id": "18c",
+                "text": "Reading or gaming alone.",
+                "score": 1.0
+            },
+            {
+                "id": "18d",
+                "text": "Family dinner.",
+                "score": 0.5
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "question": "Pick a movie genre:",
+        "trait": "brave",
+        "options": [
+            {
+                "id": "19a",
+                "text": "Rom-Com.",
+                "score": 0.2
+            },
+            {
+                "id": "19b",
+                "text": "Documentary.",
+                "score": 0.4
+            },
+            {
+                "id": "19c",
+                "text": "Horror / Thriller.",
+                "score": 0.8
+            },
+            {
+                "id": "19d",
+                "text": "Action / Adventure.",
+                "score": 1.0
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "question": "Your ideal superpower?",
+        "trait": "cunning",
+        "options": [
+            {
+                "id": "20a",
+                "text": "Super Strength.",
+                "score": 0.3
+            },
+            {
+                "id": "20b",
+                "text": "Invisibility.",
+                "score": 0.9
+            },
+            {
+                "id": "20c",
+                "text": "Mind Reading.",
+                "score": 1.0
+            },
+            {
+                "id": "20d",
+                "text": "Flight.",
+                "score": 0.5
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "question": "You see a rule that says 'Do Not Enter'.",
+        "trait": "loyal",
+        "options": [
+            {
+                "id": "21a",
+                "text": "I enter.",
+                "score": 0.1
+            },
+            {
+                "id": "21b",
+                "text": "I peek inside.",
+                "score": 0.4
+            },
+            {
+                "id": "21c",
+                "text": "I follow the rule blindly.",
+                "score": 1.0
+            },
+            {
+                "id": "21d",
+                "text": "I ask why the rule exists.",
+                "score": 0.7
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "question": "Which quality matters most in a partner?",
+        "trait": "kind",
+        "options": [
+            {
+                "id": "22a",
+                "text": "Intelligence.",
+                "score": 0.5
+            },
+            {
+                "id": "22b",
+                "text": "Kindness.",
+                "score": 1.0
+            },
+            {
+                "id": "22c",
+                "text": "Wealth.",
+                "score": 0.1
+            },
+            {
+                "id": "22d",
+                "text": "Humor.",
+                "score": 0.7
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "question": "You win the lottery ($10M). First purchase?",
+        "trait": "ambitious",
+        "options": [
+            {
+                "id": "23a",
+                "text": "Pay off debts.",
+                "score": 0.4
+            },
+            {
+                "id": "23b",
+                "text": "Buy a mansion.",
+                "score": 0.6
+            },
+            {
+                "id": "23c",
+                "text": "Invest in my startup.",
+                "score": 1.0
+            },
+            {
+                "id": "23d",
+                "text": "Donate half.",
+                "score": 0.5
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "question": "Traffic is stuck for hours. You:",
+        "trait": "calm",
+        "options": [
+            {
+                "id": "24a",
+                "text": "Honk continuously.",
+                "score": 0.1
+            },
+            {
+                "id": "24b",
+                "text": "Yell at other drivers.",
+                "score": 0.2
+            },
+            {
+                "id": "24c",
+                "text": "Listen to a podcast.",
+                "score": 1.0
+            },
+            {
+                "id": "24d",
+                "text": "Look for a shortcut.",
+                "score": 0.6
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "question": "Your boss takes credit for your work.",
+        "trait": "leader",
+        "options": [
+            {
+                "id": "25a",
+                "text": "Quit silently.",
+                "score": 0.3
+            },
+            {
+                "id": "25b",
+                "text": "Complain to coworkers.",
+                "score": 0.5
+            },
+            {
+                "id": "25c",
+                "text": "Confront them respectfully but firmly.",
+                "score": 1.0
+            },
+            {
+                "id": "25d",
+                "text": "Let it slide.",
+                "score": 0.2
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "question": "Favorite element?",
+        "trait": "calm",
+        "options": [
+            {
+                "id": "26a",
+                "text": "Fire (Passion).",
+                "score": 0.3
+            },
+            {
+                "id": "26b",
+                "text": "Water (Flow).",
+                "score": 1.0
+            },
+            {
+                "id": "26c",
+                "text": "Earth (Stability).",
+                "score": 0.8
+            },
+            {
+                "id": "26d",
+                "text": "Air (Freedom).",
+                "score": 0.6
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "question": "A magician reveals how a trick works.",
+        "trait": "creative",
+        "options": [
+            {
+                "id": "27a",
+                "text": "'I knew it!'",
+                "score": 0.4
+            },
+            {
+                "id": "27b",
+                "text": "'Ruined the magic.'",
+                "score": 0.2
+            },
+            {
+                "id": "27c",
+                "text": "'Fascinating mechanics.'",
+                "score": 1.0
+            },
+            {
+                "id": "27d",
+                "text": "'Show me another.'",
+                "score": 0.7
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "question": "You have to give a speech to 500 people.",
+        "trait": "introversion",
+        "options": [
+            {
+                "id": "28a",
+                "text": "Love it. Sign me up.",
+                "score": 0.1
+            },
+            {
+                "id": "28b",
+                "text": "Nervous but I'll do it.",
+                "score": 0.4
+            },
+            {
+                "id": "28c",
+                "text": "I'd rather die.",
+                "score": 1.0
+            },
+            {
+                "id": "28d",
+                "text": "Can I record it instead?",
+                "score": 0.8
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "question": "Someone trips and falls. You:",
+        "trait": "funny",
+        "options": [
+            {
+                "id": "29a",
+                "text": "Help them up.",
+                "score": 0.5
+            },
+            {
+                "id": "29b",
+                "text": "Laugh instantly.",
+                "score": 1.0
+            },
+            {
+                "id": "29c",
+                "text": "Pretend you didn't see.",
+                "score": 0.3
+            },
+            {
+                "id": "29d",
+                "text": "Ask if they're ok, then laugh.",
+                "score": 0.8
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "question": "Choose a historical era:",
+        "trait": "brave",
+        "options": [
+            {
+                "id": "30a",
+                "text": "Future (Technology).",
+                "score": 0.5
+            },
+            {
+                "id": "30b",
+                "text": "Viking Age (Raids).",
+                "score": 1.0
+            },
+            {
+                "id": "30c",
+                "text": "Renaissance (Art).",
+                "score": 0.3
+            },
+            {
+                "id": "30d",
+                "text": "1960s (Peace).",
+                "score": 0.4
+            }
+        ]
+    }
+]

@@ -215,9 +215,25 @@ def home():
 
 @app.route('/api/questions', methods=['GET'])
 def get_questions():
-    """Get all quiz questions"""
-    questions = list(db.questions.find({}, {'_id': 0}))
-    return jsonify(questions)
+    """Get random subset of quiz questions"""
+    try:
+        count = int(request.args.get('count', 20))
+        # Clamp between 5 and 50 to be safe
+        count = max(5, min(count, 50))
+        
+        all_questions = list(db.questions.find({}, {'_id': 0}))
+        
+        # Random sampling
+        import random
+        if len(all_questions) > count:
+            selected_questions = random.sample(all_questions, count)
+        else:
+            selected_questions = all_questions
+            
+        return jsonify(selected_questions)
+    except Exception as e:
+        logger.error(f"Error fetching questions: {e}")
+        return jsonify([]), 500
 
 @app.route('/api/characters', methods=['GET'])
 def get_characters():
@@ -254,7 +270,6 @@ def calculate_score():
     )
     
     # 3. Determine Weighting (Alpha)
-    # If user provided meaningful preferences, give them 50% weight.
     has_preferences = (
         len(songs) > 0 or len(movies) > 0 or 
         len(favorite_actors) > 0 or 
@@ -269,15 +284,15 @@ def calculate_score():
         final_user_vector.append(alpha * q_val + (1 - alpha) * p_val)
         
     # 4. Find Character Matches
+    # Handle "Select All" or empty universes by fetching all characters
     query = {}
-    if selected_universes:
+    if selected_universes and "Select All" not in selected_universes:
         query['universe'] = {'$in': selected_universes}
     
     characters = list(db.characters.find(query, {'_id': 0}))
     matches = []
     
     for char in characters:
-        # Convert char traits dict to vector (ordered by TRAIT_NAMES)
         char_vector = [char['traits'].get(t, 0.5) for t in TRAIT_NAMES]
         similarity = cosine_similarity(final_user_vector, char_vector)
         matches.append({
@@ -289,26 +304,40 @@ def calculate_score():
     # Sort by score descending
     matches.sort(key=lambda x: x['score'], reverse=True)
     
-    # Get top match
-    top_match = matches[0] if matches else None
+    # Top 5
+    top_matches = matches[:5]
+    top_match = top_matches[0] if top_matches else None
     
-    # Save Result to DB
+    # 5. Enhanced Logging (Questions + Answers + Results)
+    # Reconstruct the Q&A log for the DB
+    qa_log = []
+    for ans in answers:
+        q = db.questions.find_one({'id': ans['question_id']})
+        if q:
+            opt = next((o for o in q['options'] if o['id'] == ans['option_id']), None)
+            qa_log.append({
+                'question': q['question'],
+                'selected_option': opt['text'] if opt else 'Unknown',
+                'trait': q['trait']
+            })
+
     result_doc = {
         'name': user_name,
         'universes': selected_universes,
-        # 'answers': answers, # Optional: Don't save answers to save space if not needed
+        # 'answers': answers, # Raw IDs
+        'qa_log': qa_log,     # Readable Log
         'songs': songs,
         'movies': movies,
         'favorite_actors': favorite_actors,
         'favorite_cricketer': favorite_cricketer,
         'favorite_personality': favorite_personality,
-        'top_match': top_match['character']['name'] if top_match else None,
-        # 'createdAt': datetime.utcnow() # Removed to avoid import error if datetime not imported or issues with mongo serial
+        'top_matches': [m['character']['name'] for m in top_matches],
+        'best_match_score': top_match['percentage'] if top_match else 0
     }
     db.quiz_results.insert_one(result_doc)
     
     return jsonify({
-        'matches': matches[:5], # Return top 5
+        'matches': top_matches, 
         'user_vector': final_user_vector
     })
 

@@ -29,26 +29,14 @@ export default function Quiz() {
   const navigate = useNavigate()
 
   useEffect(() => {
-    loadQuestions()
-    loadQuizData()
-  }, [])
-
-  const loadQuestions = async () => {
-    try {
-      const questionsData = await apiService.getQuestions()
-      setQuestions(questionsData)
-    } catch (error) {
-      toast.error('Failed to load questions')
-      navigate('/')
-    } finally {
-      setLoading(false)
-    }
-  }
-
-  const loadQuizData = () => {
+    // 1. Load preference first
     const stored = localStorage.getItem('quizData')
+    let count = 20
     if (stored) {
       const data = JSON.parse(stored)
+      count = data.questionCount || 20
+
+      // Load other data
       setAnswers(data.answers || [])
       setSongs(data.songs || ['', '', ''])
       setMovies(data.movies || ['', '', ''])
@@ -56,6 +44,22 @@ export default function Quiz() {
       setFavHollywood(data.favHollywood || '')
       setFavCricketer(data.favCricketer || '')
       setFavPersonality(data.favPersonality || '')
+    }
+
+    // 2. Load questions with count
+    loadQuestions(count)
+    // Removed loadQuizData call as we did it inline
+  }, [])
+
+  const loadQuestions = async (count: number) => {
+    try {
+      const questionsData = await apiService.getQuestions(count)
+      setQuestions(questionsData)
+    } catch (error) {
+      toast.error('Failed to load questions')
+      navigate('/')
+    } finally {
+      setLoading(false)
     }
   }
 

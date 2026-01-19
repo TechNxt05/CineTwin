@@ -38,6 +38,7 @@ export interface Answer {
 export interface QuizData {
   name: string
   universes: string[]
+  questionCount?: number
   answers: Answer[]
   songs: string[]
   movies: string[]
