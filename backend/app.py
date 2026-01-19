@@ -1,37 +1,50 @@
 import os
-import json
 import math
-import requests
-from datetime import datetime
+import json
+import logging
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 from pymongo import MongoClient
-from dotenv import load_dotenv
 import google.generativeai as genai
+from dotenv import load_dotenv
 
 # Load environment variables
 load_dotenv()
 
 app = Flask(__name__)
+# Allow CORS for all domains for now (or restrict to Vercel app in production)
 CORS(app)
 
-# MongoDB connection
-client = MongoClient(os.getenv('MONGODB_URI', 'mongodb://localhost:27017/'))
-db = client.whichcharacter
+# Configure Logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
-# Gemini API setup
-genai.configure(api_key=os.getenv('GEMINI_API_KEY'))
+# MongoDB Setup
+MONGO_URI = os.getenv("MONGODB_URI") # Updated to MONGODB_URI to match existing env
+client = MongoClient(MONGO_URI)
+db = client.get_database("movie_match_db")
+
+# Gemini API Setup
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+genai.configure(api_key=GEMINI_API_KEY)
 model = genai.GenerativeModel('gemini-pro')
 
-# Configuration
-ALPHA = float(os.getenv('ALPHA', 0.8))  # Weight for question vector vs media vector
-ADMIN_TOKEN = os.getenv('ADMIN_TOKEN', 'admin123')
+# Load Fallback Data
+FALLBACK_DATA = {}
+try:
+    with open('fallback_data.json', 'r') as f:
+        FALLBACK_DATA = json.load(f)
+    logger.info("Fallback data loaded successfully.")
+except Exception as e:
+    logger.error(f"Error loading fallback data: {e}")
 
-# Trait names for consistency
+# Constants
 TRAIT_NAMES = [
-    'introversion', 'humor', 'bravery', 'loyalty', 'ambition',
-    'compassion', 'cunning', 'responsibility', 'sarcasm', 'optimism'
+    "leader", "smart", "kind", "brave", "calm", 
+    "funny", "loyal", "honest", "ambitious", "creative"
 ]
+
+# --- Helper Functions ---
 
 def cosine_similarity(vec1, vec2):
     """Calculate cosine similarity between two vectors"""
@@ -77,333 +90,271 @@ def build_question_vector(answers):
     
     return trait_vector
 
-def build_media_vector(songs, movies):
-    """Build trait vector from media preferences"""
-    all_media = []
+def map_entity_via_gemini(entity_name, category):
+    """
+    Map an entity (Song, Movie, Actor, Cricketer) to personality traits using 
+    Gemini API with Fallback mechanism.
+    """
+    if not entity_name:
+        return None
+
+    entity_lower = entity_name.strip().lower()
     
-    # Get media traits from database or map via Gemini
-    for song in songs:
-        media_traits = get_or_map_media_traits(song, 'song')
-        if media_traits:
-            all_media.append(media_traits)
+    # 1. Check Database Cache
+    cached = db.media_traits.find_one({'name': entity_lower, 'type': category})
+    if cached:
+        logger.info(f"Cache hit for {category}: {entity_name}")
+        return {'name': entity_name, 'traits': cached['traits']}
+
+    # 2. Check Local Fallback Data
+    # Pluralize category for JSON keys (actor -> actors)
+    fallback_key = category + "s" if not category.endswith("s") else category
+    if category == "personality": fallback_key = "personalities"
     
-    for movie in movies:
-        media_traits = get_or_map_media_traits(movie, 'movie')
-        if media_traits:
-            all_media.append(media_traits)
+    if fallback_key in FALLBACK_DATA:
+        # Exact match check
+        if entity_lower in FALLBACK_DATA[fallback_key]:
+             logger.info(f"Fallback hit for {category}: {entity_name}")
+             traits = FALLBACK_DATA[fallback_key][entity_lower]
+             # Save to DB cache for future
+             db.media_traits.insert_one({'name': entity_lower, 'type': category, 'traits': traits})
+             return {'name': entity_name, 'traits': traits}
+        # Fuzzy match (simple substring)
+        for key in FALLBACK_DATA[fallback_key]:
+            if key in entity_lower or entity_lower in key:
+                 logger.info(f"Fallback fuzzy hit for {category}: {entity_name} -> {key}")
+                 traits = FALLBACK_DATA[fallback_key][key]
+                 db.media_traits.insert_one({'name': entity_lower, 'type': category, 'traits': traits})
+                 return {'name': entity_name, 'traits': traits}
+
+    # 3. Call Gemini API
+    try:
+        logger.info(f"Calling Gemini for {category}: {entity_name}")
+        prompt = f"""
+        Analyze the "{category}" named "{entity_name}".
+        Provide a score between 0.0 and 1.0 for these exact personality traits based on their public persona or characters they play:
+        {', '.join(TRAIT_NAMES)}.
+        
+        Return ONLY a JSON object with keys as the traits and float values.
+        Example: {{"leader": 0.8, "smart": 0.5, ...}}
+        If you don't know the entity, return valid JSON with all 0.5.
+        """
+        
+        response = model.generate_content(prompt)
+        text_response = response.text.strip()
+        
+        # Cleanup markdown formatting if present
+        if text_response.startswith("```json"):
+            text_response = text_response.replace("```json", "").replace("```", "")
+        if text_response.startswith("```"):
+             text_response = text_response.replace("```", "")
+        
+        traits = json.loads(text_response)
+        
+        # Validate keys
+        clean_traits = {}
+        for trait in TRAIT_NAMES:
+            clean_traits[trait] = float(traits.get(trait, 0.5))
+            
+        # Cache successful result
+        db.media_traits.insert_one({
+            'name': entity_lower,
+            'type': category,
+            'traits': clean_traits
+        })
+        
+        return {'name': entity_name, 'traits': clean_traits}
+        
+    except Exception as e:
+        logger.error(f"Gemini API failed for {entity_name}: {e}")
+        # Return neutral traits on failure but don't cache it (so we retry later)
+        return {
+            'name': entity_name, 
+            'traits': {t: 0.5 for t in TRAIT_NAMES}
+        }
+
+def build_preference_vector(songs, movies, actors, cricketer, personality):
+    """Build trait vector from all user preferences"""
+    all_traits_list = []
     
-    if not all_media:
-        return [0.5] * len(TRAIT_NAMES)  # Default neutral vector
+    # Process all categories
+    preference_map = [
+        (songs, 'song'),
+        (movies, 'movie'),
+        (actors, 'actor'),
+        ([cricketer] if cricketer else [], 'cricketer'),
+        ([personality] if personality else [], 'personality')
+    ]
+
+    for items, category in preference_map:
+        for item in items:
+            if item and item.strip():
+                result = map_entity_via_gemini(item, category)
+                if result:
+                    all_traits_list.append(result['traits'])
     
-    # Average all media trait vectors
+    if not all_traits_list:
+        return [0.5] * len(TRAIT_NAMES)  # Neutral if no data
+    
+    # Average all preference trait vectors
     trait_vector = []
     for i, trait in enumerate(TRAIT_NAMES):
-        trait_values = [media['traits'][trait] for media in all_media if trait in media['traits']]
-        if trait_values:
-            trait_vector.append(sum(trait_values) / len(trait_values))
+        values = [t[trait] for t in all_traits_list if trait in t]
+        if values:
+            trait_vector.append(sum(values) / len(values))
         else:
             trait_vector.append(0.5)
-    
+            
     return trait_vector
 
-def get_or_map_media_traits(title, media_type):
-    """Get media traits from database or map via Gemini API"""
-    # Check if already in database
-    existing = db.media_traits.find_one({
-        'canonical_title': title.lower().strip(),
-        'type': media_type
-    })
-    
-    if existing:
-        return existing
-    
-    # Map via Gemini API
-    try:
-        mapped_traits = map_media_via_gemini(title, media_type)
-        if mapped_traits:
-            # Store in database
-            db.media_traits.insert_one(mapped_traits)
-            return mapped_traits
-    except Exception as e:
-        print(f"Error mapping media {title}: {e}")
-    
-    return None
+# --- Routes ---
 
-def map_media_via_gemini(title, media_type):
-    """Map media title to traits using Gemini API"""
-    system_prompt = """You are an assistant that maps a song or movie title to a numeric personality trait vector.
-Return ONLY valid JSON (no extra text). Must follow the schema exactly.
-If the input is ambiguous or unknown, return 'confidence' < 0.7 and put "notes"."""
-
-    user_prompt = f"""Title: "{title}"
-Type: "{media_type}"
-
-Task:
-1) Identify the canonical title and year if possible.
-2) Based on the content, theme, mood, lyrics/plot, protagonists and tone of the title, map it to the following trait keys with numeric values between 0.0 and 1.0 (float with 2 decimal places):
-   introversion, humor, bravery, loyalty, ambition, compassion, cunning, responsibility, sarcasm, optimism
-
-Rules:
-- Output EXACTLY one JSON object (no markdown, no commentary) with keys:
-  {{
-   "input": "<the exact user string>",
-   "canonical_title": "<canonical title or empty string>",
-   "type": "<song|movie>",
-   "confidence": 0.00,
-   "traits": {{
-     "introversion": 0.00,
-     "humor": 0.00,
-     "bravery": 0.00,
-     "loyalty": 0.00,
-     "ambition": 0.00,
-     "compassion": 0.00,
-     "cunning": 0.00,
-     "responsibility": 0.00,
-     "sarcasm": 0.00,
-     "optimism": 0.00
-   }},
-   "notes": "<short reason or empty string>"
-  }}
-
-- Confidence is a float 0.00–1.00 (0.00 unknown / 1.00 exact).
-- Values must be between 0.00 and 1.00, two decimal places.
-- If the model is uncertain about the title mapping, set confidence low and fill canonical_title if possible; keep notes explaining.
-- Keep "notes" short (1-2 sentences)."""
-
-    try:
-        response = model.generate_content(f"{system_prompt}\n\n{user_prompt}")
-        result = json.loads(response.text.strip())
-        
-        # Validate the response
-        if 'traits' in result and all(trait in result['traits'] for trait in TRAIT_NAMES):
-            result['source'] = 'gemini'
-            result['createdAt'] = datetime.utcnow()
-            return result
-    except Exception as e:
-        print(f"Error parsing Gemini response: {e}")
-    
-    return None
-
-def find_top_matches(final_vector, universes):
-    """Find top 3 character matches per universe"""
-    top_matches = {}
-    
-    for universe in universes:
-        characters = list(db.characters.find({'universe': universe}))
-        
-        similarities = []
-        for char in characters:
-            char_vector = [char['traits'][trait] for trait in TRAIT_NAMES]
-            similarity = cosine_similarity(final_vector, char_vector)
-            similarities.append({
-                'character': char,
-                'similarity': similarity
-            })
-        
-        # Sort by similarity and take top 3
-        similarities.sort(key=lambda x: x['similarity'], reverse=True)
-        top_matches[universe] = similarities[:3]
-    
-    return top_matches
-
-# API Routes
+@app.route('/')
+def home():
+    return "Movie Match Backend is Running!"
 
 @app.route('/api/questions', methods=['GET'])
 def get_questions():
-    """Get all questions"""
+    """Get all quiz questions"""
     questions = list(db.questions.find({}, {'_id': 0}))
     return jsonify(questions)
 
 @app.route('/api/characters', methods=['GET'])
 def get_characters():
-    """Get characters filtered by universe"""
-    universe = request.args.get('universe')
-    limit = int(request.args.get('limit', 10))
-    
+    """Get characters (optionally filtered by universes)"""
+    universes = request.args.getlist('universe')
     query = {}
-    if universe and universe != 'All':
-        query['universe'] = universe
+    if universes:
+        query['universe'] = {'$in': universes}
     
-    characters = list(db.characters.find(query, {'_id': 0}).limit(limit))
+    characters = list(db.characters.find(query, {'_id': 0}))
     return jsonify(characters)
 
 @app.route('/api/score', methods=['POST'])
 def calculate_score():
-    """Calculate character matches based on user input"""
-    data = request.get_json()
+    """Calculate character match based on quiz and preferences"""
+    data = request.json
     
-    name = data.get('name')
-    universes = data.get('universe', [])
+    # 1. Extract inputs
+    user_name = data.get('name', 'Anonymous')
     answers = data.get('answers', [])
+    selected_universes = data.get('universes', [])
+    
+    # Preferences
     songs = data.get('songs', [])
     movies = data.get('movies', [])
+    favorite_actors = data.get('favorite_actors', [])
+    favorite_cricketer = data.get('favorite_cricketer', '')
+    favorite_personality = data.get('favorite_personality', '')
     
-    if not name or not universes or not answers:
-        return jsonify({'error': 'Missing required fields'}), 400
+    # 2. Build Vectors
+    question_vector = build_question_vector(answers)
+    preference_vector = build_preference_vector(
+        songs, movies, favorite_actors, favorite_cricketer, favorite_personality
+    )
     
-    # Build vectors
-    q_vector = build_question_vector(answers)
-    m_vector = build_media_vector(songs, movies)
+    # 3. Determine Weighting (Alpha)
+    # If user provided meaningful preferences, give them 50% weight.
+    has_preferences = (
+        len(songs) > 0 or len(movies) > 0 or 
+        len(favorite_actors) > 0 or 
+        bool(favorite_cricketer) or bool(favorite_personality)
+    )
     
-    # Adaptive Alpha Logic
-    # If no media is provided, rely 100% on the quiz (alpha = 1.0)
-    # If media IS provided, give it significant weight (e.g., 40% quiz, 60% media) to let taste influence the match
-    has_media = bool(songs or movies)
+    alpha = 0.5 if has_preferences else 1.0
     
-    if not has_media:
-        current_alpha = 1.0
-    else:
-        # If user provides media, we want it to count. 
-        # Using 0.6 means 60% question, 40% media - balanced approach.
-        # Or you requested "better logic" - often media is more honest than self-reporting.
-        current_alpha = 0.6
-
-    # Combine vectors
-    final_vector = []
-    for i in range(len(TRAIT_NAMES)):
-        final_vector.append(current_alpha * q_vector[i] + (1 - current_alpha) * m_vector[i])
+    # Combined Vector
+    final_user_vector = []
+    for q_val, p_val in zip(question_vector, preference_vector):
+        final_user_vector.append(alpha * q_val + (1 - alpha) * p_val)
+        
+    # 4. Find Character Matches
+    query = {}
+    if selected_universes:
+        query['universe'] = {'$in': selected_universes}
     
-    # Find top matches
-    top_matches = find_top_matches(final_vector, universes)
+    characters = list(db.characters.find(query, {'_id': 0}))
+    matches = []
     
-    # Store result
-    result = {
-        'name': name,
-        'universes': universes,
-        'answers': answers,
+    for char in characters:
+        # Convert char traits dict to vector (ordered by TRAIT_NAMES)
+        char_vector = [char['traits'].get(t, 0.5) for t in TRAIT_NAMES]
+        similarity = cosine_similarity(final_user_vector, char_vector)
+        matches.append({
+            'character': char,
+            'score': similarity,
+            'percentage': round(similarity * 100)
+        })
+    
+    # Sort by score descending
+    matches.sort(key=lambda x: x['score'], reverse=True)
+    
+    # Get top match
+    top_match = matches[0] if matches else None
+    
+    # Save Result to DB
+    result_doc = {
+        'name': user_name,
+        'universes': selected_universes,
+        # 'answers': answers, # Optional: Don't save answers to save space if not needed
         'songs': songs,
         'movies': movies,
-        'q_vec': q_vector,
-        'm_vec': m_vector,
-        'final_vec': final_vector,
-        'topMatches': top_matches,
-        'createdAt': datetime.utcnow()
+        'favorite_actors': favorite_actors,
+        'favorite_cricketer': favorite_cricketer,
+        'favorite_personality': favorite_personality,
+        'top_match': top_match['character']['name'] if top_match else None,
+        # 'createdAt': datetime.utcnow() # Removed to avoid import error if datetime not imported or issues with mongo serial
     }
-    
-    db.results.insert_one(result)
+    db.quiz_results.insert_one(result_doc)
     
     return jsonify({
-        'topMatches': top_matches,
-        'finalVector': final_vector
+        'matches': matches[:5], # Return top 5
+        'user_vector': final_user_vector
     })
 
-@app.route('/api/feedback/amritanshu', methods=['POST'])
-def submit_amritanshu_feedback():
-    """Submit feedback for Amritanshu's character traits"""
-    data = request.get_json()
-    
-    name = data.get('name')
-    selected_trait = data.get('selected_trait')
-    note = data.get('note', '')
-    consent = data.get('consent', False)
-    
-    if not name or not selected_trait or not consent:
-        return jsonify({'error': 'Missing required fields'}), 400
-    
-    feedback = {
-        'name': name,
-        'selected_trait': selected_trait,
-        'note': note,
-        'consent': consent,
-        'createdAt': datetime.utcnow(),
-        'ip': request.remote_addr
-    }
-    
-    db.amritanshu_feedback.insert_one(feedback)
-    
-    return jsonify({'success': True, 'message': 'Feedback submitted successfully'})
+@app.route('/api/feedback', methods=['POST'])
+def submit_feedback():
+    data = request.json
+    db.feedback.insert_one(data)
+    return jsonify({'success': True})
 
-@app.route('/api/media/map', methods=['POST'])
-def map_media():
-    """Internal endpoint to map media to traits"""
-    data = request.get_json()
-    title = data.get('title')
-    media_type = data.get('type')
-    
-    if not title or not media_type:
-        return jsonify({'error': 'Missing title or type'}), 400
-    
-    if media_type not in ['song', 'movie']:
-        return jsonify({'error': 'Type must be song or movie'}), 400
-    
-    mapped_traits = map_media_via_gemini(title, media_type)
-    
-    if mapped_traits:
-        # Store in database
-        db.media_traits.insert_one(mapped_traits)
-        return jsonify(mapped_traits)
-    else:
-        return jsonify({'error': 'Failed to map media'}), 500
-
-# Admin routes
-@app.route('/admin/results', methods=['GET'])
-def admin_get_results():
-    """Get recent results (admin only)"""
+# --- Admin Routes ---
+@app.route('/api/admin/stats', methods=['GET'])
+def get_stats():
     token = request.headers.get('Authorization')
-    if token != f'Bearer {ADMIN_TOKEN}':
+    if token != os.getenv("ADMIN_TOKEN"):
         return jsonify({'error': 'Unauthorized'}), 401
-    
-    limit = int(request.args.get('limit', 50))
-    results = list(db.results.find({}, {'_id': 0}).sort('createdAt', -1).limit(limit))
-    return jsonify(results)
-
-@app.route('/admin/feedback', methods=['GET'])
-def admin_get_feedback():
-    """Get Amritanshu feedback (admin only)"""
-    token = request.headers.get('Authorization')
-    if token != f'Bearer {ADMIN_TOKEN}':
-        return jsonify({'error': 'Unauthorized'}), 401
-    
-    limit = int(request.args.get('limit', 50))
-    feedback = list(db.amritanshu_feedback.find({}, {'_id': 0}).sort('createdAt', -1).limit(limit))
-    return jsonify(feedback)
-
-@app.route('/admin/media-mapping', methods=['POST'])
-def admin_remap_media():
-    """Re-run media mapping for missing items (admin only)"""
-    token = request.headers.get('Authorization')
-    if token != f'Bearer {ADMIN_TOKEN}':
-        return jsonify({'error': 'Unauthorized'}), 401
-    
-    data = request.get_json()
-    title = data.get('title')
-    media_type = data.get('type')
-    
-    if not title or not media_type:
-        return jsonify({'error': 'Missing title or type'}), 400
-    
-    # Remove existing mapping
-    db.media_traits.delete_many({
-        'canonical_title': title.lower().strip(),
-        'type': media_type
-    })
-    
-    # Re-map
-    mapped_traits = map_media_via_gemini(title, media_type)
-    
-    if mapped_traits:
-        db.media_traits.insert_one(mapped_traits)
-        return jsonify({'success': True, 'mapping': mapped_traits})
-    else:
-        return jsonify({'error': 'Failed to map media'}), 500
-
-@app.route('/admin/stats', methods=['GET'])
-def admin_get_stats():
-    """Get application statistics (admin only)"""
-    token = request.headers.get('Authorization')
-    if token != f'Bearer {ADMIN_TOKEN}':
-        return jsonify({'error': 'Unauthorized'}), 401
-    
+        
     stats = {
-        'total_results': db.results.count_documents({}),
-        'total_feedback': db.amritanshu_feedback.count_documents({}),
+        'total_results': db.quiz_results.count_documents({}),
+        'total_feedback': db.feedback.count_documents({}),
         'total_media_mappings': db.media_traits.count_documents({}),
         'total_characters': db.characters.count_documents({}),
         'total_questions': db.questions.count_documents({}),
-        'universes': list(db.characters.distinct('universe'))
+        'universes': db.characters.distinct('universe')
     }
-    
     return jsonify(stats)
 
+@app.route('/api/admin/results', methods=['GET'])
+def get_results():
+    token = request.headers.get('Authorization')
+    if token != os.getenv("ADMIN_TOKEN"):
+        return jsonify({'error': 'Unauthorized'}), 401
+    
+    limit = int(request.args.get('limit', 50))
+    results = list(db.quiz_results.find({}, {'_id': 0}).sort('_id', -1).limit(limit))
+    return jsonify(results)
+
+@app.route('/api/admin/feedback', methods=['GET'])
+def get_feedback():
+    token = request.headers.get('Authorization')
+    if token != os.getenv("ADMIN_TOKEN"):
+        return jsonify({'error': 'Unauthorized'}), 401
+        
+    limit = int(request.args.get('limit', 50))
+    feedback = list(db.feedback.find({}, {'_id': 0}).sort('_id', -1).limit(limit))
+    return jsonify(feedback)
+
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host='0.0.0.0', port=port)

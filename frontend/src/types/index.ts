@@ -37,10 +37,13 @@ export interface Answer {
 
 export interface QuizData {
   name: string
-  universe: string[]
+  universes: string[]
   answers: Answer[]
   songs: string[]
   movies: string[]
+  favorite_actors: string[]
+  favorite_cricketer: string
+  favorite_personality: string
 }
 
 export interface CharacterMatch {
