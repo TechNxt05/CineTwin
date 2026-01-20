@@ -336,16 +336,44 @@ def calculate_score():
         'top_matches': [m['character']['name'] for m in top_matches],
         'best_match_score': top_match['percentage'] if top_match else 0
     }
+    # Calculate Universe Breakdown (Best per Universe)
+    universe_breakdown = []
+    if selected_universes and "Select All" in selected_universes:
+        # Group matches by universe
+        universe_map = {}
+        for m in matches:
+            univ = m['character']['universe']
+            if univ not in universe_map:
+                universe_map[univ] = m # First one is best because matches is sorted
+        
+        # Convert to list
+        for univ, m in universe_map.items():
+            universe_breakdown.append({
+                'universe': univ,
+                'character': m['character'],
+                'score': m['score'],
+                'percentage': m['percentage']
+            })
+            
     db.quiz_results.insert_one(result_doc)
     
     return jsonify({
         'matches': top_matches, 
-        'user_vector': final_user_vector
+        'user_vector': final_user_vector,
+        'universe_breakdown': universe_breakdown
     })
 
 @app.route('/api/feedback', methods=['POST'])
 def submit_feedback():
     data = request.json
+    db.feedback.insert_one(data)
+    return jsonify({'success': True})
+
+@app.route('/api/feedback/amritanshu', methods=['POST'])
+def submit_amritanshu_feedback():
+    """Specific feedback route for Amritanshu form"""
+    data = request.json
+    data['type'] = 'amritanshu_feedback' # Tag it
     db.feedback.insert_one(data)
     return jsonify({'success': True})
 
