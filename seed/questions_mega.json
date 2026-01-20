@@ -808,5 +808,1895 @@
                 "score": 0.4
             }
         ]
+    },
+    {
+        "id": 31,
+        "question": "A glass is filled 50%. You say:",
+        "trait": "optimism",
+        "options": [
+            {
+                "id": "31a",
+                "text": "Half full!",
+                "score": 1.0
+            },
+            {
+                "id": "31b",
+                "text": "Half empty.",
+                "score": 0.1
+            },
+            {
+                "id": "31c",
+                "text": "Who drank my water?",
+                "score": 0.5
+            },
+            {
+                "id": "31d",
+                "text": "Ideally balanced.",
+                "score": 0.7
+            }
+        ]
+    },
+    {
+        "id": 32,
+        "question": "Your friend cooks a terrible meal. You say:",
+        "trait": "kind",
+        "options": [
+            {
+                "id": "32a",
+                "text": "Spit it out.",
+                "score": 0.1
+            },
+            {
+                "id": "32b",
+                "text": "Eat it and smile painfully.",
+                "score": 1.0
+            },
+            {
+                "id": "32c",
+                "text": "Give constructive feedback.",
+                "score": 0.6
+            },
+            {
+                "id": "32d",
+                "text": "Feed it to the dog.",
+                "score": 0.3
+            }
+        ]
+    },
+    {
+        "id": 33,
+        "question": "You find a loophole in the rules. You:",
+        "trait": "cunning",
+        "options": [
+            {
+                "id": "33a",
+                "text": "Exploit it immediately.",
+                "score": 1.0
+            },
+            {
+                "id": "33b",
+                "text": "Report it to authorities.",
+                "score": 0.1
+            },
+            {
+                "id": "33c",
+                "text": "Tell friends but don't use it.",
+                "score": 0.6
+            },
+            {
+                "id": "33d",
+                "text": "Ignore it.",
+                "score": 0.4
+            }
+        ]
+    },
+    {
+        "id": 34,
+        "question": "Deadline is one hour away. You haven't started.",
+        "trait": "calm",
+        "options": [
+            {
+                "id": "34a",
+                "text": "Panic attack.",
+                "score": 0.1
+            },
+            {
+                "id": "34b",
+                "text": "Focus and get it done.",
+                "score": 1.0
+            },
+            {
+                "id": "34c",
+                "text": "Ask for an extension.",
+                "score": 0.6
+            },
+            {
+                "id": "34d",
+                "text": "Accept failure.",
+                "score": 0.3
+            }
+        ]
+    },
+    {
+        "id": 35,
+        "question": "Someone drops a $20 bill.",
+        "trait": "honest",
+        "options": [
+            {
+                "id": "35a",
+                "text": "Return it immediately.",
+                "score": 1.0
+            },
+            {
+                "id": "35b",
+                "text": "Pocket it.",
+                "score": 0.1
+            },
+            {
+                "id": "35c",
+                "text": "Look around, then take it.",
+                "score": 0.4
+            },
+            {
+                "id": "35d",
+                "text": "Leave it.",
+                "score": 0.7
+            }
+        ]
+    },
+    {
+        "id": 36,
+        "question": "Best way to spend a Friday night?",
+        "trait": "introversion",
+        "options": [
+            {
+                "id": "36a",
+                "text": "Clubbing until 4AM.",
+                "score": 0.1
+            },
+            {
+                "id": "36b",
+                "text": "Dinner with close friends.",
+                "score": 0.5
+            },
+            {
+                "id": "36c",
+                "text": "Netflix and snacks alone.",
+                "score": 1.0
+            },
+            {
+                "id": "36d",
+                "text": "Working on a project.",
+                "score": 0.7
+            }
+        ]
+    },
+    {
+        "id": 37,
+        "question": "Your enemy asks for help.",
+        "trait": "compassion",
+        "options": [
+            {
+                "id": "37a",
+                "text": "Help them without hesitation.",
+                "score": 1.0
+            },
+            {
+                "id": "37b",
+                "text": "Ignore them.",
+                "score": 0.1
+            },
+            {
+                "id": "37c",
+                "text": "Help, but demand a favor.",
+                "score": 0.5
+            },
+            {
+                "id": "37d",
+                "text": "Laugh at them.",
+                "score": 0.2
+            }
+        ]
+    },
+    {
+        "id": 38,
+        "question": "You notice your zipper is down in public.",
+        "trait": "funny",
+        "options": [
+            {
+                "id": "38a",
+                "text": "Die of embarrassment.",
+                "score": 0.1
+            },
+            {
+                "id": "38b",
+                "text": "Fix it and joke 'Free show!'",
+                "score": 1.0
+            },
+            {
+                "id": "38c",
+                "text": "Discreetly fix it.",
+                "score": 0.6
+            },
+            {
+                "id": "38d",
+                "text": "Pretend it's fashion.",
+                "score": 0.8
+            }
+        ]
+    },
+    {
+        "id": 39,
+        "question": "A dragon attacks the village!",
+        "trait": "brave",
+        "options": [
+            {
+                "id": "39a",
+                "text": "Charge at it with a spoon.",
+                "score": 1.0
+            },
+            {
+                "id": "39b",
+                "text": "Organize the evacuation.",
+                "score": 0.7
+            },
+            {
+                "id": "39c",
+                "text": "Hide in the basement.",
+                "score": 0.1
+            },
+            {
+                "id": "39d",
+                "text": "Try to tame it.",
+                "score": 0.8
+            }
+        ]
+    },
+    {
+        "id": 40,
+        "question": "You must build a team. Who do you pick first?",
+        "trait": "leader",
+        "options": [
+            {
+                "id": "40a",
+                "text": "The smartest person.",
+                "score": 0.7
+            },
+            {
+                "id": "40b",
+                "text": "My best friend.",
+                "score": 0.3
+            },
+            {
+                "id": "40c",
+                "text": "The hardest worker.",
+                "score": 1.0
+            },
+            {
+                "id": "40d",
+                "text": "The funniest one.",
+                "score": 0.2
+            }
+        ]
+    },
+    {
+        "id": 41,
+        "question": "A sign says 'Wet Paint'.",
+        "trait": "sarcasm",
+        "options": [
+            {
+                "id": "41a",
+                "text": "Touch it to check.",
+                "score": 0.8
+            },
+            {
+                "id": "41b",
+                "text": "Avoid it carefully.",
+                "score": 0.2
+            },
+            {
+                "id": "41c",
+                "text": "Say 'No, looks dry to me.'",
+                "score": 1.0
+            },
+            {
+                "id": "41d",
+                "text": "Put a fingerprint on purpose.",
+                "score": 0.6
+            }
+        ]
+    },
+    {
+        "id": 42,
+        "question": "You borrow a book and lose it.",
+        "trait": "responsibility",
+        "options": [
+            {
+                "id": "42a",
+                "text": "Buy a new copy immediately.",
+                "score": 1.0
+            },
+            {
+                "id": "42b",
+                "text": "Hope they forget.",
+                "score": 0.1
+            },
+            {
+                "id": "42c",
+                "text": "Apologize and offer cash.",
+                "score": 0.8
+            },
+            {
+                "id": "42d",
+                "text": "Blame someone else.",
+                "score": 0.2
+            }
+        ]
+    },
+    {
+        "id": 43,
+        "question": "Best way to win an argument?",
+        "trait": "smart",
+        "options": [
+            {
+                "id": "43a",
+                "text": "Yell louder.",
+                "score": 0.1
+            },
+            {
+                "id": "43b",
+                "text": "Present undeniable facts.",
+                "score": 1.0
+            },
+            {
+                "id": "43c",
+                "text": "Change the subject.",
+                "score": 0.4
+            },
+            {
+                "id": "43d",
+                "text": "Use emotional blackmail.",
+                "score": 0.3
+            }
+        ]
+    },
+    {
+        "id": 44,
+        "question": "You see a crying child alone.",
+        "trait": "compassion",
+        "options": [
+            {
+                "id": "44a",
+                "text": "Walk away fast.",
+                "score": 0.1
+            },
+            {
+                "id": "44b",
+                "text": "Stay and help find parents.",
+                "score": 1.0
+            },
+            {
+                "id": "44c",
+                "text": "Call the police from afar.",
+                "score": 0.6
+            },
+            {
+                "id": "44d",
+                "text": "Give them candy.",
+                "score": 0.4
+            }
+        ]
+    },
+    {
+        "id": 45,
+        "question": "Your idea of a perfect job?",
+        "trait": "ambitious",
+        "options": [
+            {
+                "id": "45a",
+                "text": "Safe, 9-5, steady pay.",
+                "score": 0.3
+            },
+            {
+                "id": "45b",
+                "text": "High risk, high reward.",
+                "score": 0.8
+            },
+            {
+                "id": "45c",
+                "text": "CEO of my own empire.",
+                "score": 1.0
+            },
+            {
+                "id": "45d",
+                "text": "Artist/Creative freedom.",
+                "score": 0.6
+            }
+        ]
+    },
+    {
+        "id": 46,
+        "question": "A friend shares a secret.",
+        "trait": "loyal",
+        "options": [
+            {
+                "id": "46a",
+                "text": "Take it to the grave.",
+                "score": 1.0
+            },
+            {
+                "id": "46b",
+                "text": "Tell my partner only.",
+                "score": 0.6
+            },
+            {
+                "id": "46c",
+                "text": "Post it on Twitter (vague).",
+                "score": 0.2
+            },
+            {
+                "id": "46d",
+                "text": "Use it against them.",
+                "score": 0.0
+            }
+        ]
+    },
+    {
+        "id": 47,
+        "question": "You get a bad haircut.",
+        "trait": "optimism",
+        "options": [
+            {
+                "id": "47a",
+                "text": "Wear a hat for months.",
+                "score": 0.2
+            },
+            {
+                "id": "47b",
+                "text": "It'll grow back!",
+                "score": 1.0
+            },
+            {
+                "id": "47c",
+                "text": "Demand a refund.",
+                "score": 0.5
+            },
+            {
+                "id": "47d",
+                "text": "Shave it all off.",
+                "score": 0.6
+            }
+        ]
+    },
+    {
+        "id": 48,
+        "question": "How do you handle a breakup?",
+        "trait": "calm",
+        "options": [
+            {
+                "id": "48a",
+                "text": "Key their car.",
+                "score": 0.1
+            },
+            {
+                "id": "48b",
+                "text": "Cry for a week.",
+                "score": 0.4
+            },
+            {
+                "id": "48c",
+                "text": "Accept it and move on.",
+                "score": 1.0
+            },
+            {
+                "id": "48d",
+                "text": "Rebound immediately.",
+                "score": 0.5
+            }
+        ]
+    },
+    {
+        "id": 49,
+        "question": "You see a blank canvas.",
+        "trait": "creative",
+        "options": [
+            {
+                "id": "49a",
+                "text": "Paint something abstract.",
+                "score": 1.0
+            },
+            {
+                "id": "49b",
+                "text": "Draw a stick figure.",
+                "score": 0.3
+            },
+            {
+                "id": "49c",
+                "text": "Analyze the texture.",
+                "score": 0.6
+            },
+            {
+                "id": "49d",
+                "text": "Leave it blank (Art).",
+                "score": 0.8
+            }
+        ]
+    },
+    {
+        "id": 50,
+        "question": "Best chess piece?",
+        "trait": "cunning",
+        "options": [
+            {
+                "id": "50a",
+                "text": "Pawn (The underdog).",
+                "score": 0.3
+            },
+            {
+                "id": "50b",
+                "text": "Queen (Power).",
+                "score": 0.6
+            },
+            {
+                "id": "50c",
+                "text": "Knight (Tricky moves).",
+                "score": 1.0
+            },
+            {
+                "id": "50d",
+                "text": "King (The objective).",
+                "score": 0.5
+            }
+        ]
+    },
+    {
+        "id": 51,
+        "question": "Someone cuts you in line.",
+        "trait": "leader",
+        "options": [
+            {
+                "id": "51a",
+                "text": "Say nothing.",
+                "score": 0.2
+            },
+            {
+                "id": "51b",
+                "text": "Politely ask them to move.",
+                "score": 1.0
+            },
+            {
+                "id": "51c",
+                "text": "Shove them back.",
+                "score": 0.4
+            },
+            {
+                "id": "51d",
+                "text": "Complain loudly.",
+                "score": 0.6
+            }
+        ]
+    },
+    {
+        "id": 52,
+        "question": "You find a hidden door in your house.",
+        "trait": "brave",
+        "options": [
+            {
+                "id": "52a",
+                "text": "Lock it and ignore it.",
+                "score": 0.1
+            },
+            {
+                "id": "52b",
+                "text": "Enter with a flashlight.",
+                "score": 1.0
+            },
+            {
+                "id": "52c",
+                "text": "Call a friend first.",
+                "score": 0.6
+            },
+            {
+                "id": "52d",
+                "text": "Sell the house.",
+                "score": 0.2
+            }
+        ]
+    },
+    {
+        "id": 53,
+        "question": "Your friend is wearing a terrible outfit.",
+        "trait": "honest",
+        "options": [
+            {
+                "id": "53a",
+                "text": "Tell them it looks great.",
+                "score": 0.2
+            },
+            {
+                "id": "53b",
+                "text": "Say 'It's... interesting.'",
+                "score": 0.5
+            },
+            {
+                "id": "53c",
+                "text": "Directly say I hate it.",
+                "score": 1.0
+            },
+            {
+                "id": "53d",
+                "text": "Suggest a change gently.",
+                "score": 0.8
+            }
+        ]
+    },
+    {
+        "id": 54,
+        "question": "You have to plan a party.",
+        "trait": "responsibility",
+        "options": [
+            {
+                "id": "54a",
+                "text": "Plan every detail perfectly.",
+                "score": 1.0
+            },
+            {
+                "id": "54b",
+                "text": "Ask someone else to do it.",
+                "score": 0.2
+            },
+            {
+                "id": "54c",
+                "text": "Just buy pizza and beer.",
+                "score": 0.6
+            },
+            {
+                "id": "54d",
+                "text": "Forget until the day of.",
+                "score": 0.1
+            }
+        ]
+    },
+    {
+        "id": 55,
+        "question": "Favorite school subject?",
+        "trait": "smart",
+        "options": [
+            {
+                "id": "55a",
+                "text": "Recess.",
+                "score": 0.1
+            },
+            {
+                "id": "55b",
+                "text": "Mathematics / Physics.",
+                "score": 1.0
+            },
+            {
+                "id": "55c",
+                "text": "Art / Drama.",
+                "score": 0.6
+            },
+            {
+                "id": "55d",
+                "text": "History / Literature.",
+                "score": 0.8
+            }
+        ]
+    },
+    {
+        "id": 56,
+        "question": "You see a ghost.",
+        "trait": "sarcasm",
+        "options": [
+            {
+                "id": "56a",
+                "text": "Scream.",
+                "score": 0.1
+            },
+            {
+                "id": "56b",
+                "text": "Ask if they pay rent.",
+                "score": 1.0
+            },
+            {
+                "id": "56c",
+                "text": "Try to punch it.",
+                "score": 0.4
+            },
+            {
+                "id": "56d",
+                "text": "Faint.",
+                "score": 0.2
+            }
+        ]
+    },
+    {
+        "id": 57,
+        "question": "You are lost in the woods.",
+        "trait": "calm",
+        "options": [
+            {
+                "id": "57a",
+                "text": "Run in circles.",
+                "score": 0.1
+            },
+            {
+                "id": "57b",
+                "text": "Sit and wait for rescue.",
+                "score": 0.6
+            },
+            {
+                "id": "57c",
+                "text": "Navigate by the sun/stars.",
+                "score": 1.0
+            },
+            {
+                "id": "57d",
+                "text": "Cry.",
+                "score": 0.2
+            }
+        ]
+    },
+    {
+        "id": 58,
+        "question": "A celebrity follows you on Instagram.",
+        "trait": "ambitious",
+        "options": [
+            {
+                "id": "58a",
+                "text": "Faint.",
+                "score": 0.2
+            },
+            {
+                "id": "58b",
+                "text": "DM them for a collab.",
+                "score": 1.0
+            },
+            {
+                "id": "58c",
+                "text": "Screenshot and frame it.",
+                "score": 0.6
+            },
+            {
+                "id": "58d",
+                "text": "Play it cool.",
+                "score": 0.8
+            }
+        ]
+    },
+    {
+        "id": 59,
+        "question": "Someone steps on your foot.",
+        "trait": "introversion",
+        "options": [
+            {
+                "id": "59a",
+                "text": "Apologize to them.",
+                "score": 1.0
+            },
+            {
+                "id": "59b",
+                "text": "Yell 'Watch it!'",
+                "score": 0.1
+            },
+            {
+                "id": "59c",
+                "text": "Glare silently.",
+                "score": 0.5
+            },
+            {
+                "id": "59d",
+                "text": "Say nothing.",
+                "score": 0.8
+            }
+        ]
+    },
+    {
+        "id": 60,
+        "question": "You find a cursed object.",
+        "trait": "cunning",
+        "options": [
+            {
+                "id": "60a",
+                "text": "Destroy it.",
+                "score": 0.4
+            },
+            {
+                "id": "60b",
+                "text": "Sell it to an enemy.",
+                "score": 1.0
+            },
+            {
+                "id": "60c",
+                "text": "Keep it for power.",
+                "score": 0.8
+            },
+            {
+                "id": "60d",
+                "text": "Bury it.",
+                "score": 0.5
+            }
+        ]
+    },
+    {
+        "id": 61,
+        "question": "The waiter brings the wrong order.",
+        "trait": "kind",
+        "options": [
+            {
+                "id": "61a",
+                "text": "Eat it anyway.",
+                "score": 1.0
+            },
+            {
+                "id": "61b",
+                "text": "Politely correct them.",
+                "score": 0.8
+            },
+            {
+                "id": "61c",
+                "text": "Send it back angrily.",
+                "score": 0.1
+            },
+            {
+                "id": "61d",
+                "text": "Leave a bad tip.",
+                "score": 0.2
+            }
+        ]
+    },
+    {
+        "id": 62,
+        "question": "Do you believe in aliens?",
+        "trait": "creative",
+        "options": [
+            {
+                "id": "62a",
+                "text": "No, we are alone.",
+                "score": 0.1
+            },
+            {
+                "id": "62b",
+                "text": "Yes, I imagine their cities.",
+                "score": 1.0
+            },
+            {
+                "id": "62c",
+                "text": "Only microbes.",
+                "score": 0.5
+            },
+            {
+                "id": "62d",
+                "text": "I am one.",
+                "score": 0.8
+            }
+        ]
+    },
+    {
+        "id": 63,
+        "question": "Your phone dies in a new city.",
+        "trait": "brave",
+        "options": [
+            {
+                "id": "63a",
+                "text": "Panic.",
+                "score": 0.1
+            },
+            {
+                "id": "63b",
+                "text": "Ask strangers for directions.",
+                "score": 1.0
+            },
+            {
+                "id": "63c",
+                "text": "Wander until I find a landmark.",
+                "score": 0.8
+            },
+            {
+                "id": "63d",
+                "text": "Wait at a cafe.",
+                "score": 0.5
+            }
+        ]
+    },
+    {
+        "id": 64,
+        "question": "You see someone littering.",
+        "trait": "responsibility",
+        "options": [
+            {
+                "id": "64a",
+                "text": "Pick it up yourself.",
+                "score": 1.0
+            },
+            {
+                "id": "64b",
+                "text": "Yell at them.",
+                "score": 0.6
+            },
+            {
+                "id": "64c",
+                "text": "Ignore it.",
+                "score": 0.1
+            },
+            {
+                "id": "64d",
+                "text": "Glare.",
+                "score": 0.3
+            }
+        ]
+    },
+    {
+        "id": 65,
+        "question": "Glass half full or half empty?",
+        "trait": "optimism",
+        "options": [
+            {
+                "id": "65a",
+                "text": "Refillable.",
+                "score": 1.0
+            },
+            {
+                "id": "65b",
+                "text": "Half full.",
+                "score": 0.8
+            },
+            {
+                "id": "65c",
+                "text": "Half empty.",
+                "score": 0.3
+            },
+            {
+                "id": "65d",
+                "text": "Dirty glass.",
+                "score": 0.5
+            }
+        ]
+    },
+    {
+        "id": 66,
+        "question": "A friend is sad.",
+        "trait": "funny",
+        "options": [
+            {
+                "id": "66a",
+                "text": "Tell a joke.",
+                "score": 1.0
+            },
+            {
+                "id": "66b",
+                "text": "Listen silently.",
+                "score": 0.4
+            },
+            {
+                "id": "66c",
+                "text": "Distract them with food.",
+                "score": 0.7
+            },
+            {
+                "id": "66d",
+                "text": "Give advice.",
+                "score": 0.5
+            }
+        ]
+    },
+    {
+        "id": 67,
+        "question": "What is success?",
+        "trait": "ambitious",
+        "options": [
+            {
+                "id": "67a",
+                "text": "Happiness.",
+                "score": 0.3
+            },
+            {
+                "id": "67b",
+                "text": "Money.",
+                "score": 0.7
+            },
+            {
+                "id": "67c",
+                "text": "Power and influence.",
+                "score": 1.0
+            },
+            {
+                "id": "67d",
+                "text": "Family.",
+                "score": 0.5
+            }
+        ]
+    },
+    {
+        "id": 68,
+        "question": "You are caught in a lie.",
+        "trait": "honest",
+        "options": [
+            {
+                "id": "68a",
+                "text": "Double down.",
+                "score": 0.1
+            },
+            {
+                "id": "68b",
+                "text": "Confess and apologize.",
+                "score": 1.0
+            },
+            {
+                "id": "68c",
+                "text": "Blame confusion.",
+                "score": 0.5
+            },
+            {
+                "id": "68d",
+                "text": "Run away.",
+                "score": 0.2
+            }
+        ]
+    },
+    {
+        "id": 69,
+        "question": "Favorite color?",
+        "trait": "creative",
+        "options": [
+            {
+                "id": "69a",
+                "text": "Blue.",
+                "score": 0.2
+            },
+            {
+                "id": "69b",
+                "text": "Rainbow.",
+                "score": 0.8
+            },
+            {
+                "id": "69c",
+                "text": "A color I invented.",
+                "score": 1.0
+            },
+            {
+                "id": "69d",
+                "text": "Black.",
+                "score": 0.5
+            }
+        ]
+    },
+    {
+        "id": 70,
+        "question": "Your country is at war. You:",
+        "trait": "loyal",
+        "options": [
+            {
+                "id": "70a",
+                "text": "Enlist immediately.",
+                "score": 1.0
+            },
+            {
+                "id": "70b",
+                "text": "Move to Switzerland.",
+                "score": 0.1
+            },
+            {
+                "id": "70c",
+                "text": "Protect your family.",
+                "score": 0.8
+            },
+            {
+                "id": "70d",
+                "text": "Protest.",
+                "score": 0.5
+            }
+        ]
+    },
+    {
+        "id": 71,
+        "question": "You win an award.",
+        "trait": "leader",
+        "options": [
+            {
+                "id": "71a",
+                "text": "Thank everyone.",
+                "score": 0.8
+            },
+            {
+                "id": "71b",
+                "text": "Say 'I deserve this.'",
+                "score": 0.6
+            },
+            {
+                "id": "71c",
+                "text": "Use the platform for a cause.",
+                "score": 1.0
+            },
+            {
+                "id": "71d",
+                "text": "Sell the trophy.",
+                "score": 0.2
+            }
+        ]
+    },
+    {
+        "id": 72,
+        "question": "A spider in the room.",
+        "trait": "compassion",
+        "options": [
+            {
+                "id": "72a",
+                "text": "Kill it.",
+                "score": 0.1
+            },
+            {
+                "id": "72b",
+                "text": "Capture and release it.",
+                "score": 1.0
+            },
+            {
+                "id": "72c",
+                "text": "Burn the house down.",
+                "score": 0.2
+            },
+            {
+                "id": "72d",
+                "text": "Leave the room forever.",
+                "score": 0.5
+            }
+        ]
+    },
+    {
+        "id": 73,
+        "question": "You see a button that says 'Do Not Press'.",
+        "trait": "cunning",
+        "options": [
+            {
+                "id": "73a",
+                "text": "Press it.",
+                "score": 0.8
+            },
+            {
+                "id": "73b",
+                "text": "Don't press it.",
+                "score": 0.2
+            },
+            {
+                "id": "73c",
+                "text": "Wire it to do something else.",
+                "score": 1.0
+            },
+            {
+                "id": "73d",
+                "text": "Put a sticker on it.",
+                "score": 0.5
+            }
+        ]
+    },
+    {
+        "id": 74,
+        "question": "Best way to travel?",
+        "trait": "introversion",
+        "options": [
+            {
+                "id": "74a",
+                "text": "Group tour bus.",
+                "score": 0.1
+            },
+            {
+                "id": "74b",
+                "text": "Solo backpacking.",
+                "score": 1.0
+            },
+            {
+                "id": "74c",
+                "text": "Family road trip.",
+                "score": 0.5
+            },
+            {
+                "id": "74d",
+                "text": "Cruise ship.",
+                "score": 0.3
+            }
+        ]
+    },
+    {
+        "id": 75,
+        "question": "Someone explains something you already know.",
+        "trait": "sarcasm",
+        "options": [
+            {
+                "id": "75a",
+                "text": "Listen politely.",
+                "score": 0.2
+            },
+            {
+                "id": "75b",
+                "text": "'Wow, really? Tell me more.' (Deadpan)",
+                "score": 1.0
+            },
+            {
+                "id": "75c",
+                "text": "Interrupt slightly.",
+                "score": 0.5
+            },
+            {
+                "id": "75d",
+                "text": "Walk away.",
+                "score": 0.3
+            }
+        ]
+    },
+    {
+        "id": 76,
+        "question": "You have to wake up at 5AM.",
+        "trait": "responsibility",
+        "options": [
+            {
+                "id": "76a",
+                "text": "Set 10 alarms.",
+                "score": 0.8
+            },
+            {
+                "id": "76b",
+                "text": "Wake up at 4:59 naturally.",
+                "score": 1.0
+            },
+            {
+                "id": "76c",
+                "text": "Oversleep until noon.",
+                "score": 0.1
+            },
+            {
+                "id": "76d",
+                "text": "Don't sleep at all.",
+                "score": 0.5
+            }
+        ]
+    },
+    {
+        "id": 77,
+        "question": "Most important meal?",
+        "trait": "smart",
+        "options": [
+            {
+                "id": "77a",
+                "text": "Breakfast (Brain food).",
+                "score": 1.0
+            },
+            {
+                "id": "77b",
+                "text": "Pizza at 2AM.",
+                "score": 0.2
+            },
+            {
+                "id": "77c",
+                "text": "Coffee.",
+                "score": 0.5
+            },
+            {
+                "id": "77d",
+                "text": "Dessert.",
+                "score": 0.4
+            }
+        ]
+    },
+    {
+        "id": 78,
+        "question": "You break a vase in a store.",
+        "trait": "calm",
+        "options": [
+            {
+                "id": "78a",
+                "text": "Run.",
+                "score": 0.1
+            },
+            {
+                "id": "78b",
+                "text": "Cry.",
+                "score": 0.2
+            },
+            {
+                "id": "78c",
+                "text": "Inform staff calmly.",
+                "score": 1.0
+            },
+            {
+                "id": "78d",
+                "text": "Hide the pieces.",
+                "score": 0.3
+            }
+        ]
+    },
+    {
+        "id": 79,
+        "question": "Choose a weapon.",
+        "trait": "brave",
+        "options": [
+            {
+                "id": "79a",
+                "text": "Shield.",
+                "score": 0.5
+            },
+            {
+                "id": "79b",
+                "text": "Sword.",
+                "score": 1.0
+            },
+            {
+                "id": "79c",
+                "text": "Bow and Arrow.",
+                "score": 0.7
+            },
+            {
+                "id": "79d",
+                "text": "Poison.",
+                "score": 0.2
+            }
+        ]
+    },
+    {
+        "id": 80,
+        "question": "You see a celebrity being mobbed.",
+        "trait": "kind",
+        "options": [
+            {
+                "id": "80a",
+                "text": "Join the mob.",
+                "score": 0.1
+            },
+            {
+                "id": "80b",
+                "text": "Help them escape.",
+                "score": 1.0
+            },
+            {
+                "id": "80c",
+                "text": "Take a video.",
+                "score": 0.3
+            },
+            {
+                "id": "80d",
+                "text": "Ignore it.",
+                "score": 0.5
+            }
+        ]
+    },
+    {
+        "id": 81,
+        "question": "A rainy day is perfect for:",
+        "trait": "introversion",
+        "options": [
+            {
+                "id": "81a",
+                "text": "Sleeping.",
+                "score": 0.8
+            },
+            {
+                "id": "81b",
+                "text": "Reading by the window.",
+                "score": 1.0
+            },
+            {
+                "id": "81c",
+                "text": "Splashing in puddles.",
+                "score": 0.4
+            },
+            {
+                "id": "81d",
+                "text": "Reviewing finances.",
+                "score": 0.6
+            }
+        ]
+    },
+    {
+        "id": 82,
+        "question": "You find a diary.",
+        "trait": "honest",
+        "options": [
+            {
+                "id": "82a",
+                "text": "Read every page.",
+                "score": 0.1
+            },
+            {
+                "id": "82b",
+                "text": "Return it unread.",
+                "score": 1.0
+            },
+            {
+                "id": "82c",
+                "text": "Read one page.",
+                "score": 0.4
+            },
+            {
+                "id": "82d",
+                "text": "Throw it away.",
+                "score": 0.2
+            }
+        ]
+    },
+    {
+        "id": 83,
+        "question": "The power goes out.",
+        "trait": "leader",
+        "options": [
+            {
+                "id": "83a",
+                "text": "Check the breaker box.",
+                "score": 1.0
+            },
+            {
+                "id": "83b",
+                "text": "Scream.",
+                "score": 0.1
+            },
+            {
+                "id": "83c",
+                "text": "Light candles and tell stories.",
+                "score": 0.7
+            },
+            {
+                "id": "83d",
+                "text": "Go to sleep.",
+                "score": 0.5
+            }
+        ]
+    },
+    {
+        "id": 84,
+        "question": "Your friend is in jail.",
+        "trait": "loyal",
+        "options": [
+            {
+                "id": "84a",
+                "text": "Visit them weekly.",
+                "score": 0.8
+            },
+            {
+                "id": "84b",
+                "text": "Bail them out instantly.",
+                "score": 1.0
+            },
+            {
+                "id": "84c",
+                "text": "Delete their number.",
+                "score": 0.1
+            },
+            {
+                "id": "84d",
+                "text": "Ask what they did first.",
+                "score": 0.5
+            }
+        ]
+    },
+    {
+        "id": 85,
+        "question": "You have to cook dinner.",
+        "trait": "creative",
+        "options": [
+            {
+                "id": "85a",
+                "text": "Follow recipe exactly.",
+                "score": 0.3
+            },
+            {
+                "id": "85b",
+                "text": "Invent a new dish.",
+                "score": 1.0
+            },
+            {
+                "id": "85c",
+                "text": "Microwave meal.",
+                "score": 0.1
+            },
+            {
+                "id": "85d",
+                "text": "Order pizza.",
+                "score": 0.2
+            }
+        ]
+    },
+    {
+        "id": 86,
+        "question": "The elevator breaks.",
+        "trait": "optimism",
+        "options": [
+            {
+                "id": "86a",
+                "text": "We are going to die.",
+                "score": 0.1
+            },
+            {
+                "id": "86b",
+                "text": "Chance to make new friends!",
+                "score": 1.0
+            },
+            {
+                "id": "86c",
+                "text": "Press the alarm.",
+                "score": 0.6
+            },
+            {
+                "id": "86d",
+                "text": "Sit in silence.",
+                "score": 0.4
+            }
+        ]
+    },
+    {
+        "id": 87,
+        "question": "Someone challenges you to a duel.",
+        "trait": "sarcasm",
+        "options": [
+            {
+                "id": "87a",
+                "text": "Accept.",
+                "score": 0.2
+            },
+            {
+                "id": "87b",
+                "text": "Ask 'Pistols or Pillows?'",
+                "score": 1.0
+            },
+            {
+                "id": "87c",
+                "text": "Call the police.",
+                "score": 0.5
+            },
+            {
+                "id": "87d",
+                "text": "Run.",
+                "score": 0.1
+            }
+        ]
+    },
+    {
+        "id": 88,
+        "question": "You see a red button.",
+        "trait": "cunning",
+        "options": [
+            {
+                "id": "88a",
+                "text": "Press it.",
+                "score": 0.5
+            },
+            {
+                "id": "88b",
+                "text": "Charge people to press it.",
+                "score": 1.0
+            },
+            {
+                "id": "88c",
+                "text": "Paint it blue.",
+                "score": 0.8
+            },
+            {
+                "id": "88d",
+                "text": "Ignore it.",
+                "score": 0.2
+            }
+        ]
+    },
+    {
+        "id": 89,
+        "question": "Your boss is wrong.",
+        "trait": "ambitious",
+        "options": [
+            {
+                "id": "89a",
+                "text": "Correct them publicly.",
+                "score": 0.8
+            },
+            {
+                "id": "89b",
+                "text": "Correct them privately.",
+                "score": 1.0
+            },
+            {
+                "id": "89c",
+                "text": "Let them fail.",
+                "score": 0.6
+            },
+            {
+                "id": "89d",
+                "text": "Agree with them.",
+                "score": 0.2
+            }
+        ]
+    },
+    {
+        "id": 90,
+        "question": "Zombie apocalypse strategy?",
+        "trait": "smart",
+        "options": [
+            {
+                "id": "90a",
+                "text": "Fight everyone.",
+                "score": 0.2
+            },
+            {
+                "id": "90b",
+                "text": "Build a fortress.",
+                "score": 1.0
+            },
+            {
+                "id": "90c",
+                "text": "Join a group.",
+                "score": 0.6
+            },
+            {
+                "id": "90d",
+                "text": "Hide in a mall.",
+                "score": 0.5
+            }
+        ]
+    },
+    {
+        "id": 91,
+        "question": "You are at a party.",
+        "trait": "funny",
+        "options": [
+            {
+                "id": "91a",
+                "text": "Comfort the host.",
+                "score": 0.6
+            },
+            {
+                "id": "91b",
+                "text": "Dance on the table.",
+                "score": 1.0
+            },
+            {
+                "id": "91c",
+                "text": "Stand in the corner.",
+                "score": 0.2
+            },
+            {
+                "id": "91d",
+                "text": "Eat all the food.",
+                "score": 0.7
+            }
+        ]
+    },
+    {
+        "id": 92,
+        "question": "A child asks where babies come from.",
+        "trait": "responsibility",
+        "options": [
+            {
+                "id": "92a",
+                "text": "Tell the truth.",
+                "score": 0.8
+            },
+            {
+                "id": "92b",
+                "text": "Storks.",
+                "score": 0.4
+            },
+            {
+                "id": "92c",
+                "text": "Ask your parents.",
+                "score": 1.0
+            },
+            {
+                "id": "92d",
+                "text": "Amazon.",
+                "score": 0.2
+            }
+        ]
+    },
+    {
+        "id": 93,
+        "question": "You lose your wallet.",
+        "trait": "calm",
+        "options": [
+            {
+                "id": "93a",
+                "text": "Scream.",
+                "score": 0.1
+            },
+            {
+                "id": "93b",
+                "text": "Cancel cards immediately.",
+                "score": 1.0
+            },
+            {
+                "id": "93c",
+                "text": "Retrace steps.",
+                "score": 0.8
+            },
+            {
+                "id": "93d",
+                "text": "Blame the government.",
+                "score": 0.2
+            }
+        ]
+    },
+    {
+        "id": 94,
+        "question": "Your car breaks down.",
+        "trait": "optimism",
+        "options": [
+            {
+                "id": "94a",
+                "text": "Kick the tire.",
+                "score": 0.2
+            },
+            {
+                "id": "94b",
+                "text": "Enjoy the view while waiting.",
+                "score": 1.0
+            },
+            {
+                "id": "94c",
+                "text": "Fix it yourself.",
+                "score": 0.8
+            },
+            {
+                "id": "94d",
+                "text": "Cry.",
+                "score": 0.1
+            }
+        ]
+    },
+    {
+        "id": 95,
+        "question": "Someone spills a drink on you.",
+        "trait": "kind",
+        "options": [
+            {
+                "id": "95a",
+                "text": "Slap them.",
+                "score": 0.1
+            },
+            {
+                "id": "95b",
+                "text": "Say 'It's okay'.",
+                "score": 1.0
+            },
+            {
+                "id": "95c",
+                "text": "Demand dry cleaning fee.",
+                "score": 0.5
+            },
+            {
+                "id": "95d",
+                "text": "Laugh it off.",
+                "score": 0.8
+            }
+        ]
+    },
+    {
+        "id": 96,
+        "question": "You have a scary dream.",
+        "trait": "brave",
+        "options": [
+            {
+                "id": "96a",
+                "text": "Sleep with lights on.",
+                "score": 0.2
+            },
+            {
+                "id": "96b",
+                "text": "Analyze the meaning.",
+                "score": 0.8
+            },
+            {
+                "id": "96c",
+                "text": "Go back to sleep.",
+                "score": 1.0
+            },
+            {
+                "id": "96d",
+                "text": "Wake up everyone.",
+                "score": 0.1
+            }
+        ]
+    },
+    {
+        "id": 97,
+        "question": "Best genre of music?",
+        "trait": "introversion",
+        "options": [
+            {
+                "id": "97a",
+                "text": "Heavy Metal.",
+                "score": 0.4
+            },
+            {
+                "id": "97b",
+                "text": "Lo-Fi / Classical.",
+                "score": 1.0
+            },
+            {
+                "id": "97c",
+                "text": "Pop Hits.",
+                "score": 0.2
+            },
+            {
+                "id": "97d",
+                "text": "Jazz.",
+                "score": 0.8
+            }
+        ]
+    },
+    {
+        "id": 98,
+        "question": "You see a celebrity.",
+        "trait": "cunning",
+        "options": [
+            {
+                "id": "98a",
+                "text": "Ask for money.",
+                "score": 0.2
+            },
+            {
+                "id": "98b",
+                "text": "Network with them.",
+                "score": 1.0
+            },
+            {
+                "id": "98c",
+                "text": "Ignore them.",
+                "score": 0.5
+            },
+            {
+                "id": "98d",
+                "text": "Stalk them.",
+                "score": 0.1
+            }
+        ]
+    },
+    {
+        "id": 99,
+        "question": "Your house is on fire. Save one thing:",
+        "trait": "compassion",
+        "options": [
+            {
+                "id": "99a",
+                "text": "My laptop.",
+                "score": 0.2
+            },
+            {
+                "id": "99b",
+                "text": "The family pet.",
+                "score": 1.0
+            },
+            {
+                "id": "99c",
+                "text": "Photo album.",
+                "score": 0.8
+            },
+            {
+                "id": "99d",
+                "text": "Cash.",
+                "score": 0.4
+            }
+        ]
+    },
+    {
+        "id": 100,
+        "question": "Final question: Are you a good person?",
+        "trait": "honest",
+        "options": [
+            {
+                "id": "100a",
+                "text": "Yes, absolutely.",
+                "score": 0.5
+            },
+            {
+                "id": "100b",
+                "text": "I try my best.",
+                "score": 1.0
+            },
+            {
+                "id": "100c",
+                "text": "No, I'm evil.",
+                "score": 0.2
+            },
+            {
+                "id": "100d",
+                "text": "It's complicated.",
+                "score": 0.8
+            }
+        ]
     }
 ]
