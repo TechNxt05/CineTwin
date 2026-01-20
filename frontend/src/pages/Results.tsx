@@ -209,7 +209,7 @@ export default function Results() {
         )}
 
         {/* Global Leaderboard (Grid) */}
-        {isGlobalMatch && matchesList.length > 1 && (
+        {isGlobalMatch && matchesList.length > 0 && (
           <div className="mb-20">
             <h3 className="text-2xl font-bold text-white mb-8 flex items-center">
               <Trophy className="w-6 h-6 text-yellow-500 mr-3" />
@@ -226,7 +226,7 @@ export default function Results() {
                   <Card className="h-full hover:shadow-xl hover:shadow-primary/10 transition-all duration-300 hover:-translate-y-1">
                     <div className="flex items-center space-x-4 mb-4">
                       <div className="h-16 w-16 rounded-full bg-slate-800 overflow-hidden border border-slate-700 shrink-0">
-                        {match.character.image_url && <img src={match.character.image_url} className="w-full h-full object-cover" />}
+                        {match.character.image_url ? (<img src={match.character.image_url} className="w-full h-full object-cover" />) : (<div className="w-full h-full flex items-center justify-center text-2xl">{match.character.name[0]}</div>)}
                       </div>
                       <div>
                         <h4 className="font-bold text-lg text-white leading-tight">{match.character.name}</h4>
@@ -238,6 +238,39 @@ export default function Results() {
                       <span className="font-bold text-primary">{Math.round(match.score * 100)}%</span>
                     </div>
                   </Card>
+                </motion.div>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* Universe Breakdown Section (All Shows) */}
+        {isGlobalMatch && result.universe_breakdown && (
+          <div className="mb-20">
+            <h3 className="text-2xl font-bold text-white mb-8 flex items-center">
+              <Users className="w-6 h-6 text-blue-400 mr-3" />
+              Multiverse Breakdown (Best Match per Universe)
+            </h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+              {result.universe_breakdown.map((item: any, idx: number) => (
+                <motion.div
+                  key={item.universe}
+                  initial={{ opacity: 0, scale: 0.95 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  transition={{ delay: idx * 0.05 }}
+                >
+                  <div className="flex items-center p-4 rounded-xl bg-slate-900/40 border border-slate-800 hover:bg-slate-900/60 transition-colors">
+                    <div className="h-12 w-12 rounded-full bg-slate-800 shrink-0 overflow-hidden mr-4">
+                      {item.character.image_url ? <img src={item.character.image_url} className="w-full h-full object-cover" /> : <div className="w-full h-full flex items-center justify-center">{item.character.name[0]}</div>}
+                    </div>
+                    <div className="flex-1 min-w-0">
+                      <p className="text-xs text-slate-400 uppercase tracking-wide font-semibold">{item.universe}</p>
+                      <h4 className="text-white font-bold truncate">{item.character.name}</h4>
+                    </div>
+                    <div className="text-right">
+                      <span className="block text-lg font-bold text-primary">{Math.round(item.percentage)}%</span>
+                    </div>
+                  </div>
                 </motion.div>
               ))}
             </div>
