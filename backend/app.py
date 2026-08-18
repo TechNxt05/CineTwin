@@ -43,7 +43,8 @@ TRAIT_NAMES = [
     "leader", "smart", "kind", "brave", "calm", 
     "funny", "loyal", "honest", "ambitious", "creative",
     "cunning", "optimism", "sarcasm", "responsibility", 
-    "compassion", "introversion"
+    "compassion", "introversion", "resilience", "empathy",
+    "logic", "rebelliousness", "charm"
 ]
 
 # --- Helper Functions ---
@@ -310,6 +311,50 @@ def calculate_score():
     top_matches = matches[:5]
     top_match = top_matches[0] if top_matches else None
     
+    # Generate AI Analysis
+    ai_analysis = {
+        "description": "Your personality is a complex and fascinating mix, showing unique potential.",
+        "dream_city": "A beautiful, vibrant city.",
+        "favourite_hobby": "Engaging in creative and thoughtful activities."
+    }
+    
+    if top_match:
+        try:
+            # Create trait dictionary for prompt
+            user_traits_dict = {TRAIT_NAMES[i]: round(final_user_vector[i], 2) for i in range(len(TRAIT_NAMES))}
+            
+            prompt = f"""
+            Based on a user's personality quiz, they most closely matched the character "{top_match['character']['name']}" from "{top_match['character']['universe']}".
+            Their top personality traits and scores (0 to 1 scale) are:
+            {json.dumps(user_traits_dict, indent=2)}
+            
+            Write a highly engaging, complimentary, 1-paragraph personality analysis (max 4-5 sentences) describing their unique psyche and why they match this character. Address the user directly (e.g., "You are...").
+            Also, suggest a "Dream City" (a real-world city) that fits their vibe, and a "Favourite Hobby" that perfectly suits their personality.
+            
+            Return ONLY a valid JSON object in the exact format below, with NO markdown formatting, NO backticks, and NO extra text:
+            {{
+                "description": "the 1 paragraph description",
+                "dream_city": "City Name, Country",
+                "favourite_hobby": "Name of the hobby"
+            }}
+            """
+            
+            response = model.generate_content(prompt)
+            text_response = response.text.strip()
+            
+            # Cleanup markdown formatting if present
+            if text_response.startswith("```json"):
+                text_response = text_response.replace("```json", "").replace("```", "")
+            if text_response.startswith("```"):
+                 text_response = text_response.replace("```", "")
+            
+            ai_data = json.loads(text_response)
+            ai_analysis["description"] = ai_data.get("description", ai_analysis["description"])
+            ai_analysis["dream_city"] = ai_data.get("dream_city", ai_analysis["dream_city"])
+            ai_analysis["favourite_hobby"] = ai_data.get("favourite_hobby", ai_analysis["favourite_hobby"])
+        except Exception as e:
+            logger.error(f"Error generating AI analysis: {e}")
+    
     # 5. Enhanced Logging (Questions + Answers + Results)
     # Reconstruct the Q&A log for the DB
     qa_log = []
@@ -334,7 +379,8 @@ def calculate_score():
         'favorite_cricketer': favorite_cricketer,
         'favorite_personality': favorite_personality,
         'top_matches': [m['character']['name'] for m in top_matches],
-        'best_match_score': top_match['percentage'] if top_match else 0
+        'best_match_score': top_match['percentage'] if top_match else 0,
+        'ai_analysis': ai_analysis
     }
     # Calculate Universe Breakdown (Best per Universe)
     universe_breakdown = []
@@ -360,7 +406,8 @@ def calculate_score():
     return jsonify({
         'matches': top_matches, 
         'user_vector': final_user_vector,
-        'universe_breakdown': universe_breakdown
+        'universe_breakdown': universe_breakdown,
+        'ai_analysis': ai_analysis
     })
 
 @app.route('/api/feedback', methods=['POST'])

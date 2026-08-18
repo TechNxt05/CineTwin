@@ -17,7 +17,19 @@ const UNIVERSES = [
   'Death Note',
   'Panchayat',
   'Young Sheldon',
-  'Modern Family'
+  'Modern Family',
+  'Parasyte',
+  'Classroom of the Elite',
+  'Assassination Classroom',
+  'Spy x Family',
+  'Monster',
+  'One Piece',
+  'Naruto',
+  'Blue Period',
+  'Vinland Saga',
+  'HunterXHunter',
+  'Devil May Cry',
+  'Sakamoto Days'
 ]
 
 export default function Landing() {
@@ -134,19 +146,18 @@ export default function Landing() {
 
               <input
                 type="range"
-                min="15"
-                max="30"
-                step="5"
+                min="30"
+                max="50"
+                step="10"
                 value={questionCount}
                 onChange={(e) => setQuestionCount(Number(e.target.value))}
                 className="w-full h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-primary"
               />
 
               <div className="flex justify-between text-xs text-slate-500 font-medium px-1">
-                <span>Quick (15)</span>
-                <span>Standard (20)</span>
-                <span>Deep (25)</span>
-                <span>Precise (30)</span>
+                <span>Standard (30)</span>
+                <span>Deep (40)</span>
+                <span>Precise (50)</span>
               </div>
               <p className="text-xs text-center text-slate-400 italic">
                 *More questions = Higher accuracy matches

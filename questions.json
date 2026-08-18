@@ -1,219 +1,1666 @@
 [
-    {
-      "id": 1,
-      "question": "Do you prefer spending time alone or with a group of people?",
-      "trait": "introversion",
-      "options": [
-        {"id": "1A", "text": "Always alone", "score": 1.0},
-        {"id": "1B", "text": "Mostly alone", "score": 0.7},
-        {"id": "1C", "text": "Balanced mix", "score": 0.5},
-        {"id": "1D", "text": "Mostly groups", "score": 0.3},
-        {"id": "1E", "text": "Always groups", "score": 0.0}
-      ]
-    },
-    {
-      "id": 2,
-      "question": "How do you usually recharge your energy?",
-      "trait": "introversion",
-      "options": [
-        {"id": "2A", "text": "Quiet personal time", "score": 1.0},
-        {"id": "2B", "text": "With 1–2 close people", "score": 0.7},
-        {"id": "2C", "text": "A mix of both", "score": 0.5},
-        {"id": "2D", "text": "With friends around", "score": 0.3},
-        {"id": "2E", "text": "Big social events", "score": 0.0}
-      ]
-    },
-    {
-      "id": 3,
-      "question": "How would your friends describe your sense of humor?",
-      "trait": "humor",
-      "options": [
-        {"id": "3A", "text": "Very serious", "score": 0.0},
-        {"id": "3B", "text": "Slightly funny", "score": 0.3},
-        {"id": "3C", "text": "Sometimes funny", "score": 0.5},
-        {"id": "3D", "text": "Often crack jokes", "score": 0.7},
-        {"id": "3E", "text": "Life of the party", "score": 1.0}
-      ]
-    },
-    {
-      "id": 4,
-      "question": "Do you enjoy making others laugh?",
-      "trait": "humor",
-      "options": [
-        {"id": "4A", "text": "Not at all", "score": 0.0},
-        {"id": "4B", "text": "Rarely", "score": 0.3},
-        {"id": "4C", "text": "Sometimes", "score": 0.5},
-        {"id": "4D", "text": "Often", "score": 0.7},
-        {"id": "4E", "text": "Always, it’s my thing", "score": 1.0}
-      ]
-    },
-    {
-      "id": 5,
-      "question": "Do you take risks even if it’s dangerous?",
-      "trait": "bravery",
-      "options": [
-        {"id": "5A", "text": "Never", "score": 0.0},
-        {"id": "5B", "text": "Rarely", "score": 0.3},
-        {"id": "5C", "text": "Sometimes", "score": 0.5},
-        {"id": "5D", "text": "Often", "score": 0.7},
-        {"id": "5E", "text": "Always", "score": 1.0}
-      ]
-    },
-    {
-      "id": 6,
-      "question": "Would you stand up against a stronger opponent for what’s right?",
-      "trait": "bravery",
-      "options": [
-        {"id": "6A", "text": "Never", "score": 0.0},
-        {"id": "6B", "text": "Only if forced", "score": 0.3},
-        {"id": "6C", "text": "Sometimes", "score": 0.5},
-        {"id": "6D", "text": "Mostly yes", "score": 0.7},
-        {"id": "6E", "text": "Always", "score": 1.0}
-      ]
-    },
-    {
-      "id": 7,
-      "question": "How loyal are you to your friends and family?",
-      "trait": "loyalty",
-      "options": [
-        {"id": "7A", "text": "Not loyal", "score": 0.0},
-        {"id": "7B", "text": "A little loyal", "score": 0.3},
-        {"id": "7C", "text": "Somewhat loyal", "score": 0.5},
-        {"id": "7D", "text": "Very loyal", "score": 0.7},
-        {"id": "7E", "text": "Unshakably loyal", "score": 1.0}
-      ]
-    },
-    {
-      "id": 8,
-      "question": "Do you prioritize personal goals over loyalty to others?",
-      "trait": "loyalty",
-      "options": [
-        {"id": "8A", "text": "Always personal goals", "score": 0.0},
-        {"id": "8B", "text": "Mostly personal", "score": 0.3},
-        {"id": "8C", "text": "Balanced mix", "score": 0.5},
-        {"id": "8D", "text": "Mostly loyal", "score": 0.7},
-        {"id": "8E", "text": "Always loyal", "score": 1.0}
-      ]
-    },
-    {
-      "id": 9,
-      "question": "Do you dream of achieving something great?",
-      "trait": "ambition",
-      "options": [
-        {"id": "9A", "text": "Not at all", "score": 0.0},
-        {"id": "9B", "text": "Rarely", "score": 0.3},
-        {"id": "9C", "text": "Sometimes", "score": 0.5},
-        {"id": "9D", "text": "Often", "score": 0.7},
-        {"id": "9E", "text": "Always, I aim big", "score": 1.0}
-      ]
-    },
-    {
-      "id": 10,
-      "question": "Would you sacrifice friendships for success?",
-      "trait": "ambition",
-      "options": [
-        {"id": "10A", "text": "Never", "score": 0.0},
-        {"id": "10B", "text": "Rarely", "score": 0.3},
-        {"id": "10C", "text": "Sometimes", "score": 0.5},
-        {"id": "10D", "text": "Often", "score": 0.7},
-        {"id": "10E", "text": "Always, success first", "score": 1.0}
-      ]
-    },
-    {
-      "id": 11,
-      "question": "How easily do you feel empathy for others?",
-      "trait": "compassion",
-      "options": [
-        {"id": "11A", "text": "Never", "score": 0.0},
-        {"id": "11B", "text": "Rarely", "score": 0.3},
-        {"id": "11C", "text": "Sometimes", "score": 0.5},
-        {"id": "11D", "text": "Often", "score": 0.7},
-        {"id": "11E", "text": "Always deeply", "score": 1.0}
-      ]
-    },
-    {
-      "id": 12,
-      "question": "Would you help a stranger in need?",
-      "trait": "compassion",
-      "options": [
-        {"id": "12A", "text": "Never", "score": 0.0},
-        {"id": "12B", "text": "Rarely", "score": 0.3},
-        {"id": "12C", "text": "Sometimes", "score": 0.5},
-        {"id": "12D", "text": "Often", "score": 0.7},
-        {"id": "12E", "text": "Always", "score": 1.0}
-      ]
-    },
-    {
-      "id": 13,
-      "question": "Do you enjoy outsmarting others?",
-      "trait": "cunning",
-      "options": [
-        {"id": "13A", "text": "Not at all", "score": 0.0},
-        {"id": "13B", "text": "Rarely", "score": 0.3},
-        {"id": "13C", "text": "Sometimes", "score": 0.5},
-        {"id": "13D", "text": "Often", "score": 0.7},
-        {"id": "13E", "text": "Always, it excites me", "score": 1.0}
-      ]
-    },
-    {
-      "id": 14,
-      "question": "Would you bend rules to achieve your goal?",
-      "trait": "cunning",
-      "options": [
-        {"id": "14A", "text": "Never", "score": 0.0},
-        {"id": "14B", "text": "Rarely", "score": 0.3},
-        {"id": "14C", "text": "Sometimes", "score": 0.5},
-        {"id": "14D", "text": "Often", "score": 0.7},
-        {"id": "14E", "text": "Always, rules are flexible", "score": 1.0}
-      ]
-    },
-    {
-      "id": 15,
-      "question": "Do you take responsibility for your mistakes?",
-      "trait": "responsibility",
-      "options": [
-        {"id": "15A", "text": "Never", "score": 0.0},
-        {"id": "15B", "text": "Rarely", "score": 0.3},
-        {"id": "15C", "text": "Sometimes", "score": 0.5},
-        {"id": "15D", "text": "Often", "score": 0.7},
-        {"id": "15E", "text": "Always, I own up", "score": 1.0}
-      ]
-    },
-    {
-      "id": 16,
-      "question": "How disciplined are you in keeping promises?",
-      "trait": "responsibility",
-      "options": [
-        {"id": "16A", "text": "Not at all", "score": 0.0},
-        {"id": "16B", "text": "Slightly", "score": 0.3},
-        {"id": "16C", "text": "Sometimes", "score": 0.5},
-        {"id": "16D", "text": "Usually yes", "score": 0.7},
-        {"id": "16E", "text": "Always without fail", "score": 1.0}
-      ]
-    },
-    {
-      "id": 17,
-      "question": "Do you often use sarcasm?",
-      "trait": "sarcasm",
-      "options": [
-        {"id": "17A", "text": "Never", "score": 0.0},
-        {"id": "17B", "text": "Rarely", "score": 0.3},
-        {"id": "17C", "text": "Sometimes", "score": 0.5},
-        {"id": "17D", "text": "Often", "score": 0.7},
-        {"id": "17E", "text": "Always, it’s my language", "score": 1.0}
-      ]
-    },
-    {
-      "id": 18,
-      "question": "Do you remain hopeful even in hard times?",
-      "trait": "optimism",
-      "options": [
-        {"id": "18A", "text": "Never", "score": 0.0},
-        {"id": "18B", "text": "Rarely hopeful", "score": 0.3},
-        {"id": "18C", "text": "Sometimes", "score": 0.5},
-        {"id": "18D", "text": "Often positive", "score": 0.7},
-        {"id": "18E", "text": "Always hopeful", "score": 1.0}
-      ]
-    }
-  ]
-  
+  {
+    "id": 1,
+    "question": "Do you prefer spending time alone or with a group of people?",
+    "trait": "introversion",
+    "options": [
+      {
+        "id": "1A",
+        "text": "Always alone",
+        "score": 1.0
+      },
+      {
+        "id": "1B",
+        "text": "Mostly alone",
+        "score": 0.7
+      },
+      {
+        "id": "1C",
+        "text": "Balanced mix",
+        "score": 0.5
+      },
+      {
+        "id": "1D",
+        "text": "Mostly groups",
+        "score": 0.3
+      },
+      {
+        "id": "1E",
+        "text": "Always groups",
+        "score": 0.0
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "How do you usually recharge your energy?",
+    "trait": "introversion",
+    "options": [
+      {
+        "id": "2A",
+        "text": "Quiet personal time",
+        "score": 1.0
+      },
+      {
+        "id": "2B",
+        "text": "With 1\u00e2\u20ac\u201c2 close people",
+        "score": 0.7
+      },
+      {
+        "id": "2C",
+        "text": "A mix of both",
+        "score": 0.5
+      },
+      {
+        "id": "2D",
+        "text": "With friends around",
+        "score": 0.3
+      },
+      {
+        "id": "2E",
+        "text": "Big social events",
+        "score": 0.0
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "How would your friends describe your sense of humor?",
+    "trait": "humor",
+    "options": [
+      {
+        "id": "3A",
+        "text": "Very serious",
+        "score": 0.0
+      },
+      {
+        "id": "3B",
+        "text": "Slightly funny",
+        "score": 0.3
+      },
+      {
+        "id": "3C",
+        "text": "Sometimes funny",
+        "score": 0.5
+      },
+      {
+        "id": "3D",
+        "text": "Often crack jokes",
+        "score": 0.7
+      },
+      {
+        "id": "3E",
+        "text": "Life of the party",
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "Do you enjoy making others laugh?",
+    "trait": "humor",
+    "options": [
+      {
+        "id": "4A",
+        "text": "Not at all",
+        "score": 0.0
+      },
+      {
+        "id": "4B",
+        "text": "Rarely",
+        "score": 0.3
+      },
+      {
+        "id": "4C",
+        "text": "Sometimes",
+        "score": 0.5
+      },
+      {
+        "id": "4D",
+        "text": "Often",
+        "score": 0.7
+      },
+      {
+        "id": "4E",
+        "text": "Always, it\u00e2\u20ac\u2122s my thing",
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "question": "Do you take risks even if it\u00e2\u20ac\u2122s dangerous?",
+    "trait": "bravery",
+    "options": [
+      {
+        "id": "5A",
+        "text": "Never",
+        "score": 0.0
+      },
+      {
+        "id": "5B",
+        "text": "Rarely",
+        "score": 0.3
+      },
+      {
+        "id": "5C",
+        "text": "Sometimes",
+        "score": 0.5
+      },
+      {
+        "id": "5D",
+        "text": "Often",
+        "score": 0.7
+      },
+      {
+        "id": "5E",
+        "text": "Always",
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "question": "Would you stand up against a stronger opponent for what\u00e2\u20ac\u2122s right?",
+    "trait": "bravery",
+    "options": [
+      {
+        "id": "6A",
+        "text": "Never",
+        "score": 0.0
+      },
+      {
+        "id": "6B",
+        "text": "Only if forced",
+        "score": 0.3
+      },
+      {
+        "id": "6C",
+        "text": "Sometimes",
+        "score": 0.5
+      },
+      {
+        "id": "6D",
+        "text": "Mostly yes",
+        "score": 0.7
+      },
+      {
+        "id": "6E",
+        "text": "Always",
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "question": "How loyal are you to your friends and family?",
+    "trait": "loyalty",
+    "options": [
+      {
+        "id": "7A",
+        "text": "Not loyal",
+        "score": 0.0
+      },
+      {
+        "id": "7B",
+        "text": "A little loyal",
+        "score": 0.3
+      },
+      {
+        "id": "7C",
+        "text": "Somewhat loyal",
+        "score": 0.5
+      },
+      {
+        "id": "7D",
+        "text": "Very loyal",
+        "score": 0.7
+      },
+      {
+        "id": "7E",
+        "text": "Unshakably loyal",
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "question": "Do you prioritize personal goals over loyalty to others?",
+    "trait": "loyalty",
+    "options": [
+      {
+        "id": "8A",
+        "text": "Always personal goals",
+        "score": 0.0
+      },
+      {
+        "id": "8B",
+        "text": "Mostly personal",
+        "score": 0.3
+      },
+      {
+        "id": "8C",
+        "text": "Balanced mix",
+        "score": 0.5
+      },
+      {
+        "id": "8D",
+        "text": "Mostly loyal",
+        "score": 0.7
+      },
+      {
+        "id": "8E",
+        "text": "Always loyal",
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "question": "Do you dream of achieving something great?",
+    "trait": "ambition",
+    "options": [
+      {
+        "id": "9A",
+        "text": "Not at all",
+        "score": 0.0
+      },
+      {
+        "id": "9B",
+        "text": "Rarely",
+        "score": 0.3
+      },
+      {
+        "id": "9C",
+        "text": "Sometimes",
+        "score": 0.5
+      },
+      {
+        "id": "9D",
+        "text": "Often",
+        "score": 0.7
+      },
+      {
+        "id": "9E",
+        "text": "Always, I aim big",
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "question": "Would you sacrifice friendships for success?",
+    "trait": "ambition",
+    "options": [
+      {
+        "id": "10A",
+        "text": "Never",
+        "score": 0.0
+      },
+      {
+        "id": "10B",
+        "text": "Rarely",
+        "score": 0.3
+      },
+      {
+        "id": "10C",
+        "text": "Sometimes",
+        "score": 0.5
+      },
+      {
+        "id": "10D",
+        "text": "Often",
+        "score": 0.7
+      },
+      {
+        "id": "10E",
+        "text": "Always, success first",
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "question": "How easily do you feel empathy for others?",
+    "trait": "compassion",
+    "options": [
+      {
+        "id": "11A",
+        "text": "Never",
+        "score": 0.0
+      },
+      {
+        "id": "11B",
+        "text": "Rarely",
+        "score": 0.3
+      },
+      {
+        "id": "11C",
+        "text": "Sometimes",
+        "score": 0.5
+      },
+      {
+        "id": "11D",
+        "text": "Often",
+        "score": 0.7
+      },
+      {
+        "id": "11E",
+        "text": "Always deeply",
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "question": "Would you help a stranger in need?",
+    "trait": "compassion",
+    "options": [
+      {
+        "id": "12A",
+        "text": "Never",
+        "score": 0.0
+      },
+      {
+        "id": "12B",
+        "text": "Rarely",
+        "score": 0.3
+      },
+      {
+        "id": "12C",
+        "text": "Sometimes",
+        "score": 0.5
+      },
+      {
+        "id": "12D",
+        "text": "Often",
+        "score": 0.7
+      },
+      {
+        "id": "12E",
+        "text": "Always",
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "question": "Do you enjoy outsmarting others?",
+    "trait": "cunning",
+    "options": [
+      {
+        "id": "13A",
+        "text": "Not at all",
+        "score": 0.0
+      },
+      {
+        "id": "13B",
+        "text": "Rarely",
+        "score": 0.3
+      },
+      {
+        "id": "13C",
+        "text": "Sometimes",
+        "score": 0.5
+      },
+      {
+        "id": "13D",
+        "text": "Often",
+        "score": 0.7
+      },
+      {
+        "id": "13E",
+        "text": "Always, it excites me",
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "question": "Would you bend rules to achieve your goal?",
+    "trait": "cunning",
+    "options": [
+      {
+        "id": "14A",
+        "text": "Never",
+        "score": 0.0
+      },
+      {
+        "id": "14B",
+        "text": "Rarely",
+        "score": 0.3
+      },
+      {
+        "id": "14C",
+        "text": "Sometimes",
+        "score": 0.5
+      },
+      {
+        "id": "14D",
+        "text": "Often",
+        "score": 0.7
+      },
+      {
+        "id": "14E",
+        "text": "Always, rules are flexible",
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "question": "Do you take responsibility for your mistakes?",
+    "trait": "responsibility",
+    "options": [
+      {
+        "id": "15A",
+        "text": "Never",
+        "score": 0.0
+      },
+      {
+        "id": "15B",
+        "text": "Rarely",
+        "score": 0.3
+      },
+      {
+        "id": "15C",
+        "text": "Sometimes",
+        "score": 0.5
+      },
+      {
+        "id": "15D",
+        "text": "Often",
+        "score": 0.7
+      },
+      {
+        "id": "15E",
+        "text": "Always, I own up",
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "question": "How disciplined are you in keeping promises?",
+    "trait": "responsibility",
+    "options": [
+      {
+        "id": "16A",
+        "text": "Not at all",
+        "score": 0.0
+      },
+      {
+        "id": "16B",
+        "text": "Slightly",
+        "score": 0.3
+      },
+      {
+        "id": "16C",
+        "text": "Sometimes",
+        "score": 0.5
+      },
+      {
+        "id": "16D",
+        "text": "Usually yes",
+        "score": 0.7
+      },
+      {
+        "id": "16E",
+        "text": "Always without fail",
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "question": "Do you often use sarcasm?",
+    "trait": "sarcasm",
+    "options": [
+      {
+        "id": "17A",
+        "text": "Never",
+        "score": 0.0
+      },
+      {
+        "id": "17B",
+        "text": "Rarely",
+        "score": 0.3
+      },
+      {
+        "id": "17C",
+        "text": "Sometimes",
+        "score": 0.5
+      },
+      {
+        "id": "17D",
+        "text": "Often",
+        "score": 0.7
+      },
+      {
+        "id": "17E",
+        "text": "Always, it\u00e2\u20ac\u2122s my language",
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "question": "Do you remain hopeful even in hard times?",
+    "trait": "optimism",
+    "options": [
+      {
+        "id": "18A",
+        "text": "Never",
+        "score": 0.0
+      },
+      {
+        "id": "18B",
+        "text": "Rarely hopeful",
+        "score": 0.3
+      },
+      {
+        "id": "18C",
+        "text": "Sometimes",
+        "score": 0.5
+      },
+      {
+        "id": "18D",
+        "text": "Often positive",
+        "score": 0.7
+      },
+      {
+        "id": "18E",
+        "text": "Always hopeful",
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "question": "How do you handle a sudden, major failure?",
+    "trait": "resilience",
+    "options": [
+      {
+        "id": "19A",
+        "text": "Give up entirely",
+        "score": 0.0
+      },
+      {
+        "id": "19B",
+        "text": "Complain for days",
+        "score": 0.3
+      },
+      {
+        "id": "19C",
+        "text": "Feel down but try again eventually",
+        "score": 0.5
+      },
+      {
+        "id": "19D",
+        "text": "Analyze what went wrong immediately",
+        "score": 0.8
+      },
+      {
+        "id": "19E",
+        "text": "Bounce back instantly, stronger than before",
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "question": "When someone insults you, what is your first reaction?",
+    "trait": "resilience",
+    "options": [
+      {
+        "id": "20A",
+        "text": "Cry or retreat",
+        "score": 0.0
+      },
+      {
+        "id": "20B",
+        "text": "Get extremely angry",
+        "score": 0.3
+      },
+      {
+        "id": "20C",
+        "text": "Ignore them",
+        "score": 0.5
+      },
+      {
+        "id": "20D",
+        "text": "Brush it off with a smile",
+        "score": 0.8
+      },
+      {
+        "id": "20E",
+        "text": "Use it as motivation to improve",
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "question": "If you see a stranger crying on a bench, what do you do?",
+    "trait": "empathy",
+    "options": [
+      {
+        "id": "21A",
+        "text": "Walk away quickly",
+        "score": 0.0
+      },
+      {
+        "id": "21B",
+        "text": "Stare but do nothing",
+        "score": 0.3
+      },
+      {
+        "id": "21C",
+        "text": "Feel bad but keep walking",
+        "score": 0.5
+      },
+      {
+        "id": "21D",
+        "text": "Ask if they are okay",
+        "score": 0.8
+      },
+      {
+        "id": "21E",
+        "text": "Sit down and comfort them until they feel better",
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "question": "How well do you understand the feelings of your friends?",
+    "trait": "empathy",
+    "options": [
+      {
+        "id": "22A",
+        "text": "Not at all",
+        "score": 0.0
+      },
+      {
+        "id": "22B",
+        "text": "Only when they tell me explicitly",
+        "score": 0.3
+      },
+      {
+        "id": "22C",
+        "text": "Somewhat",
+        "score": 0.5
+      },
+      {
+        "id": "22D",
+        "text": "Pretty well, I can read their moods",
+        "score": 0.8
+      },
+      {
+        "id": "22E",
+        "text": "I feel exactly what they feel",
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "question": "When solving a puzzle or mystery, how do you approach it?",
+    "trait": "logic",
+    "options": [
+      {
+        "id": "23A",
+        "text": "Guess randomly",
+        "score": 0.0
+      },
+      {
+        "id": "23B",
+        "text": "Follow my gut feeling",
+        "score": 0.3
+      },
+      {
+        "id": "23C",
+        "text": "Try a few obvious things",
+        "score": 0.5
+      },
+      {
+        "id": "23D",
+        "text": "Break it down into steps",
+        "score": 0.8
+      },
+      {
+        "id": "23E",
+        "text": "Analyze all data systematically before acting",
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "question": "Do you let your emotions control your decisions?",
+    "trait": "logic",
+    "options": [
+      {
+        "id": "24A",
+        "text": "Always",
+        "score": 0.0
+      },
+      {
+        "id": "24B",
+        "text": "Most of the time",
+        "score": 0.3
+      },
+      {
+        "id": "24C",
+        "text": "Half the time",
+        "score": 0.5
+      },
+      {
+        "id": "24D",
+        "text": "Rarely",
+        "score": 0.8
+      },
+      {
+        "id": "24E",
+        "text": "Never, I am purely rational",
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "question": "How do you feel about strict rules?",
+    "trait": "rebelliousness",
+    "options": [
+      {
+        "id": "25A",
+        "text": "I love them, they keep order",
+        "score": 0.0
+      },
+      {
+        "id": "25B",
+        "text": "They are necessary",
+        "score": 0.3
+      },
+      {
+        "id": "25C",
+        "text": "I follow them if they make sense",
+        "score": 0.5
+      },
+      {
+        "id": "25D",
+        "text": "I bend them often",
+        "score": 0.8
+      },
+      {
+        "id": "25E",
+        "text": "Rules are meant to be broken",
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "question": "If an authority figure tells you to do something you disagree with, what do you do?",
+    "trait": "rebelliousness",
+    "options": [
+      {
+        "id": "26A",
+        "text": "Obey immediately",
+        "score": 0.0
+      },
+      {
+        "id": "26B",
+        "text": "Grumble but obey",
+        "score": 0.3
+      },
+      {
+        "id": "26C",
+        "text": "Argue a bit but eventually do it",
+        "score": 0.5
+      },
+      {
+        "id": "26D",
+        "text": "Refuse and walk away",
+        "score": 0.8
+      },
+      {
+        "id": "26E",
+        "text": "Actively do the exact opposite",
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "question": "When you walk into a room, how do people react to you?",
+    "trait": "charm",
+    "options": [
+      {
+        "id": "27A",
+        "text": "They ignore me completely",
+        "score": 0.0
+      },
+      {
+        "id": "27B",
+        "text": "They barely notice",
+        "score": 0.3
+      },
+      {
+        "id": "27C",
+        "text": "A few people say hi",
+        "score": 0.5
+      },
+      {
+        "id": "27D",
+        "text": "People smile and welcome me",
+        "score": 0.8
+      },
+      {
+        "id": "27E",
+        "text": "All eyes are on me, everyone wants to talk to me",
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "question": "How easily can you convince someone to do a favor for you?",
+    "trait": "charm",
+    "options": [
+      {
+        "id": "28A",
+        "text": "Impossible",
+        "score": 0.0
+      },
+      {
+        "id": "28B",
+        "text": "Very hard",
+        "score": 0.3
+      },
+      {
+        "id": "28C",
+        "text": "Depends on the favor",
+        "score": 0.5
+      },
+      {
+        "id": "28D",
+        "text": "Pretty easily",
+        "score": 0.8
+      },
+      {
+        "id": "28E",
+        "text": "I can talk anyone into anything effortlessly",
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "question": "How do you approach a long-term goal?",
+    "trait": "ambition",
+    "options": [
+      {
+        "id": "29A",
+        "text": "I don't have any",
+        "score": 0.0
+      },
+      {
+        "id": "29B",
+        "text": "I dream about it but do nothing",
+        "score": 0.3
+      },
+      {
+        "id": "29C",
+        "text": "I take small steps occasionally",
+        "score": 0.5
+      },
+      {
+        "id": "29D",
+        "text": "I work steadily towards it",
+        "score": 0.8
+      },
+      {
+        "id": "29E",
+        "text": "I will sacrifice anything to achieve it",
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "question": "What's your reaction to being told 'you can't do that'?",
+    "trait": "ambition",
+    "options": [
+      {
+        "id": "30A",
+        "text": "I agree and stop",
+        "score": 0.0
+      },
+      {
+        "id": "30B",
+        "text": "I feel sad and give up",
+        "score": 0.3
+      },
+      {
+        "id": "30C",
+        "text": "I get annoyed",
+        "score": 0.5
+      },
+      {
+        "id": "30D",
+        "text": "I try to prove them wrong",
+        "score": 0.8
+      },
+      {
+        "id": "30E",
+        "text": "I will accomplish it just to spite them",
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "question": "How do you act in a life-or-death situation?",
+    "trait": "bravery",
+    "options": [
+      {
+        "id": "31A",
+        "text": "Freeze in terror",
+        "score": 0.0
+      },
+      {
+        "id": "31B",
+        "text": "Run away immediately",
+        "score": 0.3
+      },
+      {
+        "id": "31C",
+        "text": "Look for someone else to help",
+        "score": 0.5
+      },
+      {
+        "id": "31D",
+        "text": "Try to fight or fix it cautiously",
+        "score": 0.8
+      },
+      {
+        "id": "31E",
+        "text": "Charge in without hesitation",
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "question": "Are you afraid of the dark or the unknown?",
+    "trait": "bravery",
+    "options": [
+      {
+        "id": "32A",
+        "text": "Terrified",
+        "score": 0.0
+      },
+      {
+        "id": "32B",
+        "text": "Very scared",
+        "score": 0.3
+      },
+      {
+        "id": "32C",
+        "text": "A little nervous",
+        "score": 0.5
+      },
+      {
+        "id": "32D",
+        "text": "Mostly fine",
+        "score": 0.8
+      },
+      {
+        "id": "32E",
+        "text": "I embrace the unknown",
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "question": "When a friend makes a mistake, how do you handle it?",
+    "trait": "compassion",
+    "options": [
+      {
+        "id": "33A",
+        "text": "Yell at them",
+        "score": 0.0
+      },
+      {
+        "id": "33B",
+        "text": "Point it out harshly",
+        "score": 0.3
+      },
+      {
+        "id": "33C",
+        "text": "Ignore it",
+        "score": 0.5
+      },
+      {
+        "id": "33D",
+        "text": "Gently correct them",
+        "score": 0.8
+      },
+      {
+        "id": "33E",
+        "text": "Comfort them and help fix it together",
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "question": "How much do you care about animals?",
+    "trait": "compassion",
+    "options": [
+      {
+        "id": "34A",
+        "text": "Hate them",
+        "score": 0.0
+      },
+      {
+        "id": "34B",
+        "text": "Indifferent",
+        "score": 0.3
+      },
+      {
+        "id": "34C",
+        "text": "They are okay",
+        "score": 0.5
+      },
+      {
+        "id": "34D",
+        "text": "I like them a lot",
+        "score": 0.8
+      },
+      {
+        "id": "34E",
+        "text": "I would risk my life to save an animal",
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "question": "If you need to win a game, how far will you go?",
+    "trait": "cunning",
+    "options": [
+      {
+        "id": "35A",
+        "text": "I play 100% fair",
+        "score": 0.0
+      },
+      {
+        "id": "35B",
+        "text": "I follow all rules strictly",
+        "score": 0.3
+      },
+      {
+        "id": "35C",
+        "text": "I might look for loopholes",
+        "score": 0.5
+      },
+      {
+        "id": "35D",
+        "text": "I will trick my opponent",
+        "score": 0.8
+      },
+      {
+        "id": "35E",
+        "text": "I will cheat if I can get away with it",
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "question": "How often do you lie to get what you want?",
+    "trait": "cunning",
+    "options": [
+      {
+        "id": "36A",
+        "text": "Never",
+        "score": 0.0
+      },
+      {
+        "id": "36B",
+        "text": "Rarely",
+        "score": 0.3
+      },
+      {
+        "id": "36C",
+        "text": "Sometimes",
+        "score": 0.5
+      },
+      {
+        "id": "36D",
+        "text": "Often",
+        "score": 0.8
+      },
+      {
+        "id": "36E",
+        "text": "Constantly, my life is a web of lies",
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "question": "When a project is assigned to your team, what is your role?",
+    "trait": "leader",
+    "options": [
+      {
+        "id": "37A",
+        "text": "I hide and do nothing",
+        "score": 0.0
+      },
+      {
+        "id": "37B",
+        "text": "I just do what I'm told",
+        "score": 0.3
+      },
+      {
+        "id": "37C",
+        "text": "I help out",
+        "score": 0.5
+      },
+      {
+        "id": "37D",
+        "text": "I suggest ideas and guide",
+        "score": 0.8
+      },
+      {
+        "id": "37E",
+        "text": "I immediately take charge and assign roles",
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "question": "Do you enjoy being the center of attention?",
+    "trait": "leader",
+    "options": [
+      {
+        "id": "38A",
+        "text": "Absolutely hate it",
+        "score": 0.0
+      },
+      {
+        "id": "38B",
+        "text": "Dislike it",
+        "score": 0.3
+      },
+      {
+        "id": "38C",
+        "text": "It's fine sometimes",
+        "score": 0.5
+      },
+      {
+        "id": "38D",
+        "text": "I enjoy it",
+        "score": 0.8
+      },
+      {
+        "id": "38E",
+        "text": "I thrive on it",
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "question": "Do you prefer planning or acting spontaneously?",
+    "trait": "logic",
+    "options": [
+      {
+        "id": "39A",
+        "text": "100% spontaneous",
+        "score": 0.0
+      },
+      {
+        "id": "39B",
+        "text": "Mostly spontaneous",
+        "score": 0.3
+      },
+      {
+        "id": "39C",
+        "text": "A mix of both",
+        "score": 0.5
+      },
+      {
+        "id": "39D",
+        "text": "Mostly planning",
+        "score": 0.8
+      },
+      {
+        "id": "39E",
+        "text": "Everything must be planned perfectly",
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "question": "How do you feel about traditional values?",
+    "trait": "rebelliousness",
+    "options": [
+      {
+        "id": "40A",
+        "text": "I hold them sacred",
+        "score": 0.0
+      },
+      {
+        "id": "40B",
+        "text": "They are good guidelines",
+        "score": 0.3
+      },
+      {
+        "id": "40C",
+        "text": "Some are good, some are bad",
+        "score": 0.5
+      },
+      {
+        "id": "40D",
+        "text": "They are mostly outdated",
+        "score": 0.8
+      },
+      {
+        "id": "40E",
+        "text": "I want to destroy and rebuild society",
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "question": "Can you talk your way out of a parking ticket?",
+    "trait": "charm",
+    "options": [
+      {
+        "id": "41A",
+        "text": "No way, I just pay it",
+        "score": 0.0
+      },
+      {
+        "id": "41B",
+        "text": "I might try apologizing",
+        "score": 0.3
+      },
+      {
+        "id": "41C",
+        "text": "I can sometimes talk them down",
+        "score": 0.5
+      },
+      {
+        "id": "41D",
+        "text": "I often get let off with a warning",
+        "score": 0.8
+      },
+      {
+        "id": "41E",
+        "text": "They end up apologizing to me",
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "question": "How long does it take you to recover from a breakup or loss?",
+    "trait": "resilience",
+    "options": [
+      {
+        "id": "42A",
+        "text": "I never truly recover",
+        "score": 0.0
+      },
+      {
+        "id": "42B",
+        "text": "Years",
+        "score": 0.3
+      },
+      {
+        "id": "42C",
+        "text": "Months",
+        "score": 0.5
+      },
+      {
+        "id": "42D",
+        "text": "Weeks",
+        "score": 0.8
+      },
+      {
+        "id": "42E",
+        "text": "Days, I move on quickly",
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "question": "When you watch a sad movie, do you cry?",
+    "trait": "empathy",
+    "options": [
+      {
+        "id": "43A",
+        "text": "Never",
+        "score": 0.0
+      },
+      {
+        "id": "43B",
+        "text": "Rarely",
+        "score": 0.3
+      },
+      {
+        "id": "43C",
+        "text": "Sometimes",
+        "score": 0.5
+      },
+      {
+        "id": "43D",
+        "text": "Often",
+        "score": 0.8
+      },
+      {
+        "id": "43E",
+        "text": "I sob uncontrollably",
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "question": "How do you handle a messy room?",
+    "trait": "responsibility",
+    "options": [
+      {
+        "id": "44A",
+        "text": "I don't care",
+        "score": 0.0
+      },
+      {
+        "id": "44B",
+        "text": "I'll clean it next month",
+        "score": 0.3
+      },
+      {
+        "id": "44C",
+        "text": "I clean when it gets too bad",
+        "score": 0.5
+      },
+      {
+        "id": "44D",
+        "text": "I clean it regularly",
+        "score": 0.8
+      },
+      {
+        "id": "44E",
+        "text": "It's spotless at all times",
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "question": "If you see a wallet on the street, what do you do?",
+    "trait": "honest",
+    "options": [
+      {
+        "id": "45A",
+        "text": "Take the cash and throw it away",
+        "score": 0.0
+      },
+      {
+        "id": "45B",
+        "text": "Keep it",
+        "score": 0.3
+      },
+      {
+        "id": "45C",
+        "text": "Leave it there",
+        "score": 0.5
+      },
+      {
+        "id": "45D",
+        "text": "Hand it to the police",
+        "score": 0.8
+      },
+      {
+        "id": "45E",
+        "text": "Track down the owner and return it intact",
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "question": "How do you feel about mornings?",
+    "trait": "optimism",
+    "options": [
+      {
+        "id": "46A",
+        "text": "I hate everything",
+        "score": 0.0
+      },
+      {
+        "id": "46B",
+        "text": "Groggily annoyed",
+        "score": 0.3
+      },
+      {
+        "id": "46C",
+        "text": "Neutral",
+        "score": 0.5
+      },
+      {
+        "id": "46D",
+        "text": "Ready for the day",
+        "score": 0.8
+      },
+      {
+        "id": "46E",
+        "text": "Excited for a brand new day full of possibilities!",
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "question": "When someone makes a mistake, what do you say?",
+    "trait": "sarcasm",
+    "options": [
+      {
+        "id": "47A",
+        "text": "'It's okay!'",
+        "score": 0.0
+      },
+      {
+        "id": "47B",
+        "text": "'Be careful next time.'",
+        "score": 0.3
+      },
+      {
+        "id": "47C",
+        "text": "Nothing",
+        "score": 0.5
+      },
+      {
+        "id": "47D",
+        "text": "'Nice going.'",
+        "score": 0.8
+      },
+      {
+        "id": "47E",
+        "text": "'Wow, genius move right there.'",
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "question": "How often do you read books for fun?",
+    "trait": "smart",
+    "options": [
+      {
+        "id": "48A",
+        "text": "Never",
+        "score": 0.0
+      },
+      {
+        "id": "48B",
+        "text": "Maybe one a year",
+        "score": 0.3
+      },
+      {
+        "id": "48C",
+        "text": "A few times a year",
+        "score": 0.5
+      },
+      {
+        "id": "48D",
+        "text": "Monthly",
+        "score": 0.8
+      },
+      {
+        "id": "48E",
+        "text": "Constantly",
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "question": "What's your approach to a blank canvas?",
+    "trait": "creative",
+    "options": [
+      {
+        "id": "49A",
+        "text": "Stare at it blankly",
+        "score": 0.0
+      },
+      {
+        "id": "49B",
+        "text": "Copy something else",
+        "score": 0.3
+      },
+      {
+        "id": "49C",
+        "text": "Draw a stick figure",
+        "score": 0.5
+      },
+      {
+        "id": "49D",
+        "text": "Paint a nice landscape",
+        "score": 0.8
+      },
+      {
+        "id": "49E",
+        "text": "Create an abstract masterpiece from my soul",
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "question": "How do you act in a crisis?",
+    "trait": "calm",
+    "options": [
+      {
+        "id": "50A",
+        "text": "Scream and panic",
+        "score": 0.0
+      },
+      {
+        "id": "50B",
+        "text": "Cry uncontrollably",
+        "score": 0.3
+      },
+      {
+        "id": "50C",
+        "text": "Get very anxious",
+        "score": 0.5
+      },
+      {
+        "id": "50D",
+        "text": "Take a deep breath and act",
+        "score": 0.8
+      },
+      {
+        "id": "50E",
+        "text": "My heart rate doesn't even change",
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "question": "If a friend betrays you, can you forgive them?",
+    "trait": "kind",
+    "options": [
+      {
+        "id": "51A",
+        "text": "Never, they are dead to me",
+        "score": 0.0
+      },
+      {
+        "id": "51B",
+        "text": "Hold a grudge forever",
+        "score": 0.3
+      },
+      {
+        "id": "51C",
+        "text": "Maybe after a long time",
+        "score": 0.5
+      },
+      {
+        "id": "51D",
+        "text": "Eventually yes",
+        "score": 0.8
+      },
+      {
+        "id": "51E",
+        "text": "I forgive them immediately",
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "question": "Do you enjoy small talk?",
+    "trait": "introversion",
+    "options": [
+      {
+        "id": "52A",
+        "text": "I love talking to everyone!",
+        "score": 0.0
+      },
+      {
+        "id": "52B",
+        "text": "It's fun",
+        "score": 0.3
+      },
+      {
+        "id": "52C",
+        "text": "I can tolerate it",
+        "score": 0.5
+      },
+      {
+        "id": "52D",
+        "text": "I prefer deep conversations",
+        "score": 0.8
+      },
+      {
+        "id": "52E",
+        "text": "I hate it with a burning passion",
+        "score": 1.0
+      }
+    ]
+  }
+]

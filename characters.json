@@ -16,7 +16,12 @@
       "cunning": 0.6,
       "responsibility": 0.85,
       "sarcasm": 0.3,
-      "optimism": 0.5
+      "optimism": 0.5,
+      "resilience": 0.36,
+      "empathy": 0.36,
+      "logic": 0.48,
+      "rebelliousness": 0.42,
+      "charm": 0.44
     }
   },
   {
@@ -25,7 +30,7 @@
     "universe": "Stranger Things",
     "series": "Stranger Things",
     "image_url": "https://...",
-    "bio": "Loyal and determined, Mike is Eleven’s closest friend and often the emotional heart of the group.",
+    "bio": "Loyal and determined, Mike is Eleven\u00e2\u20ac\u2122s closest friend and often the emotional heart of the group.",
     "traits": {
       "introversion": 0.5,
       "humor": 0.4,
@@ -36,7 +41,12 @@
       "cunning": 0.4,
       "responsibility": 0.6,
       "sarcasm": 0.4,
-      "optimism": 0.7
+      "optimism": 0.7,
+      "resilience": 0.61,
+      "empathy": 0.67,
+      "logic": 0.78,
+      "rebelliousness": 0.52,
+      "charm": 0.68
     }
   },
   {
@@ -56,7 +66,12 @@
       "cunning": 0.3,
       "responsibility": 0.6,
       "sarcasm": 0.2,
-      "optimism": 0.6
+      "optimism": 0.6,
+      "resilience": 0.62,
+      "empathy": 0.61,
+      "logic": 0.55,
+      "rebelliousness": 0.59,
+      "charm": 0.57
     }
   },
   {
@@ -76,7 +91,12 @@
       "cunning": 0.6,
       "responsibility": 0.7,
       "sarcasm": 0.6,
-      "optimism": 0.9
+      "optimism": 0.9,
+      "resilience": 0.56,
+      "empathy": 0.56,
+      "logic": 0.36,
+      "rebelliousness": 0.41,
+      "charm": 0.72
     }
   },
   {
@@ -96,7 +116,12 @@
       "cunning": 0.6,
       "responsibility": 0.7,
       "sarcasm": 0.5,
-      "optimism": 0.6
+      "optimism": 0.6,
+      "resilience": 0.34,
+      "empathy": 0.7,
+      "logic": 0.6,
+      "rebelliousness": 0.6,
+      "charm": 0.43
     }
   },
   {
@@ -116,7 +141,12 @@
       "cunning": 0.5,
       "responsibility": 0.6,
       "sarcasm": 0.7,
-      "optimism": 0.5
+      "optimism": 0.5,
+      "resilience": 0.64,
+      "empathy": 0.5,
+      "logic": 0.79,
+      "rebelliousness": 0.77,
+      "charm": 0.57
     }
   },
   {
@@ -125,7 +155,7 @@
     "universe": "Stranger Things",
     "series": "Stranger Things",
     "image_url": "https://...",
-    "bio": "Gruff but kind-hearted police chief of Hawkins, who becomes Eleven’s adoptive father.",
+    "bio": "Gruff but kind-hearted police chief of Hawkins, who becomes Eleven\u00e2\u20ac\u2122s adoptive father.",
     "traits": {
       "introversion": 0.4,
       "humor": 0.4,
@@ -136,7 +166,12 @@
       "cunning": 0.6,
       "responsibility": 0.9,
       "sarcasm": 0.6,
-      "optimism": 0.5
+      "optimism": 0.5,
+      "resilience": 0.67,
+      "empathy": 0.65,
+      "logic": 0.7,
+      "rebelliousness": 0.66,
+      "charm": 0.62
     }
   },
   {
@@ -156,7 +191,12 @@
       "cunning": 0.5,
       "responsibility": 0.85,
       "sarcasm": 0.4,
-      "optimism": 0.6
+      "optimism": 0.6,
+      "resilience": 0.43,
+      "empathy": 0.68,
+      "logic": 0.34,
+      "rebelliousness": 0.79,
+      "charm": 0.55
     }
   },
   {
@@ -176,7 +216,12 @@
       "cunning": 0.5,
       "responsibility": 0.8,
       "sarcasm": 0.5,
-      "optimism": 0.7
+      "optimism": 0.7,
+      "resilience": 0.63,
+      "empathy": 0.59,
+      "logic": 0.74,
+      "rebelliousness": 0.35,
+      "charm": 0.65
     }
   },
   {
@@ -196,7 +241,12 @@
       "cunning": 0.95,
       "responsibility": 0.8,
       "sarcasm": 0.2,
-      "optimism": 0.1
+      "optimism": 0.1,
+      "resilience": 0.55,
+      "empathy": 0.67,
+      "logic": 0.58,
+      "rebelliousness": 0.72,
+      "charm": 0.43
     }
   },
   {
@@ -216,7 +266,12 @@
       "cunning": 0.4,
       "responsibility": 0.5,
       "sarcasm": 0.4,
-      "optimism": 0.6
+      "optimism": 0.6,
+      "resilience": 0.43,
+      "empathy": 0.72,
+      "logic": 0.56,
+      "rebelliousness": 0.63,
+      "charm": 0.59
     }
   },
   {
@@ -225,7 +280,7 @@
     "universe": "Squid Game",
     "series": "Squid Game",
     "image_url": "https://...",
-    "bio": "A brilliant businessman and Gi-hun’s childhood friend, willing to sacrifice morals to win.",
+    "bio": "A brilliant businessman and Gi-hun\u00e2\u20ac\u2122s childhood friend, willing to sacrifice morals to win.",
     "traits": {
       "introversion": 0.5,
       "humor": 0.2,
@@ -236,7 +291,12 @@
       "cunning": 0.95,
       "responsibility": 0.8,
       "sarcasm": 0.3,
-      "optimism": 0.3
+      "optimism": 0.3,
+      "resilience": 0.72,
+      "empathy": 0.75,
+      "logic": 0.72,
+      "rebelliousness": 0.7,
+      "charm": 0.62
     }
   },
   {
@@ -245,7 +305,7 @@
     "universe": "Squid Game",
     "series": "Squid Game",
     "image_url": "https://...",
-    "bio": "A North Korean defector fighting for her brother’s safety, resourceful and resilient.",
+    "bio": "A North Korean defector fighting for her brother\u00e2\u20ac\u2122s safety, resourceful and resilient.",
     "traits": {
       "introversion": 0.7,
       "humor": 0.2,
@@ -256,7 +316,12 @@
       "cunning": 0.7,
       "responsibility": 0.8,
       "sarcasm": 0.3,
-      "optimism": 0.4
+      "optimism": 0.4,
+      "resilience": 0.72,
+      "empathy": 0.75,
+      "logic": 0.59,
+      "rebelliousness": 0.46,
+      "charm": 0.68
     }
   },
   {
@@ -276,7 +341,12 @@
       "cunning": 0.4,
       "responsibility": 0.7,
       "sarcasm": 0.2,
-      "optimism": 0.8
+      "optimism": 0.8,
+      "resilience": 0.35,
+      "empathy": 0.75,
+      "logic": 0.32,
+      "rebelliousness": 0.56,
+      "charm": 0.69
     }
   },
   {
@@ -296,7 +366,12 @@
       "cunning": 0.7,
       "responsibility": 0.2,
       "sarcasm": 0.5,
-      "optimism": 0.3
+      "optimism": 0.3,
+      "resilience": 0.31,
+      "empathy": 0.38,
+      "logic": 0.72,
+      "rebelliousness": 0.7,
+      "charm": 0.58
     }
   },
   {
@@ -316,7 +391,12 @@
       "cunning": 0.95,
       "responsibility": 0.7,
       "sarcasm": 0.4,
-      "optimism": 0.5
+      "optimism": 0.5,
+      "resilience": 0.7,
+      "empathy": 0.69,
+      "logic": 0.71,
+      "rebelliousness": 0.74,
+      "charm": 0.31
     }
   },
   {
@@ -336,7 +416,12 @@
       "cunning": 0.9,
       "responsibility": 0.3,
       "sarcasm": 0.7,
-      "optimism": 0.5
+      "optimism": 0.5,
+      "resilience": 0.36,
+      "empathy": 0.75,
+      "logic": 0.5,
+      "rebelliousness": 0.56,
+      "charm": 0.39
     }
   },
   {
@@ -356,7 +441,12 @@
       "cunning": 0.9,
       "responsibility": 0.8,
       "sarcasm": 0.95,
-      "optimism": 0.6
+      "optimism": 0.6,
+      "resilience": 0.46,
+      "empathy": 0.74,
+      "logic": 0.39,
+      "rebelliousness": 0.41,
+      "charm": 0.76
     }
   },
   {
@@ -376,7 +466,12 @@
       "cunning": 0.5,
       "responsibility": 0.95,
       "sarcasm": 0.2,
-      "optimism": 0.8
+      "optimism": 0.8,
+      "resilience": 0.59,
+      "empathy": 0.6,
+      "logic": 0.68,
+      "rebelliousness": 0.55,
+      "charm": 0.47
     }
   },
   {
@@ -396,7 +491,12 @@
       "cunning": 0.4,
       "responsibility": 0.8,
       "sarcasm": 0.5,
-      "optimism": 0.8
+      "optimism": 0.8,
+      "resilience": 0.42,
+      "empathy": 0.57,
+      "logic": 0.52,
+      "rebelliousness": 0.48,
+      "charm": 0.65
     }
   },
   {
@@ -416,7 +516,12 @@
       "cunning": 0.8,
       "responsibility": 0.7,
       "sarcasm": 0.2,
-      "optimism": 0.4
+      "optimism": 0.4,
+      "resilience": 0.72,
+      "empathy": 0.53,
+      "logic": 0.43,
+      "rebelliousness": 0.68,
+      "charm": 0.34
     }
   },
   {
@@ -436,7 +541,12 @@
       "cunning": 0.95,
       "responsibility": 0.85,
       "sarcasm": 0.5,
-      "optimism": 0.4
+      "optimism": 0.4,
+      "resilience": 0.47,
+      "empathy": 0.7,
+      "logic": 0.32,
+      "rebelliousness": 0.59,
+      "charm": 0.32
     }
   },
   {
@@ -456,7 +566,12 @@
       "cunning": 0.6,
       "responsibility": 0.8,
       "sarcasm": 0.4,
-      "optimism": 0.5
+      "optimism": 0.5,
+      "resilience": 0.39,
+      "empathy": 0.59,
+      "logic": 0.67,
+      "rebelliousness": 0.72,
+      "charm": 0.58
     }
   },
   {
@@ -476,7 +591,12 @@
       "cunning": 0.6,
       "responsibility": 0.8,
       "sarcasm": 0.5,
-      "optimism": 0.8
+      "optimism": 0.8,
+      "resilience": 0.72,
+      "empathy": 0.43,
+      "logic": 0.67,
+      "rebelliousness": 0.72,
+      "charm": 0.68
     }
   },
   {
@@ -496,7 +616,12 @@
       "cunning": 0.9,
       "responsibility": 0.9,
       "sarcasm": 0.6,
-      "optimism": 0.5
+      "optimism": 0.5,
+      "resilience": 0.33,
+      "empathy": 0.61,
+      "logic": 0.64,
+      "rebelliousness": 0.58,
+      "charm": 0.58
     }
   },
   {
@@ -516,11 +641,16 @@
       "cunning": 0.7,
       "responsibility": 0.8,
       "sarcasm": 0.3,
-      "optimism": 0.4
+      "optimism": 0.4,
+      "resilience": 0.55,
+      "empathy": 0.66,
+      "logic": 0.36,
+      "rebelliousness": 0.63,
+      "charm": 0.59
     }
   },
   {
-    "name": "T’Challa",
+    "name": "T\u00e2\u20ac\u2122Challa",
     "alias": "Black Panther",
     "universe": "Marvel",
     "series": "Black Panther",
@@ -536,7 +666,12 @@
       "cunning": 0.7,
       "responsibility": 0.95,
       "sarcasm": 0.2,
-      "optimism": 0.7
+      "optimism": 0.7,
+      "resilience": 0.62,
+      "empathy": 0.54,
+      "logic": 0.6,
+      "rebelliousness": 0.32,
+      "charm": 0.34
     }
   },
   {
@@ -556,7 +691,12 @@
       "cunning": 0.7,
       "responsibility": 0.8,
       "sarcasm": 0.4,
-      "optimism": 0.7
+      "optimism": 0.7,
+      "resilience": 0.64,
+      "empathy": 0.8,
+      "logic": 0.4,
+      "rebelliousness": 0.7,
+      "charm": 0.49
     }
   },
   {
@@ -576,7 +716,12 @@
       "cunning": 0.95,
       "responsibility": 0.6,
       "sarcasm": 0.9,
-      "optimism": 0.5
+      "optimism": 0.5,
+      "resilience": 0.59,
+      "empathy": 0.78,
+      "logic": 0.48,
+      "rebelliousness": 0.72,
+      "charm": 0.58
     }
   },
   {
@@ -596,7 +741,12 @@
       "cunning": 0.95,
       "responsibility": 0.9,
       "sarcasm": 0.2,
-      "optimism": 0.2
+      "optimism": 0.2,
+      "resilience": 0.69,
+      "empathy": 0.58,
+      "logic": 0.37,
+      "rebelliousness": 0.67,
+      "charm": 0.41
     }
   },
   {
@@ -616,7 +766,12 @@
       "cunning": 0.95,
       "responsibility": 0.95,
       "sarcasm": 0.4,
-      "optimism": 0.3
+      "optimism": 0.3,
+      "resilience": 0.59,
+      "empathy": 0.43,
+      "logic": 0.51,
+      "rebelliousness": 0.52,
+      "charm": 0.71
     }
   },
   {
@@ -636,7 +791,12 @@
       "cunning": 0.5,
       "responsibility": 0.95,
       "sarcasm": 0.2,
-      "optimism": 0.9
+      "optimism": 0.9,
+      "resilience": 0.38,
+      "empathy": 0.52,
+      "logic": 0.52,
+      "rebelliousness": 0.33,
+      "charm": 0.32
     }
   },
   {
@@ -656,7 +816,12 @@
       "cunning": 0.6,
       "responsibility": 0.9,
       "sarcasm": 0.2,
-      "optimism": 0.8
+      "optimism": 0.8,
+      "resilience": 0.68,
+      "empathy": 0.55,
+      "logic": 0.65,
+      "rebelliousness": 0.6,
+      "charm": 0.63
     }
   },
   {
@@ -676,7 +841,12 @@
       "cunning": 0.6,
       "responsibility": 0.7,
       "sarcasm": 0.7,
-      "optimism": 0.9
+      "optimism": 0.9,
+      "resilience": 0.42,
+      "empathy": 0.75,
+      "logic": 0.65,
+      "rebelliousness": 0.31,
+      "charm": 0.72
     }
   },
   {
@@ -696,7 +866,12 @@
       "cunning": 0.6,
       "responsibility": 0.8,
       "sarcasm": 0.6,
-      "optimism": 0.7
+      "optimism": 0.7,
+      "resilience": 0.64,
+      "empathy": 0.6,
+      "logic": 0.31,
+      "rebelliousness": 0.63,
+      "charm": 0.52
     }
   },
   {
@@ -716,7 +891,12 @@
       "cunning": 0.7,
       "responsibility": 0.85,
       "sarcasm": 0.3,
-      "optimism": 0.6
+      "optimism": 0.6,
+      "resilience": 0.31,
+      "empathy": 0.74,
+      "logic": 0.54,
+      "rebelliousness": 0.56,
+      "charm": 0.46
     }
   },
   {
@@ -736,7 +916,12 @@
       "cunning": 0.6,
       "responsibility": 0.8,
       "sarcasm": 0.5,
-      "optimism": 0.8
+      "optimism": 0.8,
+      "resilience": 0.44,
+      "empathy": 0.39,
+      "logic": 0.75,
+      "rebelliousness": 0.68,
+      "charm": 0.31
     }
   },
   {
@@ -756,7 +941,12 @@
       "cunning": 0.7,
       "responsibility": 0.9,
       "sarcasm": 0.2,
-      "optimism": 0.6
+      "optimism": 0.6,
+      "resilience": 0.57,
+      "empathy": 0.6,
+      "logic": 0.53,
+      "rebelliousness": 0.48,
+      "charm": 0.36
     }
   },
   {
@@ -776,7 +966,12 @@
       "cunning": 0.95,
       "responsibility": 0.1,
       "sarcasm": 0.95,
-      "optimism": 0.3
+      "optimism": 0.3,
+      "resilience": 0.72,
+      "empathy": 0.74,
+      "logic": 0.45,
+      "rebelliousness": 0.35,
+      "charm": 0.76
     }
   },
   {
@@ -796,7 +991,12 @@
       "cunning": 0.8,
       "responsibility": 0.4,
       "sarcasm": 0.8,
-      "optimism": 0.6
+      "optimism": 0.6,
+      "resilience": 0.67,
+      "empathy": 0.37,
+      "logic": 0.55,
+      "rebelliousness": 0.59,
+      "charm": 0.35
     }
   },
   {
@@ -805,7 +1005,7 @@
     "universe": "DC",
     "series": "Superman",
     "image_url": "https://...",
-    "bio": "A genius billionaire and Superman’s greatest rival, manipulative and ambitious.",
+    "bio": "A genius billionaire and Superman\u00e2\u20ac\u2122s greatest rival, manipulative and ambitious.",
     "traits": {
       "introversion": 0.6,
       "humor": 0.2,
@@ -816,7 +1016,12 @@
       "cunning": 0.95,
       "responsibility": 0.8,
       "sarcasm": 0.4,
-      "optimism": 0.2
+      "optimism": 0.2,
+      "resilience": 0.3,
+      "empathy": 0.4,
+      "logic": 0.37,
+      "rebelliousness": 0.57,
+      "charm": 0.74
     }
   },
   {
@@ -836,7 +1041,12 @@
       "cunning": 0.9,
       "responsibility": 0.5,
       "sarcasm": 0.7,
-      "optimism": 0.6
+      "optimism": 0.6,
+      "resilience": 0.75,
+      "empathy": 0.63,
+      "logic": 0.62,
+      "rebelliousness": 0.36,
+      "charm": 0.46
     }
   },
   {
@@ -856,7 +1066,12 @@
       "cunning": 0.5,
       "responsibility": 0.85,
       "sarcasm": 0.4,
-      "optimism": 0.7
+      "optimism": 0.7,
+      "resilience": 0.43,
+      "empathy": 0.35,
+      "logic": 0.47,
+      "rebelliousness": 0.41,
+      "charm": 0.72
     }
   },
   {
@@ -876,7 +1091,12 @@
       "cunning": 0.7,
       "responsibility": 0.95,
       "sarcasm": 0.4,
-      "optimism": 0.7
+      "optimism": 0.7,
+      "resilience": 0.68,
+      "empathy": 0.35,
+      "logic": 0.56,
+      "rebelliousness": 0.31,
+      "charm": 0.48
     }
   },
   {
@@ -885,7 +1105,7 @@
     "universe": "Harry Potter",
     "series": "Harry Potter",
     "image_url": "https://...",
-    "bio": "Harry’s best friend, humorous and loyal, often underestimated but courageous.",
+    "bio": "Harry\u00e2\u20ac\u2122s best friend, humorous and loyal, often underestimated but courageous.",
     "traits": {
       "introversion": 0.4,
       "humor": 0.9,
@@ -896,7 +1116,12 @@
       "cunning": 0.4,
       "responsibility": 0.6,
       "sarcasm": 0.6,
-      "optimism": 0.8
+      "optimism": 0.8,
+      "resilience": 0.77,
+      "empathy": 0.44,
+      "logic": 0.66,
+      "rebelliousness": 0.77,
+      "charm": 0.46
     }
   },
   {
@@ -916,7 +1141,12 @@
       "cunning": 0.8,
       "responsibility": 0.95,
       "sarcasm": 0.5,
-      "optimism": 0.9
+      "optimism": 0.9,
+      "resilience": 0.47,
+      "empathy": 0.4,
+      "logic": 0.54,
+      "rebelliousness": 0.59,
+      "charm": 0.58
     }
   },
   {
@@ -936,7 +1166,12 @@
       "cunning": 0.95,
       "responsibility": 0.85,
       "sarcasm": 0.8,
-      "optimism": 0.3
+      "optimism": 0.3,
+      "resilience": 0.44,
+      "empathy": 0.47,
+      "logic": 0.73,
+      "rebelliousness": 0.66,
+      "charm": 0.45
     }
   },
   {
@@ -956,7 +1191,12 @@
       "cunning": 0.95,
       "responsibility": 0.8,
       "sarcasm": 0.2,
-      "optimism": 0.1
+      "optimism": 0.1,
+      "resilience": 0.38,
+      "empathy": 0.44,
+      "logic": 0.71,
+      "rebelliousness": 0.79,
+      "charm": 0.66
     }
   },
   {
@@ -965,7 +1205,7 @@
     "universe": "Harry Potter",
     "series": "Harry Potter",
     "image_url": "https://...",
-    "bio": "Harry’s rival, ambitious and proud, struggling between family expectations and morality.",
+    "bio": "Harry\u00e2\u20ac\u2122s rival, ambitious and proud, struggling between family expectations and morality.",
     "traits": {
       "introversion": 0.6,
       "humor": 0.3,
@@ -976,7 +1216,12 @@
       "cunning": 0.85,
       "responsibility": 0.6,
       "sarcasm": 0.7,
-      "optimism": 0.4
+      "optimism": 0.4,
+      "resilience": 0.66,
+      "empathy": 0.55,
+      "logic": 0.48,
+      "rebelliousness": 0.35,
+      "charm": 0.68
     }
   },
   {
@@ -996,7 +1241,12 @@
       "cunning": 0.3,
       "responsibility": 0.7,
       "sarcasm": 0.3,
-      "optimism": 0.9
+      "optimism": 0.9,
+      "resilience": 0.43,
+      "empathy": 0.67,
+      "logic": 0.61,
+      "rebelliousness": 0.36,
+      "charm": 0.53
     }
   },
   {
@@ -1016,7 +1266,12 @@
       "cunning": 0.4,
       "responsibility": 0.6,
       "sarcasm": 0.2,
-      "optimism": 0.9
+      "optimism": 0.9,
+      "resilience": 0.61,
+      "empathy": 0.75,
+      "logic": 0.59,
+      "rebelliousness": 0.43,
+      "charm": 0.62
     }
   },
   {
@@ -1036,7 +1291,12 @@
       "cunning": 0.5,
       "responsibility": 0.7,
       "sarcasm": 0.3,
-      "optimism": 0.7
+      "optimism": 0.7,
+      "resilience": 0.39,
+      "empathy": 0.45,
+      "logic": 0.46,
+      "rebelliousness": 0.6,
+      "charm": 0.67
     }
   },
   {
@@ -1056,7 +1316,12 @@
       "cunning": 0.6,
       "responsibility": 0.8,
       "sarcasm": 0.3,
-      "optimism": 0.8
+      "optimism": 0.8,
+      "resilience": 0.42,
+      "empathy": 0.49,
+      "logic": 0.59,
+      "rebelliousness": 0.78,
+      "charm": 0.68
     }
   },
   {
@@ -1076,7 +1341,12 @@
       "cunning": 0.2,
       "responsibility": 0.3,
       "sarcasm": 0.2,
-      "optimism": 0.6
+      "optimism": 0.6,
+      "resilience": 0.76,
+      "empathy": 0.49,
+      "logic": 0.45,
+      "rebelliousness": 0.4,
+      "charm": 0.55
     }
   },
   {
@@ -1085,7 +1355,7 @@
     "universe": "Doraemon",
     "series": "Doraemon",
     "image_url": "https://...",
-    "bio": "Nobita’s intelligent and kind friend, admired for her caring nature.",
+    "bio": "Nobita\u00e2\u20ac\u2122s intelligent and kind friend, admired for her caring nature.",
     "traits": {
       "introversion": 0.6,
       "humor": 0.4,
@@ -1096,7 +1366,12 @@
       "cunning": 0.4,
       "responsibility": 0.8,
       "sarcasm": 0.2,
-      "optimism": 0.8
+      "optimism": 0.8,
+      "resilience": 0.52,
+      "empathy": 0.33,
+      "logic": 0.63,
+      "rebelliousness": 0.34,
+      "charm": 0.38
     }
   },
   {
@@ -1116,7 +1391,12 @@
       "cunning": 0.5,
       "responsibility": 0.5,
       "sarcasm": 0.5,
-      "optimism": 0.5
+      "optimism": 0.5,
+      "resilience": 0.32,
+      "empathy": 0.77,
+      "logic": 0.37,
+      "rebelliousness": 0.61,
+      "charm": 0.71
     }
   },
   {
@@ -1136,7 +1416,12 @@
       "cunning": 0.85,
       "responsibility": 0.4,
       "sarcasm": 0.6,
-      "optimism": 0.5
+      "optimism": 0.5,
+      "resilience": 0.59,
+      "empathy": 0.53,
+      "logic": 0.36,
+      "rebelliousness": 0.32,
+      "charm": 0.41
     }
   },
   {
@@ -1145,7 +1430,7 @@
     "universe": "Doraemon",
     "series": "Doraemon",
     "image_url": "https://...",
-    "bio": "Doraemon’s younger sister, cheerful, responsible, and supportive.",
+    "bio": "Doraemon\u00e2\u20ac\u2122s younger sister, cheerful, responsible, and supportive.",
     "traits": {
       "introversion": 0.5,
       "humor": 0.5,
@@ -1156,7 +1441,12 @@
       "cunning": 0.6,
       "responsibility": 0.9,
       "sarcasm": 0.2,
-      "optimism": 0.9
+      "optimism": 0.9,
+      "resilience": 0.47,
+      "empathy": 0.66,
+      "logic": 0.31,
+      "rebelliousness": 0.32,
+      "charm": 0.5
     }
   },
   {
@@ -1176,7 +1466,12 @@
       "cunning": 0.6,
       "responsibility": 0.85,
       "sarcasm": 0.2,
-      "optimism": 0.7
+      "optimism": 0.7,
+      "resilience": 0.76,
+      "empathy": 0.35,
+      "logic": 0.57,
+      "rebelliousness": 0.33,
+      "charm": 0.73
     }
   },
   {
@@ -1196,7 +1491,12 @@
       "cunning": 0.7,
       "responsibility": 0.3,
       "sarcasm": 0.9,
-      "optimism": 0.9
+      "optimism": 0.9,
+      "resilience": 0.52,
+      "empathy": 0.53,
+      "logic": 0.68,
+      "rebelliousness": 0.69,
+      "charm": 0.76
     }
   },
   {
@@ -1216,7 +1516,12 @@
       "cunning": 1.0,
       "responsibility": 0.9,
       "sarcasm": 0.3,
-      "optimism": 0.4
+      "optimism": 0.4,
+      "resilience": 0.53,
+      "empathy": 0.71,
+      "logic": 0.39,
+      "rebelliousness": 0.48,
+      "charm": 0.8
     }
   },
   {
@@ -1236,7 +1541,12 @@
       "cunning": 0.95,
       "responsibility": 0.9,
       "sarcasm": 0.5,
-      "optimism": 0.4
+      "optimism": 0.4,
+      "resilience": 0.54,
+      "empathy": 0.33,
+      "logic": 0.63,
+      "rebelliousness": 0.37,
+      "charm": 0.49
     }
   },
   {
@@ -1256,7 +1566,12 @@
       "cunning": 0.6,
       "responsibility": 0.1,
       "sarcasm": 0.8,
-      "optimism": 0.6
+      "optimism": 0.6,
+      "resilience": 0.54,
+      "empathy": 0.36,
+      "logic": 0.44,
+      "rebelliousness": 0.61,
+      "charm": 0.65
     }
   },
   {
@@ -1276,7 +1591,12 @@
       "cunning": 0.4,
       "responsibility": 0.3,
       "sarcasm": 0.2,
-      "optimism": 0.8
+      "optimism": 0.8,
+      "resilience": 0.37,
+      "empathy": 0.64,
+      "logic": 0.41,
+      "rebelliousness": 0.63,
+      "charm": 0.65
     }
   },
   {
@@ -1296,7 +1616,12 @@
       "cunning": 0.3,
       "responsibility": 0.8,
       "sarcasm": 0.7,
-      "optimism": 0.3
+      "optimism": 0.3,
+      "resilience": 0.35,
+      "empathy": 0.45,
+      "logic": 0.41,
+      "rebelliousness": 0.56,
+      "charm": 0.76
     }
   },
   {
@@ -1316,7 +1641,12 @@
       "cunning": 0.5,
       "responsibility": 0.7,
       "sarcasm": 0.3,
-      "optimism": 0.7
+      "optimism": 0.7,
+      "resilience": 0.55,
+      "empathy": 0.44,
+      "logic": 0.79,
+      "rebelliousness": 0.56,
+      "charm": 0.73
     }
   },
   {
@@ -1336,7 +1666,12 @@
       "cunning": 0.4,
       "responsibility": 0.6,
       "sarcasm": 0.5,
-      "optimism": 0.8
+      "optimism": 0.8,
+      "resilience": 0.56,
+      "empathy": 0.33,
+      "logic": 0.42,
+      "rebelliousness": 0.57,
+      "charm": 0.61
     }
   },
   {
@@ -1356,7 +1691,12 @@
       "cunning": 0.3,
       "responsibility": 0.7,
       "sarcasm": 0.2,
-      "optimism": 0.7
+      "optimism": 0.7,
+      "resilience": 0.59,
+      "empathy": 0.8,
+      "logic": 0.31,
+      "rebelliousness": 0.41,
+      "charm": 0.44
     }
   },
   {
@@ -1376,7 +1716,12 @@
       "cunning": 0.4,
       "responsibility": 0.9,
       "sarcasm": 0.1,
-      "optimism": 0.5
+      "optimism": 0.5,
+      "resilience": 0.43,
+      "empathy": 0.62,
+      "logic": 0.57,
+      "rebelliousness": 0.58,
+      "charm": 0.52
     }
   },
   {
@@ -1396,7 +1741,12 @@
       "cunning": 0.3,
       "responsibility": 0.9,
       "sarcasm": 0.3,
-      "optimism": 0.7
+      "optimism": 0.7,
+      "resilience": 0.7,
+      "empathy": 0.6,
+      "logic": 0.37,
+      "rebelliousness": 0.47,
+      "charm": 0.67
     }
   },
   {
@@ -1416,7 +1766,12 @@
       "cunning": 0.7,
       "responsibility": 0.5,
       "sarcasm": 0.9,
-      "optimism": 0.6
+      "optimism": 0.6,
+      "resilience": 0.46,
+      "empathy": 0.34,
+      "logic": 0.51,
+      "rebelliousness": 0.36,
+      "charm": 0.4
     }
   },
   {
@@ -1436,7 +1791,12 @@
       "cunning": 0.8,
       "responsibility": 0.4,
       "sarcasm": 0.8,
-      "optimism": 0.8
+      "optimism": 0.8,
+      "resilience": 0.6,
+      "empathy": 0.75,
+      "logic": 0.64,
+      "rebelliousness": 0.58,
+      "charm": 0.74
     }
   },
   {
@@ -1456,7 +1816,12 @@
       "cunning": 0.3,
       "responsibility": 0.7,
       "sarcasm": 0.3,
-      "optimism": 1.0
+      "optimism": 1.0,
+      "resilience": 0.75,
+      "empathy": 0.59,
+      "logic": 0.42,
+      "rebelliousness": 0.54,
+      "charm": 0.58
     }
   },
   {
@@ -1476,7 +1841,12 @@
       "cunning": 0.6,
       "responsibility": 1.0,
       "sarcasm": 0.6,
-      "optimism": 0.5
+      "optimism": 0.5,
+      "resilience": 0.35,
+      "empathy": 0.64,
+      "logic": 0.47,
+      "rebelliousness": 0.76,
+      "charm": 0.61
     }
   },
   {
@@ -1496,7 +1866,12 @@
       "cunning": 0.5,
       "responsibility": 0.6,
       "sarcasm": 0.5,
-      "optimism": 0.9
+      "optimism": 0.9,
+      "resilience": 0.33,
+      "empathy": 0.69,
+      "logic": 0.61,
+      "rebelliousness": 0.58,
+      "charm": 0.4
     }
   },
   {
@@ -1516,7 +1891,2088 @@
       "cunning": 0.6,
       "responsibility": 0.9,
       "sarcasm": 0.8,
-      "optimism": 0.4
+      "optimism": 0.4,
+      "resilience": 0.74,
+      "empathy": 0.57,
+      "logic": 0.57,
+      "rebelliousness": 0.77,
+      "charm": 0.44
+    }
+  },
+  {
+    "name": "Shinichi Izumi",
+    "alias": "",
+    "universe": "Parasyte",
+    "series": "Parasyte: The Maxim",
+    "image_url": "https://i.pinimg.com/736x/8f/3e/26/8f3e264627448888bdf20b57f0f670ee.jpg",
+    "bio": "A high school student whose right hand is infected by a parasitic alien.",
+    "traits": {
+      "introversion": 0.6,
+      "humor": 0.3,
+      "bravery": 0.8,
+      "loyalty": 0.7,
+      "ambition": 0.3,
+      "compassion": 0.8,
+      "cunning": 0.6,
+      "responsibility": 0.9,
+      "sarcasm": 0.2,
+      "optimism": 0.4,
+      "resilience": 0.9,
+      "empathy": 0.8,
+      "logic": 0.7,
+      "rebelliousness": 0.3,
+      "charm": 0.4
+    }
+  },
+  {
+    "name": "Kiyotaka Ayanokoji",
+    "alias": "",
+    "universe": "Classroom of the Elite",
+    "series": "Classroom of the Elite",
+    "image_url": "https://i.pinimg.com/736x/21/df/b8/21dfb853508c90ad73087383bb17f8db.jpg",
+    "bio": "An unassuming but incredibly brilliant student who manipulates others from the shadows.",
+    "traits": {
+      "introversion": 0.9,
+      "humor": 0.1,
+      "bravery": 0.8,
+      "loyalty": 0.2,
+      "ambition": 0.5,
+      "compassion": 0.1,
+      "cunning": 1.0,
+      "responsibility": 0.5,
+      "sarcasm": 0.3,
+      "optimism": 0.2,
+      "resilience": 1.0,
+      "empathy": 0.1,
+      "logic": 1.0,
+      "rebelliousness": 0.6,
+      "charm": 0.6
+    }
+  },
+  {
+    "name": "Koro-sensei",
+    "alias": "",
+    "universe": "Assassination Classroom",
+    "series": "Assassination Classroom",
+    "image_url": "https://i.pinimg.com/736x/01/cc/02/01cc022409f8749a0e67b2d2948ebfa2.jpg",
+    "bio": "A powerful octopus-like creature who is the greatest teacher his students ever had.",
+    "traits": {
+      "introversion": 0.2,
+      "humor": 0.9,
+      "bravery": 0.9,
+      "loyalty": 0.9,
+      "ambition": 0.7,
+      "compassion": 1.0,
+      "cunning": 0.9,
+      "responsibility": 1.0,
+      "sarcasm": 0.7,
+      "optimism": 0.9,
+      "resilience": 0.9,
+      "empathy": 1.0,
+      "logic": 0.8,
+      "rebelliousness": 0.7,
+      "charm": 0.9
+    }
+  },
+  {
+    "name": "Loid Forger",
+    "alias": "Twilight",
+    "universe": "Spy x Family",
+    "series": "Spy x Family",
+    "image_url": "https://i.pinimg.com/736x/8d/f9/f5/8df9f5847e06a378d381023d8c23ffbc.jpg",
+    "bio": "A master spy trying to maintain world peace while playing the role of a family man.",
+    "traits": {
+      "introversion": 0.6,
+      "humor": 0.3,
+      "bravery": 0.9,
+      "loyalty": 0.9,
+      "ambition": 0.8,
+      "compassion": 0.7,
+      "cunning": 1.0,
+      "responsibility": 1.0,
+      "sarcasm": 0.4,
+      "optimism": 0.5,
+      "resilience": 0.9,
+      "empathy": 0.6,
+      "logic": 1.0,
+      "rebelliousness": 0.4,
+      "charm": 0.9
+    }
+  },
+  {
+    "name": "Anya Forger",
+    "alias": "Test Subject 007",
+    "universe": "Spy x Family",
+    "series": "Spy x Family",
+    "image_url": "https://i.pinimg.com/736x/ff/15/3c/ff153c37df6d2f3bead61f5f3e9c9c1b.jpg",
+    "bio": "A telepathic young girl who loves peanuts and spy cartoons.",
+    "traits": {
+      "introversion": 0.3,
+      "humor": 0.9,
+      "bravery": 0.7,
+      "loyalty": 0.9,
+      "ambition": 0.6,
+      "compassion": 0.9,
+      "cunning": 0.4,
+      "responsibility": 0.3,
+      "sarcasm": 0.1,
+      "optimism": 1.0,
+      "resilience": 0.8,
+      "empathy": 0.9,
+      "logic": 0.2,
+      "rebelliousness": 0.5,
+      "charm": 1.0
+    }
+  },
+  {
+    "name": "Johan Liebert",
+    "alias": "",
+    "universe": "Monster",
+    "series": "Monster",
+    "image_url": "https://i.pinimg.com/736x/32/38/c8/3238c8c5d153cfc5c7d1e8c07d3dbab4.jpg",
+    "bio": "A charismatic but terrifyingly nihilistic individual with a genius intellect.",
+    "traits": {
+      "introversion": 0.8,
+      "humor": 0.1,
+      "bravery": 0.9,
+      "loyalty": 0.1,
+      "ambition": 0.8,
+      "compassion": 0.0,
+      "cunning": 1.0,
+      "responsibility": 0.1,
+      "sarcasm": 0.2,
+      "optimism": 0.1,
+      "resilience": 1.0,
+      "empathy": 0.0,
+      "logic": 1.0,
+      "rebelliousness": 1.0,
+      "charm": 1.0
+    }
+  },
+  {
+    "name": "Monkey D. Luffy",
+    "alias": "Straw Hat",
+    "universe": "One Piece",
+    "series": "One Piece",
+    "image_url": "https://i.pinimg.com/736x/77/b0/a5/77b0a5015b3e660a0b6330ce50fb8b46.jpg",
+    "bio": "The future Pirate King, defined by his boundless freedom and loyalty to his crew.",
+    "traits": {
+      "introversion": 0.1,
+      "humor": 0.9,
+      "bravery": 1.0,
+      "loyalty": 1.0,
+      "ambition": 1.0,
+      "compassion": 0.9,
+      "cunning": 0.2,
+      "responsibility": 0.3,
+      "sarcasm": 0.1,
+      "optimism": 1.0,
+      "resilience": 1.0,
+      "empathy": 0.9,
+      "logic": 0.2,
+      "rebelliousness": 1.0,
+      "charm": 0.8
+    }
+  },
+  {
+    "name": "Roronoa Zoro",
+    "alias": "Pirate Hunter",
+    "universe": "One Piece",
+    "series": "One Piece",
+    "image_url": "https://i.pinimg.com/736x/ca/87/44/ca87440409a63ee33fec6efeb29a3a93.jpg",
+    "bio": "The ambitious first mate and swordsman of the Straw Hat Pirates.",
+    "traits": {
+      "introversion": 0.8,
+      "humor": 0.4,
+      "bravery": 1.0,
+      "loyalty": 1.0,
+      "ambition": 1.0,
+      "compassion": 0.5,
+      "cunning": 0.4,
+      "responsibility": 0.8,
+      "sarcasm": 0.6,
+      "optimism": 0.6,
+      "resilience": 1.0,
+      "empathy": 0.4,
+      "logic": 0.6,
+      "rebelliousness": 0.7,
+      "charm": 0.6
+    }
+  },
+  {
+    "name": "Naruto Uzumaki",
+    "alias": "Hokage",
+    "universe": "Naruto",
+    "series": "Naruto",
+    "image_url": "https://i.pinimg.com/736x/a2/2a/39/a22a394ec59b56f8749a215b2df649fb.jpg",
+    "bio": "A loud, hyperactive ninja who overcomes adversity to lead his village.",
+    "traits": {
+      "introversion": 0.1,
+      "humor": 0.8,
+      "bravery": 1.0,
+      "loyalty": 1.0,
+      "ambition": 1.0,
+      "compassion": 1.0,
+      "cunning": 0.3,
+      "responsibility": 0.7,
+      "sarcasm": 0.2,
+      "optimism": 1.0,
+      "resilience": 1.0,
+      "empathy": 1.0,
+      "logic": 0.3,
+      "rebelliousness": 0.8,
+      "charm": 0.8
+    }
+  },
+  {
+    "name": "Yatora Yaguchi",
+    "alias": "",
+    "universe": "Blue Period",
+    "series": "Blue Period",
+    "image_url": "https://i.pinimg.com/736x/8e/be/bd/8ebebd4b732f93d406a4b15933aeb30d.jpg",
+    "bio": "A hardworking student who discovers a passion for art and dedicates himself to it completely.",
+    "traits": {
+      "introversion": 0.6,
+      "humor": 0.4,
+      "bravery": 0.7,
+      "loyalty": 0.7,
+      "ambition": 0.9,
+      "compassion": 0.6,
+      "cunning": 0.4,
+      "responsibility": 0.8,
+      "sarcasm": 0.3,
+      "optimism": 0.5,
+      "resilience": 0.9,
+      "empathy": 0.7,
+      "logic": 0.7,
+      "rebelliousness": 0.4,
+      "charm": 0.6
+    }
+  },
+  {
+    "name": "Thorfinn",
+    "alias": "",
+    "universe": "Vinland Saga",
+    "series": "Vinland Saga",
+    "image_url": "https://i.pinimg.com/736x/77/8e/4b/778e4bb6c9a3341b590e8f00030da64a.jpg",
+    "bio": "A former Viking warrior seeking a peaceful land free of war and slavery.",
+    "traits": {
+      "introversion": 0.7,
+      "humor": 0.2,
+      "bravery": 0.9,
+      "loyalty": 0.8,
+      "ambition": 0.8,
+      "compassion": 0.9,
+      "cunning": 0.4,
+      "responsibility": 0.9,
+      "sarcasm": 0.2,
+      "optimism": 0.6,
+      "resilience": 1.0,
+      "empathy": 0.9,
+      "logic": 0.6,
+      "rebelliousness": 0.5,
+      "charm": 0.4
+    }
+  },
+  {
+    "name": "Gon Freecss",
+    "alias": "",
+    "universe": "HunterXHunter",
+    "series": "Hunter x Hunter",
+    "image_url": "https://i.pinimg.com/736x/21/df/f0/21dff03a9437cdabf2fcbe97e93c126d.jpg",
+    "bio": "An innocent yet terrifyingly determined young boy searching for his father.",
+    "traits": {
+      "introversion": 0.2,
+      "humor": 0.5,
+      "bravery": 1.0,
+      "loyalty": 0.9,
+      "ambition": 0.9,
+      "compassion": 0.7,
+      "cunning": 0.4,
+      "responsibility": 0.5,
+      "sarcasm": 0.1,
+      "optimism": 0.9,
+      "resilience": 0.9,
+      "empathy": 0.8,
+      "logic": 0.4,
+      "rebelliousness": 0.6,
+      "charm": 0.8
+    }
+  },
+  {
+    "name": "Killua Zoldyck",
+    "alias": "",
+    "universe": "HunterXHunter",
+    "series": "Hunter x Hunter",
+    "image_url": "https://i.pinimg.com/736x/91/97/d9/9197d9e5f410ee2a9ff371891b6fcc8c.jpg",
+    "bio": "A former assassin prodigy seeking to find his own path with his best friend.",
+    "traits": {
+      "introversion": 0.6,
+      "humor": 0.6,
+      "bravery": 0.9,
+      "loyalty": 1.0,
+      "ambition": 0.5,
+      "compassion": 0.6,
+      "cunning": 0.9,
+      "responsibility": 0.7,
+      "sarcasm": 0.8,
+      "optimism": 0.4,
+      "resilience": 0.8,
+      "empathy": 0.7,
+      "logic": 0.9,
+      "rebelliousness": 0.9,
+      "charm": 0.7
+    }
+  },
+  {
+    "name": "Dante",
+    "alias": "",
+    "universe": "Devil May Cry",
+    "series": "Devil May Cry",
+    "image_url": "https://i.pinimg.com/736x/88/29/73/8829738ef9186411516fc41f6a0058b7.jpg",
+    "bio": "A wisecracking demon hunter with incredible power and style.",
+    "traits": {
+      "introversion": 0.4,
+      "humor": 0.9,
+      "bravery": 1.0,
+      "loyalty": 0.7,
+      "ambition": 0.4,
+      "compassion": 0.7,
+      "cunning": 0.6,
+      "responsibility": 0.5,
+      "sarcasm": 1.0,
+      "optimism": 0.8,
+      "resilience": 0.9,
+      "empathy": 0.6,
+      "logic": 0.5,
+      "rebelliousness": 0.9,
+      "charm": 0.9
+    }
+  },
+  {
+    "name": "Taro Sakamoto",
+    "alias": "",
+    "universe": "Sakamoto Days",
+    "series": "Sakamoto Days",
+    "image_url": "https://i.pinimg.com/736x/c5/40/2a/c5402ab298b4c0559eb9431c360980fa.jpg",
+    "bio": "A legendary former hitman who retired to run a convenience store.",
+    "traits": {
+      "introversion": 0.7,
+      "humor": 0.4,
+      "bravery": 0.9,
+      "loyalty": 1.0,
+      "ambition": 0.3,
+      "compassion": 0.9,
+      "cunning": 0.8,
+      "responsibility": 0.9,
+      "sarcasm": 0.3,
+      "optimism": 0.7,
+      "resilience": 0.9,
+      "empathy": 0.8,
+      "logic": 0.7,
+      "rebelliousness": 0.3,
+      "charm": 0.7
+    }
+  },
+  {
+    "name": "Abhishek Tripathi",
+    "alias": "Sachiv Ji",
+    "universe": "Panchayat",
+    "series": "Panchayat",
+    "image_url": "https://i.pinimg.com/736x/f5/89/34/f58934dfb1d3d6dd2c1f930e461b2e59.jpg",
+    "bio": "An engineering graduate struggling to adapt to his role as a village panchayat secretary.",
+    "traits": {
+      "introversion": 0.7,
+      "humor": 0.6,
+      "bravery": 0.5,
+      "loyalty": 0.6,
+      "ambition": 0.8,
+      "compassion": 0.6,
+      "cunning": 0.5,
+      "responsibility": 0.8,
+      "sarcasm": 0.8,
+      "optimism": 0.3,
+      "resilience": 0.7,
+      "empathy": 0.5,
+      "logic": 0.8,
+      "rebelliousness": 0.6,
+      "charm": 0.5
+    }
+  },
+  {
+    "name": "Migi",
+    "alias": "",
+    "universe": "Parasyte",
+    "series": "Parasyte",
+    "image_url": "",
+    "bio": "An intelligent and highly logical parasite residing in Shinichi's right hand.",
+    "traits": {
+      "logic": 1.0,
+      "empathy": 0.1,
+      "resilience": 0.9,
+      "bravery": 0.8,
+      "cunning": 0.9,
+      "leader": 0.63,
+      "smart": 0.65,
+      "kind": 0.43,
+      "brave": 0.62,
+      "calm": 0.66,
+      "funny": 0.66,
+      "loyal": 0.36,
+      "honest": 0.59,
+      "ambitious": 0.5,
+      "creative": 0.56,
+      "optimism": 0.37,
+      "sarcasm": 0.46,
+      "responsibility": 0.37,
+      "compassion": 0.56,
+      "introversion": 0.46,
+      "rebelliousness": 0.69,
+      "charm": 0.55
+    }
+  },
+  {
+    "name": "Satomi Murano",
+    "alias": "",
+    "universe": "Parasyte",
+    "series": "Parasyte",
+    "image_url": "",
+    "bio": "A gentle and caring girl who cares deeply for Shinichi.",
+    "traits": {
+      "compassion": 0.9,
+      "empathy": 0.9,
+      "introversion": 0.4,
+      "bravery": 0.6,
+      "loyalty": 0.9,
+      "leader": 0.58,
+      "smart": 0.7,
+      "kind": 0.43,
+      "brave": 0.64,
+      "calm": 0.61,
+      "funny": 0.51,
+      "loyal": 0.35,
+      "honest": 0.44,
+      "ambitious": 0.5,
+      "creative": 0.4,
+      "cunning": 0.6,
+      "optimism": 0.38,
+      "sarcasm": 0.3,
+      "responsibility": 0.54,
+      "resilience": 0.55,
+      "logic": 0.51,
+      "rebelliousness": 0.53,
+      "charm": 0.47
+    }
+  },
+  {
+    "name": "Kana Kimishima",
+    "alias": "",
+    "universe": "Parasyte",
+    "series": "Parasyte",
+    "image_url": "",
+    "bio": "A rebellious girl with a unique ability to sense parasites.",
+    "traits": {
+      "rebelliousness": 0.9,
+      "bravery": 0.7,
+      "logic": 0.2,
+      "charm": 0.6,
+      "introversion": 0.6,
+      "leader": 0.37,
+      "smart": 0.65,
+      "kind": 0.55,
+      "brave": 0.52,
+      "calm": 0.39,
+      "funny": 0.46,
+      "loyal": 0.45,
+      "honest": 0.47,
+      "ambitious": 0.53,
+      "creative": 0.49,
+      "cunning": 0.37,
+      "optimism": 0.68,
+      "sarcasm": 0.53,
+      "responsibility": 0.37,
+      "compassion": 0.66,
+      "resilience": 0.61,
+      "empathy": 0.6
+    }
+  },
+  {
+    "name": "Ryoko Tamiya",
+    "alias": "",
+    "universe": "Parasyte",
+    "series": "Parasyte",
+    "image_url": "",
+    "bio": "A highly intelligent and analytical parasite who seeks to understand human nature.",
+    "traits": {
+      "logic": 1.0,
+      "smart": 1.0,
+      "cunning": 0.9,
+      "compassion": 0.3,
+      "empathy": 0.4,
+      "leader": 0.47,
+      "kind": 0.42,
+      "brave": 0.37,
+      "calm": 0.37,
+      "funny": 0.43,
+      "loyal": 0.38,
+      "honest": 0.55,
+      "ambitious": 0.48,
+      "creative": 0.41,
+      "optimism": 0.51,
+      "sarcasm": 0.48,
+      "responsibility": 0.63,
+      "introversion": 0.36,
+      "resilience": 0.4,
+      "rebelliousness": 0.37,
+      "charm": 0.57
+    }
+  },
+  {
+    "name": "Suzune Horikita",
+    "alias": "",
+    "universe": "Classroom of the Elite",
+    "series": "Classroom of the Elite",
+    "image_url": "",
+    "bio": "A strict and isolated student who aims to reach Class A at any cost.",
+    "traits": {
+      "introversion": 0.9,
+      "ambition": 1.0,
+      "logic": 0.9,
+      "responsibility": 0.9,
+      "compassion": 0.2,
+      "leader": 0.32,
+      "smart": 0.35,
+      "kind": 0.33,
+      "brave": 0.37,
+      "calm": 0.36,
+      "funny": 0.48,
+      "loyal": 0.54,
+      "honest": 0.36,
+      "ambitious": 0.64,
+      "creative": 0.67,
+      "cunning": 0.41,
+      "optimism": 0.49,
+      "sarcasm": 0.51,
+      "resilience": 0.67,
+      "empathy": 0.35,
+      "rebelliousness": 0.34,
+      "charm": 0.67
+    }
+  },
+  {
+    "name": "Kikyo Kushida",
+    "alias": "",
+    "universe": "Classroom of the Elite",
+    "series": "Classroom of the Elite",
+    "image_url": "",
+    "bio": "A popular and friendly girl with a dark and vindictive hidden side.",
+    "traits": {
+      "charm": 1.0,
+      "cunning": 0.9,
+      "empathy": 0.6,
+      "loyalty": 0.2,
+      "introversion": 0.1,
+      "leader": 0.45,
+      "smart": 0.66,
+      "kind": 0.6,
+      "brave": 0.61,
+      "calm": 0.67,
+      "funny": 0.59,
+      "loyal": 0.34,
+      "honest": 0.53,
+      "ambitious": 0.66,
+      "creative": 0.66,
+      "optimism": 0.61,
+      "sarcasm": 0.41,
+      "responsibility": 0.35,
+      "compassion": 0.34,
+      "resilience": 0.43,
+      "logic": 0.59,
+      "rebelliousness": 0.44
+    }
+  },
+  {
+    "name": "Kei Karuizawa",
+    "alias": "",
+    "universe": "Classroom of the Elite",
+    "series": "Classroom of the Elite",
+    "image_url": "",
+    "bio": "The leader of the girls in Class D who hides a traumatic past.",
+    "traits": {
+      "resilience": 0.8,
+      "charm": 0.8,
+      "rebelliousness": 0.6,
+      "bravery": 0.5,
+      "loyalty": 0.9,
+      "leader": 0.33,
+      "smart": 0.45,
+      "kind": 0.44,
+      "brave": 0.3,
+      "calm": 0.38,
+      "funny": 0.56,
+      "loyal": 0.51,
+      "honest": 0.43,
+      "ambitious": 0.65,
+      "creative": 0.63,
+      "cunning": 0.59,
+      "optimism": 0.39,
+      "sarcasm": 0.52,
+      "responsibility": 0.38,
+      "compassion": 0.49,
+      "introversion": 0.65,
+      "empathy": 0.51,
+      "logic": 0.36
+    }
+  },
+  {
+    "name": "Kakeru Ryuen",
+    "alias": "",
+    "universe": "Classroom of the Elite",
+    "series": "Classroom of the Elite",
+    "image_url": "",
+    "bio": "A ruthless and tyrannical leader who rules his class through fear and strategy.",
+    "traits": {
+      "leader": 0.9,
+      "cunning": 1.0,
+      "bravery": 0.9,
+      "rebelliousness": 1.0,
+      "compassion": 0.1,
+      "smart": 0.42,
+      "kind": 0.64,
+      "brave": 0.45,
+      "calm": 0.45,
+      "funny": 0.57,
+      "loyal": 0.44,
+      "honest": 0.4,
+      "ambitious": 0.63,
+      "creative": 0.66,
+      "optimism": 0.35,
+      "sarcasm": 0.66,
+      "responsibility": 0.41,
+      "introversion": 0.56,
+      "resilience": 0.68,
+      "empathy": 0.49,
+      "logic": 0.69,
+      "charm": 0.51
+    }
+  },
+  {
+    "name": "Nagisa Shiota",
+    "alias": "",
+    "universe": "Assassination Classroom",
+    "series": "Assassination Classroom",
+    "image_url": "",
+    "bio": "A calm and unassuming student with a hidden, natural talent for assassination.",
+    "traits": {
+      "introversion": 0.7,
+      "calm": 1.0,
+      "cunning": 0.8,
+      "empathy": 0.9,
+      "bravery": 0.8,
+      "leader": 0.31,
+      "smart": 0.5,
+      "kind": 0.64,
+      "brave": 0.33,
+      "funny": 0.68,
+      "loyal": 0.34,
+      "honest": 0.31,
+      "ambitious": 0.35,
+      "creative": 0.67,
+      "optimism": 0.45,
+      "sarcasm": 0.37,
+      "responsibility": 0.5,
+      "compassion": 0.65,
+      "resilience": 0.53,
+      "logic": 0.32,
+      "rebelliousness": 0.49,
+      "charm": 0.67
+    }
+  },
+  {
+    "name": "Karma Akabane",
+    "alias": "",
+    "universe": "Assassination Classroom",
+    "series": "Assassination Classroom",
+    "image_url": "",
+    "bio": "A highly intelligent and mischievous student with a violent streak.",
+    "traits": {
+      "smart": 0.9,
+      "rebelliousness": 1.0,
+      "cunning": 0.9,
+      "bravery": 0.9,
+      "sarcasm": 0.9,
+      "leader": 0.47,
+      "kind": 0.55,
+      "brave": 0.68,
+      "calm": 0.4,
+      "funny": 0.47,
+      "loyal": 0.64,
+      "honest": 0.37,
+      "ambitious": 0.42,
+      "creative": 0.52,
+      "optimism": 0.69,
+      "responsibility": 0.64,
+      "compassion": 0.67,
+      "introversion": 0.33,
+      "resilience": 0.54,
+      "empathy": 0.33,
+      "logic": 0.34,
+      "charm": 0.52
+    }
+  },
+  {
+    "name": "Kaede Kayano",
+    "alias": "",
+    "universe": "Assassination Classroom",
+    "series": "Assassination Classroom",
+    "image_url": "",
+    "bio": "A cheerful and supportive friend who hides a deep secret of her own.",
+    "traits": {
+      "charm": 0.8,
+      "cunning": 0.8,
+      "resilience": 0.9,
+      "loyalty": 0.8,
+      "introversion": 0.4,
+      "leader": 0.42,
+      "smart": 0.6,
+      "kind": 0.35,
+      "brave": 0.41,
+      "calm": 0.66,
+      "funny": 0.58,
+      "loyal": 0.36,
+      "honest": 0.49,
+      "ambitious": 0.48,
+      "creative": 0.36,
+      "optimism": 0.66,
+      "sarcasm": 0.57,
+      "responsibility": 0.46,
+      "compassion": 0.33,
+      "empathy": 0.66,
+      "logic": 0.34,
+      "rebelliousness": 0.39
+    }
+  },
+  {
+    "name": "Tadaomi Karasuma",
+    "alias": "",
+    "universe": "Assassination Classroom",
+    "series": "Assassination Classroom",
+    "image_url": "",
+    "bio": "A strict and professional government agent who teaches the students combat.",
+    "traits": {
+      "responsibility": 1.0,
+      "logic": 0.9,
+      "calm": 0.9,
+      "bravery": 0.9,
+      "charm": 0.4,
+      "leader": 0.42,
+      "smart": 0.53,
+      "kind": 0.62,
+      "brave": 0.35,
+      "funny": 0.43,
+      "loyal": 0.53,
+      "honest": 0.33,
+      "ambitious": 0.38,
+      "creative": 0.68,
+      "cunning": 0.55,
+      "optimism": 0.53,
+      "sarcasm": 0.47,
+      "compassion": 0.38,
+      "introversion": 0.49,
+      "resilience": 0.42,
+      "empathy": 0.33,
+      "rebelliousness": 0.31
+    }
+  },
+  {
+    "name": "Yor Forger",
+    "alias": "Thorn Princess",
+    "universe": "Spy x Family",
+    "series": "Spy x Family",
+    "image_url": "",
+    "bio": "A sweet and absent-minded city hall clerk who is secretly a deadly assassin.",
+    "traits": {
+      "introversion": 0.6,
+      "compassion": 0.9,
+      "bravery": 1.0,
+      "loyalty": 1.0,
+      "logic": 0.2,
+      "leader": 0.66,
+      "smart": 0.62,
+      "kind": 0.7,
+      "brave": 0.51,
+      "calm": 0.32,
+      "funny": 0.59,
+      "loyal": 0.44,
+      "honest": 0.34,
+      "ambitious": 0.49,
+      "creative": 0.54,
+      "cunning": 0.31,
+      "optimism": 0.31,
+      "sarcasm": 0.64,
+      "responsibility": 0.43,
+      "resilience": 0.5,
+      "empathy": 0.61,
+      "rebelliousness": 0.53,
+      "charm": 0.6
+    }
+  },
+  {
+    "name": "Yuri Briar",
+    "alias": "",
+    "universe": "Spy x Family",
+    "series": "Spy x Family",
+    "image_url": "",
+    "bio": "Yor's overly attached younger brother who works for the secret police.",
+    "traits": {
+      "loyalty": 1.0,
+      "responsibility": 0.8,
+      "logic": 0.7,
+      "cunning": 0.6,
+      "rebelliousness": 0.2,
+      "leader": 0.66,
+      "smart": 0.65,
+      "kind": 0.64,
+      "brave": 0.33,
+      "calm": 0.67,
+      "funny": 0.47,
+      "loyal": 0.7,
+      "honest": 0.33,
+      "ambitious": 0.57,
+      "creative": 0.49,
+      "optimism": 0.48,
+      "sarcasm": 0.7,
+      "compassion": 0.41,
+      "introversion": 0.33,
+      "resilience": 0.55,
+      "empathy": 0.38,
+      "charm": 0.52
+    }
+  },
+  {
+    "name": "Sylvia Sherwood",
+    "alias": "Handler",
+    "universe": "Spy x Family",
+    "series": "Spy x Family",
+    "image_url": "",
+    "bio": "Twilight's strict and highly capable handler at WISE.",
+    "traits": {
+      "leader": 0.9,
+      "responsibility": 1.0,
+      "logic": 0.9,
+      "resilience": 0.9,
+      "compassion": 0.7,
+      "smart": 0.44,
+      "kind": 0.32,
+      "brave": 0.66,
+      "calm": 0.61,
+      "funny": 0.65,
+      "loyal": 0.63,
+      "honest": 0.45,
+      "ambitious": 0.61,
+      "creative": 0.65,
+      "cunning": 0.62,
+      "optimism": 0.55,
+      "sarcasm": 0.34,
+      "introversion": 0.5,
+      "empathy": 0.54,
+      "rebelliousness": 0.52,
+      "charm": 0.51
+    }
+  },
+  {
+    "name": "Fiona Frost",
+    "alias": "Nightfall",
+    "universe": "Spy x Family",
+    "series": "Spy x Family",
+    "image_url": "",
+    "bio": "A stoic and hyper-competent spy who is fiercely devoted to Twilight.",
+    "traits": {
+      "introversion": 0.8,
+      "logic": 0.9,
+      "ambition": 0.9,
+      "loyalty": 1.0,
+      "calm": 0.8,
+      "leader": 0.47,
+      "smart": 0.68,
+      "kind": 0.51,
+      "brave": 0.67,
+      "funny": 0.59,
+      "loyal": 0.38,
+      "honest": 0.37,
+      "ambitious": 0.61,
+      "creative": 0.61,
+      "cunning": 0.43,
+      "optimism": 0.35,
+      "sarcasm": 0.4,
+      "responsibility": 0.61,
+      "compassion": 0.59,
+      "resilience": 0.42,
+      "empathy": 0.65,
+      "rebelliousness": 0.44,
+      "charm": 0.68
+    }
+  },
+  {
+    "name": "Kenzo Tenma",
+    "alias": "",
+    "universe": "Monster",
+    "series": "Monster",
+    "image_url": "",
+    "bio": "A brilliant and compassionate neurosurgeon seeking to correct a past mistake.",
+    "traits": {
+      "compassion": 1.0,
+      "empathy": 0.9,
+      "resilience": 0.9,
+      "smart": 0.9,
+      "responsibility": 1.0,
+      "leader": 0.4,
+      "kind": 0.51,
+      "brave": 0.42,
+      "calm": 0.42,
+      "funny": 0.68,
+      "loyal": 0.69,
+      "honest": 0.31,
+      "ambitious": 0.57,
+      "creative": 0.54,
+      "cunning": 0.62,
+      "optimism": 0.66,
+      "sarcasm": 0.37,
+      "introversion": 0.53,
+      "logic": 0.66,
+      "rebelliousness": 0.44,
+      "charm": 0.6
+    }
+  },
+  {
+    "name": "Nina Fortner",
+    "alias": "Anna Liebert",
+    "universe": "Monster",
+    "series": "Monster",
+    "image_url": "",
+    "bio": "Johan's twin sister who struggles with her dark past and memories.",
+    "traits": {
+      "resilience": 0.9,
+      "empathy": 0.8,
+      "bravery": 0.8,
+      "introversion": 0.6,
+      "charm": 0.7,
+      "leader": 0.31,
+      "smart": 0.46,
+      "kind": 0.51,
+      "brave": 0.49,
+      "calm": 0.49,
+      "funny": 0.4,
+      "loyal": 0.65,
+      "honest": 0.65,
+      "ambitious": 0.31,
+      "creative": 0.66,
+      "cunning": 0.38,
+      "optimism": 0.37,
+      "sarcasm": 0.31,
+      "responsibility": 0.33,
+      "compassion": 0.59,
+      "logic": 0.62,
+      "rebelliousness": 0.38
+    }
+  },
+  {
+    "name": "Heinrich Lunge",
+    "alias": "",
+    "universe": "Monster",
+    "series": "Monster",
+    "image_url": "",
+    "bio": "A highly analytical and obsessive BKA inspector.",
+    "traits": {
+      "logic": 1.0,
+      "responsibility": 0.9,
+      "ambition": 0.8,
+      "empathy": 0.1,
+      "resilience": 0.9,
+      "leader": 0.31,
+      "smart": 0.68,
+      "kind": 0.35,
+      "brave": 0.53,
+      "calm": 0.36,
+      "funny": 0.51,
+      "loyal": 0.46,
+      "honest": 0.67,
+      "ambitious": 0.32,
+      "creative": 0.4,
+      "cunning": 0.36,
+      "optimism": 0.45,
+      "sarcasm": 0.38,
+      "compassion": 0.4,
+      "introversion": 0.45,
+      "rebelliousness": 0.45,
+      "charm": 0.31
+    }
+  },
+  {
+    "name": "Eva Heinemann",
+    "alias": "",
+    "universe": "Monster",
+    "series": "Monster",
+    "image_url": "",
+    "bio": "A wealthy and arrogant woman whose life spirals out of control after losing Tenma.",
+    "traits": {
+      "charm": 0.6,
+      "ambition": 0.7,
+      "loyalty": 0.2,
+      "resilience": 0.5,
+      "rebelliousness": 0.7,
+      "leader": 0.36,
+      "smart": 0.59,
+      "kind": 0.5,
+      "brave": 0.68,
+      "calm": 0.33,
+      "funny": 0.54,
+      "loyal": 0.34,
+      "honest": 0.59,
+      "ambitious": 0.35,
+      "creative": 0.5,
+      "cunning": 0.33,
+      "optimism": 0.53,
+      "sarcasm": 0.43,
+      "responsibility": 0.59,
+      "compassion": 0.39,
+      "introversion": 0.42,
+      "empathy": 0.56,
+      "logic": 0.51
+    }
+  },
+  {
+    "name": "Nami",
+    "alias": "Cat Burglar",
+    "universe": "One Piece",
+    "series": "One Piece",
+    "image_url": "",
+    "bio": "The brilliant and somewhat greedy navigator of the Straw Hat Pirates.",
+    "traits": {
+      "smart": 0.9,
+      "cunning": 0.8,
+      "logic": 0.8,
+      "compassion": 0.7,
+      "loyalty": 0.9,
+      "leader": 0.51,
+      "kind": 0.56,
+      "brave": 0.64,
+      "calm": 0.42,
+      "funny": 0.55,
+      "loyal": 0.62,
+      "honest": 0.36,
+      "ambitious": 0.66,
+      "creative": 0.5,
+      "optimism": 0.59,
+      "sarcasm": 0.39,
+      "responsibility": 0.33,
+      "introversion": 0.36,
+      "resilience": 0.3,
+      "empathy": 0.44,
+      "rebelliousness": 0.38,
+      "charm": 0.31
+    }
+  },
+  {
+    "name": "Sanji",
+    "alias": "Black Leg",
+    "universe": "One Piece",
+    "series": "One Piece",
+    "image_url": "",
+    "bio": "The crew's passionate chef who fights with his legs and respects women above all.",
+    "traits": {
+      "charm": 0.8,
+      "compassion": 0.9,
+      "bravery": 0.9,
+      "loyalty": 1.0,
+      "logic": 0.6,
+      "leader": 0.63,
+      "smart": 0.56,
+      "kind": 0.56,
+      "brave": 0.35,
+      "calm": 0.45,
+      "funny": 0.31,
+      "loyal": 0.69,
+      "honest": 0.4,
+      "ambitious": 0.35,
+      "creative": 0.66,
+      "cunning": 0.34,
+      "optimism": 0.32,
+      "sarcasm": 0.51,
+      "responsibility": 0.51,
+      "introversion": 0.65,
+      "resilience": 0.4,
+      "empathy": 0.32,
+      "rebelliousness": 0.41
+    }
+  },
+  {
+    "name": "Usopp",
+    "alias": "Sogeking",
+    "universe": "One Piece",
+    "series": "One Piece",
+    "image_url": "",
+    "bio": "The cowardly but deeply loyal sniper who dreams of becoming a brave warrior.",
+    "traits": {
+      "bravery": 0.5,
+      "creativity": 1.0,
+      "cunning": 0.7,
+      "loyalty": 0.9,
+      "resilience": 0.9,
+      "leader": 0.44,
+      "smart": 0.53,
+      "kind": 0.54,
+      "brave": 0.43,
+      "calm": 0.36,
+      "funny": 0.42,
+      "loyal": 0.46,
+      "honest": 0.51,
+      "ambitious": 0.62,
+      "creative": 0.61,
+      "optimism": 0.38,
+      "sarcasm": 0.56,
+      "responsibility": 0.7,
+      "compassion": 0.35,
+      "introversion": 0.61,
+      "empathy": 0.41,
+      "logic": 0.41,
+      "rebelliousness": 0.65,
+      "charm": 0.37
+    }
+  },
+  {
+    "name": "Tony Tony Chopper",
+    "alias": "Cotton Candy Lover",
+    "universe": "One Piece",
+    "series": "One Piece",
+    "image_url": "",
+    "bio": "A naive and adorable reindeer who is an incredibly skilled doctor.",
+    "traits": {
+      "compassion": 1.0,
+      "empathy": 1.0,
+      "smart": 0.9,
+      "bravery": 0.6,
+      "introversion": 0.6,
+      "leader": 0.58,
+      "kind": 0.4,
+      "brave": 0.52,
+      "calm": 0.61,
+      "funny": 0.3,
+      "loyal": 0.32,
+      "honest": 0.59,
+      "ambitious": 0.38,
+      "creative": 0.48,
+      "cunning": 0.7,
+      "optimism": 0.62,
+      "sarcasm": 0.64,
+      "responsibility": 0.44,
+      "resilience": 0.51,
+      "logic": 0.6,
+      "rebelliousness": 0.59,
+      "charm": 0.62
+    }
+  },
+  {
+    "name": "Sasuke Uchiha",
+    "alias": "",
+    "universe": "Naruto",
+    "series": "Naruto",
+    "image_url": "",
+    "bio": "A prodigy driven by revenge to restore his clan and destroy his brother.",
+    "traits": {
+      "introversion": 0.9,
+      "ambition": 1.0,
+      "resilience": 0.9,
+      "rebelliousness": 0.9,
+      "logic": 0.7,
+      "leader": 0.49,
+      "smart": 0.31,
+      "kind": 0.37,
+      "brave": 0.59,
+      "calm": 0.31,
+      "funny": 0.54,
+      "loyal": 0.31,
+      "honest": 0.6,
+      "ambitious": 0.47,
+      "creative": 0.67,
+      "cunning": 0.52,
+      "optimism": 0.69,
+      "sarcasm": 0.56,
+      "responsibility": 0.36,
+      "compassion": 0.64,
+      "empathy": 0.68,
+      "charm": 0.49
+    }
+  },
+  {
+    "name": "Sakura Haruno",
+    "alias": "",
+    "universe": "Naruto",
+    "series": "Naruto",
+    "image_url": "",
+    "bio": "A highly intelligent and strong-willed medical ninja.",
+    "traits": {
+      "smart": 0.8,
+      "compassion": 0.9,
+      "resilience": 0.9,
+      "loyalty": 0.9,
+      "charm": 0.7,
+      "leader": 0.52,
+      "kind": 0.59,
+      "brave": 0.54,
+      "calm": 0.32,
+      "funny": 0.67,
+      "loyal": 0.68,
+      "honest": 0.4,
+      "ambitious": 0.64,
+      "creative": 0.5,
+      "cunning": 0.61,
+      "optimism": 0.35,
+      "sarcasm": 0.43,
+      "responsibility": 0.55,
+      "introversion": 0.31,
+      "empathy": 0.41,
+      "logic": 0.49,
+      "rebelliousness": 0.53
+    }
+  },
+  {
+    "name": "Kakashi Hatake",
+    "alias": "Copy Ninja",
+    "universe": "Naruto",
+    "series": "Naruto",
+    "image_url": "",
+    "bio": "The laid-back but extremely skilled and experienced leader of Team 7.",
+    "traits": {
+      "calm": 1.0,
+      "logic": 0.9,
+      "loyalty": 1.0,
+      "bravery": 0.9,
+      "responsibility": 0.8,
+      "leader": 0.43,
+      "smart": 0.39,
+      "kind": 0.7,
+      "brave": 0.3,
+      "funny": 0.33,
+      "loyal": 0.64,
+      "honest": 0.58,
+      "ambitious": 0.65,
+      "creative": 0.64,
+      "cunning": 0.35,
+      "optimism": 0.43,
+      "sarcasm": 0.33,
+      "compassion": 0.32,
+      "introversion": 0.62,
+      "resilience": 0.56,
+      "empathy": 0.64,
+      "rebelliousness": 0.65,
+      "charm": 0.35
+    }
+  },
+  {
+    "name": "Hinata Hyuga",
+    "alias": "",
+    "universe": "Naruto",
+    "series": "Naruto",
+    "image_url": "",
+    "bio": "A shy and gentle kunoichi who finds immense strength through her love.",
+    "traits": {
+      "introversion": 1.0,
+      "compassion": 1.0,
+      "empathy": 1.0,
+      "bravery": 0.8,
+      "resilience": 0.9,
+      "leader": 0.59,
+      "smart": 0.67,
+      "kind": 0.47,
+      "brave": 0.64,
+      "calm": 0.48,
+      "funny": 0.57,
+      "loyal": 0.44,
+      "honest": 0.45,
+      "ambitious": 0.41,
+      "creative": 0.35,
+      "cunning": 0.65,
+      "optimism": 0.31,
+      "sarcasm": 0.41,
+      "responsibility": 0.62,
+      "logic": 0.36,
+      "rebelliousness": 0.57,
+      "charm": 0.56
+    }
+  },
+  {
+    "name": "Ryuji Ayukawa",
+    "alias": "Yuka",
+    "universe": "Blue Period",
+    "series": "Blue Period",
+    "image_url": "",
+    "bio": "A confident yet internally struggling artist who specializes in Japanese art.",
+    "traits": {
+      "charm": 0.9,
+      "rebelliousness": 0.8,
+      "resilience": 0.6,
+      "introversion": 0.4,
+      "empathy": 0.8,
+      "leader": 0.57,
+      "smart": 0.32,
+      "kind": 0.3,
+      "brave": 0.6,
+      "calm": 0.69,
+      "funny": 0.65,
+      "loyal": 0.59,
+      "honest": 0.61,
+      "ambitious": 0.34,
+      "creative": 0.58,
+      "cunning": 0.66,
+      "optimism": 0.37,
+      "sarcasm": 0.43,
+      "responsibility": 0.39,
+      "compassion": 0.32,
+      "logic": 0.38
+    }
+  },
+  {
+    "name": "Yotasuke Takahashi",
+    "alias": "",
+    "universe": "Blue Period",
+    "series": "Blue Period",
+    "image_url": "",
+    "bio": "A blunt and highly talented artistic genius who struggles to connect with others.",
+    "traits": {
+      "introversion": 1.0,
+      "logic": 0.9,
+      "smart": 0.9,
+      "empathy": 0.2,
+      "charm": 0.2,
+      "leader": 0.33,
+      "kind": 0.38,
+      "brave": 0.43,
+      "calm": 0.56,
+      "funny": 0.67,
+      "loyal": 0.63,
+      "honest": 0.58,
+      "ambitious": 0.46,
+      "creative": 0.57,
+      "cunning": 0.39,
+      "optimism": 0.5,
+      "sarcasm": 0.46,
+      "responsibility": 0.44,
+      "compassion": 0.48,
+      "resilience": 0.69,
+      "rebelliousness": 0.33
+    }
+  },
+  {
+    "name": "Haruka Hashida",
+    "alias": "",
+    "universe": "Blue Period",
+    "series": "Blue Period",
+    "image_url": "",
+    "bio": "An art student who views appreciating art as equally important as creating it.",
+    "traits": {
+      "logic": 0.8,
+      "empathy": 0.7,
+      "charm": 0.7,
+      "calm": 0.8,
+      "optimism": 0.7,
+      "leader": 0.65,
+      "smart": 0.68,
+      "kind": 0.39,
+      "brave": 0.37,
+      "funny": 0.36,
+      "loyal": 0.62,
+      "honest": 0.39,
+      "ambitious": 0.69,
+      "creative": 0.35,
+      "cunning": 0.63,
+      "sarcasm": 0.36,
+      "responsibility": 0.33,
+      "compassion": 0.45,
+      "introversion": 0.68,
+      "resilience": 0.45,
+      "rebelliousness": 0.66
+    }
+  },
+  {
+    "name": "Maki Kuwana",
+    "alias": "",
+    "universe": "Blue Period",
+    "series": "Blue Period",
+    "image_url": "",
+    "bio": "A highly skilled student from an artistic family dealing with immense pressure.",
+    "traits": {
+      "responsibility": 0.9,
+      "resilience": 0.6,
+      "ambition": 0.7,
+      "logic": 0.7,
+      "introversion": 0.6,
+      "leader": 0.69,
+      "smart": 0.66,
+      "kind": 0.51,
+      "brave": 0.46,
+      "calm": 0.67,
+      "funny": 0.7,
+      "loyal": 0.36,
+      "honest": 0.5,
+      "ambitious": 0.65,
+      "creative": 0.7,
+      "cunning": 0.38,
+      "optimism": 0.38,
+      "sarcasm": 0.43,
+      "compassion": 0.35,
+      "empathy": 0.62,
+      "rebelliousness": 0.64,
+      "charm": 0.64
+    }
+  },
+  {
+    "name": "Askeladd",
+    "alias": "",
+    "universe": "Vinland Saga",
+    "series": "Vinland Saga",
+    "image_url": "",
+    "bio": "A charismatic and incredibly cunning mercenary leader with a grand vision.",
+    "traits": {
+      "cunning": 1.0,
+      "leader": 1.0,
+      "charm": 0.9,
+      "logic": 0.9,
+      "bravery": 0.9,
+      "smart": 0.47,
+      "kind": 0.63,
+      "brave": 0.33,
+      "calm": 0.61,
+      "funny": 0.51,
+      "loyal": 0.38,
+      "honest": 0.44,
+      "ambitious": 0.5,
+      "creative": 0.39,
+      "optimism": 0.47,
+      "sarcasm": 0.3,
+      "responsibility": 0.5,
+      "compassion": 0.56,
+      "introversion": 0.49,
+      "resilience": 0.47,
+      "empathy": 0.44,
+      "rebelliousness": 0.34
+    }
+  },
+  {
+    "name": "Canute",
+    "alias": "",
+    "universe": "Vinland Saga",
+    "series": "Vinland Saga",
+    "image_url": "",
+    "bio": "A timid prince who transforms into a ruthless and visionary king.",
+    "traits": {
+      "introversion": 0.7,
+      "ambition": 1.0,
+      "logic": 0.9,
+      "rebelliousness": 0.8,
+      "resilience": 0.8,
+      "leader": 0.6,
+      "smart": 0.45,
+      "kind": 0.61,
+      "brave": 0.68,
+      "calm": 0.35,
+      "funny": 0.48,
+      "loyal": 0.66,
+      "honest": 0.5,
+      "ambitious": 0.33,
+      "creative": 0.5,
+      "cunning": 0.57,
+      "optimism": 0.52,
+      "sarcasm": 0.53,
+      "responsibility": 0.35,
+      "compassion": 0.33,
+      "empathy": 0.35,
+      "charm": 0.39
+    }
+  },
+  {
+    "name": "Thors",
+    "alias": "Troll of Jom",
+    "universe": "Vinland Saga",
+    "series": "Vinland Saga",
+    "image_url": "",
+    "bio": "A legendary warrior who abandoned the battlefield to seek true peace.",
+    "traits": {
+      "bravery": 1.0,
+      "compassion": 1.0,
+      "calm": 1.0,
+      "responsibility": 1.0,
+      "loyalty": 1.0,
+      "leader": 0.67,
+      "smart": 0.67,
+      "kind": 0.62,
+      "brave": 0.58,
+      "funny": 0.45,
+      "loyal": 0.5,
+      "honest": 0.4,
+      "ambitious": 0.31,
+      "creative": 0.64,
+      "cunning": 0.38,
+      "optimism": 0.66,
+      "sarcasm": 0.59,
+      "introversion": 0.57,
+      "resilience": 0.65,
+      "empathy": 0.45,
+      "logic": 0.55,
+      "rebelliousness": 0.7,
+      "charm": 0.63
+    }
+  },
+  {
+    "name": "Einar",
+    "alias": "",
+    "universe": "Vinland Saga",
+    "series": "Vinland Saga",
+    "image_url": "",
+    "bio": "A farmer enslaved by war who becomes Thorfinn's closest companion.",
+    "traits": {
+      "compassion": 0.9,
+      "empathy": 1.0,
+      "resilience": 0.9,
+      "loyalty": 0.9,
+      "optimism": 0.7,
+      "leader": 0.35,
+      "smart": 0.35,
+      "kind": 0.65,
+      "brave": 0.31,
+      "calm": 0.42,
+      "funny": 0.52,
+      "loyal": 0.68,
+      "honest": 0.68,
+      "ambitious": 0.46,
+      "creative": 0.66,
+      "cunning": 0.51,
+      "sarcasm": 0.37,
+      "responsibility": 0.5,
+      "introversion": 0.34,
+      "logic": 0.56,
+      "rebelliousness": 0.65,
+      "charm": 0.69
+    }
+  },
+  {
+    "name": "Kurapika",
+    "alias": "",
+    "universe": "HunterXHunter",
+    "series": "Hunter x Hunter",
+    "image_url": "",
+    "bio": "A highly intelligent and driven Hunter seeking revenge for his massacred clan.",
+    "traits": {
+      "logic": 0.9,
+      "ambition": 0.9,
+      "loyalty": 1.0,
+      "cunning": 0.8,
+      "resilience": 0.9,
+      "leader": 0.48,
+      "smart": 0.7,
+      "kind": 0.55,
+      "brave": 0.58,
+      "calm": 0.38,
+      "funny": 0.57,
+      "loyal": 0.56,
+      "honest": 0.49,
+      "ambitious": 0.51,
+      "creative": 0.5,
+      "optimism": 0.39,
+      "sarcasm": 0.52,
+      "responsibility": 0.59,
+      "compassion": 0.5,
+      "introversion": 0.53,
+      "empathy": 0.49,
+      "rebelliousness": 0.44,
+      "charm": 0.49
+    }
+  },
+  {
+    "name": "Leorio Paradinight",
+    "alias": "",
+    "universe": "HunterXHunter",
+    "series": "Hunter x Hunter",
+    "image_url": "",
+    "bio": "A loud and seemingly greedy man whose true goal is to become a doctor to help the poor.",
+    "traits": {
+      "compassion": 0.9,
+      "empathy": 0.9,
+      "charm": 0.7,
+      "loyalty": 1.0,
+      "rebelliousness": 0.6,
+      "leader": 0.42,
+      "smart": 0.59,
+      "kind": 0.35,
+      "brave": 0.33,
+      "calm": 0.52,
+      "funny": 0.63,
+      "loyal": 0.34,
+      "honest": 0.31,
+      "ambitious": 0.44,
+      "creative": 0.45,
+      "cunning": 0.36,
+      "optimism": 0.55,
+      "sarcasm": 0.35,
+      "responsibility": 0.64,
+      "introversion": 0.65,
+      "resilience": 0.5,
+      "logic": 0.47
+    }
+  },
+  {
+    "name": "Hisoka Morow",
+    "alias": "",
+    "universe": "HunterXHunter",
+    "series": "Hunter x Hunter",
+    "image_url": "",
+    "bio": "A sadistic and chaotic magician who seeks to fight strong opponents.",
+    "traits": {
+      "rebelliousness": 1.0,
+      "cunning": 0.9,
+      "bravery": 1.0,
+      "empathy": 0.1,
+      "charm": 0.8,
+      "leader": 0.51,
+      "smart": 0.6,
+      "kind": 0.35,
+      "brave": 0.68,
+      "calm": 0.6,
+      "funny": 0.65,
+      "loyal": 0.54,
+      "honest": 0.56,
+      "ambitious": 0.62,
+      "creative": 0.31,
+      "optimism": 0.68,
+      "sarcasm": 0.59,
+      "responsibility": 0.45,
+      "compassion": 0.6,
+      "introversion": 0.31,
+      "resilience": 0.56,
+      "logic": 0.69
+    }
+  },
+  {
+    "name": "Chrollo Lucilfer",
+    "alias": "",
+    "universe": "HunterXHunter",
+    "series": "Hunter x Hunter",
+    "image_url": "",
+    "bio": "The calm, intelligent, and charismatic leader of the Phantom Troupe.",
+    "traits": {
+      "leader": 1.0,
+      "calm": 1.0,
+      "logic": 0.9,
+      "charm": 0.9,
+      "loyalty": 0.8,
+      "smart": 0.35,
+      "kind": 0.67,
+      "brave": 0.63,
+      "funny": 0.33,
+      "loyal": 0.34,
+      "honest": 0.33,
+      "ambitious": 0.68,
+      "creative": 0.39,
+      "cunning": 0.47,
+      "optimism": 0.41,
+      "sarcasm": 0.65,
+      "responsibility": 0.33,
+      "compassion": 0.41,
+      "introversion": 0.5,
+      "resilience": 0.33,
+      "empathy": 0.32,
+      "rebelliousness": 0.33
+    }
+  },
+  {
+    "name": "Vergil",
+    "alias": "",
+    "universe": "Devil May Cry",
+    "series": "Devil May Cry",
+    "image_url": "",
+    "bio": "Dante's stoic and power-hungry twin brother who relies on precision and dark magic.",
+    "traits": {
+      "introversion": 0.9,
+      "ambition": 1.0,
+      "logic": 0.8,
+      "resilience": 0.9,
+      "rebelliousness": 0.7,
+      "leader": 0.52,
+      "smart": 0.5,
+      "kind": 0.53,
+      "brave": 0.59,
+      "calm": 0.4,
+      "funny": 0.42,
+      "loyal": 0.6,
+      "honest": 0.36,
+      "ambitious": 0.44,
+      "creative": 0.56,
+      "cunning": 0.34,
+      "optimism": 0.34,
+      "sarcasm": 0.3,
+      "responsibility": 0.52,
+      "compassion": 0.5,
+      "empathy": 0.39,
+      "charm": 0.41
+    }
+  },
+  {
+    "name": "Nero",
+    "alias": "",
+    "universe": "Devil May Cry",
+    "series": "Devil May Cry",
+    "image_url": "",
+    "bio": "A hot-headed and fiercely loyal demon hunter with a demonic arm.",
+    "traits": {
+      "rebelliousness": 0.9,
+      "bravery": 1.0,
+      "loyalty": 1.0,
+      "compassion": 0.8,
+      "resilience": 0.9,
+      "leader": 0.65,
+      "smart": 0.51,
+      "kind": 0.55,
+      "brave": 0.69,
+      "calm": 0.47,
+      "funny": 0.45,
+      "loyal": 0.4,
+      "honest": 0.59,
+      "ambitious": 0.68,
+      "creative": 0.48,
+      "cunning": 0.63,
+      "optimism": 0.66,
+      "sarcasm": 0.52,
+      "responsibility": 0.4,
+      "introversion": 0.49,
+      "empathy": 0.53,
+      "logic": 0.7,
+      "charm": 0.57
+    }
+  },
+  {
+    "name": "Trish",
+    "alias": "",
+    "universe": "Devil May Cry",
+    "series": "Devil May Cry",
+    "image_url": "",
+    "bio": "A demon who resembles Dante's mother, wielding lightning and heavy weaponry.",
+    "traits": {
+      "charm": 0.8,
+      "cunning": 0.8,
+      "bravery": 0.9,
+      "logic": 0.7,
+      "loyalty": 0.8,
+      "leader": 0.62,
+      "smart": 0.49,
+      "kind": 0.43,
+      "brave": 0.42,
+      "calm": 0.5,
+      "funny": 0.65,
+      "loyal": 0.56,
+      "honest": 0.52,
+      "ambitious": 0.38,
+      "creative": 0.55,
+      "optimism": 0.69,
+      "sarcasm": 0.55,
+      "responsibility": 0.47,
+      "compassion": 0.5,
+      "introversion": 0.63,
+      "resilience": 0.48,
+      "empathy": 0.48,
+      "rebelliousness": 0.4
+    }
+  },
+  {
+    "name": "Lady",
+    "alias": "Mary",
+    "universe": "Devil May Cry",
+    "series": "Devil May Cry",
+    "image_url": "",
+    "bio": "A highly skilled human demon hunter driven by a tragic past.",
+    "traits": {
+      "resilience": 1.0,
+      "bravery": 0.9,
+      "logic": 0.7,
+      "independence": 0.9,
+      "rebelliousness": 0.8,
+      "leader": 0.66,
+      "smart": 0.32,
+      "kind": 0.55,
+      "brave": 0.58,
+      "calm": 0.64,
+      "funny": 0.32,
+      "loyal": 0.59,
+      "honest": 0.6,
+      "ambitious": 0.36,
+      "creative": 0.62,
+      "cunning": 0.62,
+      "optimism": 0.45,
+      "sarcasm": 0.3,
+      "responsibility": 0.56,
+      "compassion": 0.3,
+      "introversion": 0.46,
+      "empathy": 0.54,
+      "charm": 0.35
+    }
+  },
+  {
+    "name": "Shin Asakura",
+    "alias": "",
+    "universe": "Sakamoto Days",
+    "series": "Sakamoto Days",
+    "image_url": "",
+    "bio": "A clairvoyant ex-hitman who deeply admires Sakamoto and works at his store.",
+    "traits": {
+      "loyalty": 1.0,
+      "empathy": 0.8,
+      "bravery": 0.8,
+      "rebelliousness": 0.7,
+      "charm": 0.7,
+      "leader": 0.67,
+      "smart": 0.61,
+      "kind": 0.58,
+      "brave": 0.45,
+      "calm": 0.64,
+      "funny": 0.62,
+      "loyal": 0.43,
+      "honest": 0.62,
+      "ambitious": 0.39,
+      "creative": 0.36,
+      "cunning": 0.32,
+      "optimism": 0.59,
+      "sarcasm": 0.43,
+      "responsibility": 0.65,
+      "compassion": 0.41,
+      "introversion": 0.47,
+      "resilience": 0.64,
+      "logic": 0.66
+    }
+  },
+  {
+    "name": "Lu Xiaotang",
+    "alias": "",
+    "universe": "Sakamoto Days",
+    "series": "Sakamoto Days",
+    "image_url": "",
+    "bio": "A cheerful and energetic martial artist running away from the Triads.",
+    "traits": {
+      "charm": 0.9,
+      "bravery": 0.7,
+      "resilience": 0.8,
+      "optimism": 0.9,
+      "loyalty": 0.8,
+      "leader": 0.64,
+      "smart": 0.65,
+      "kind": 0.67,
+      "brave": 0.35,
+      "calm": 0.5,
+      "funny": 0.66,
+      "loyal": 0.31,
+      "honest": 0.58,
+      "ambitious": 0.35,
+      "creative": 0.68,
+      "cunning": 0.65,
+      "sarcasm": 0.69,
+      "responsibility": 0.51,
+      "compassion": 0.58,
+      "introversion": 0.49,
+      "empathy": 0.53,
+      "logic": 0.54,
+      "rebelliousness": 0.42
+    }
+  },
+  {
+    "name": "Heisuke Mashimo",
+    "alias": "",
+    "universe": "Sakamoto Days",
+    "series": "Sakamoto Days",
+    "image_url": "",
+    "bio": "An aloof and gullible sniper who travels with a bird.",
+    "traits": {
+      "introversion": 0.6,
+      "humor": 0.8,
+      "empathy": 0.8,
+      "loyalty": 0.8,
+      "logic": 0.3,
+      "leader": 0.32,
+      "smart": 0.49,
+      "kind": 0.32,
+      "brave": 0.54,
+      "calm": 0.39,
+      "funny": 0.68,
+      "loyal": 0.66,
+      "honest": 0.4,
+      "ambitious": 0.49,
+      "creative": 0.36,
+      "cunning": 0.52,
+      "optimism": 0.58,
+      "sarcasm": 0.63,
+      "responsibility": 0.46,
+      "compassion": 0.54,
+      "resilience": 0.56,
+      "rebelliousness": 0.63,
+      "charm": 0.32
+    }
+  },
+  {
+    "name": "Osaragi",
+    "alias": "",
+    "universe": "Sakamoto Days",
+    "series": "Sakamoto Days",
+    "image_url": "",
+    "bio": "An elegant and stoic assassin who uses a large circular saw.",
+    "traits": {
+      "introversion": 0.9,
+      "calm": 1.0,
+      "logic": 0.7,
+      "loyalty": 0.9,
+      "resilience": 0.8,
+      "leader": 0.32,
+      "smart": 0.56,
+      "kind": 0.35,
+      "brave": 0.56,
+      "funny": 0.56,
+      "loyal": 0.37,
+      "honest": 0.53,
+      "ambitious": 0.4,
+      "creative": 0.4,
+      "cunning": 0.64,
+      "optimism": 0.48,
+      "sarcasm": 0.64,
+      "responsibility": 0.37,
+      "compassion": 0.65,
+      "empathy": 0.31,
+      "rebelliousness": 0.52,
+      "charm": 0.55
+    }
+  },
+  {
+    "name": "Manju Devi",
+    "alias": "",
+    "universe": "Panchayat",
+    "series": "Panchayat",
+    "image_url": "",
+    "bio": "The actual Pradhan of Phulera who gradually asserts her authority.",
+    "traits": {
+      "leader": 0.8,
+      "rebelliousness": 0.7,
+      "resilience": 0.8,
+      "logic": 0.6,
+      "responsibility": 0.8,
+      "smart": 0.41,
+      "kind": 0.58,
+      "brave": 0.61,
+      "calm": 0.65,
+      "funny": 0.57,
+      "loyal": 0.39,
+      "honest": 0.59,
+      "ambitious": 0.59,
+      "creative": 0.51,
+      "cunning": 0.4,
+      "optimism": 0.58,
+      "sarcasm": 0.68,
+      "compassion": 0.55,
+      "introversion": 0.51,
+      "empathy": 0.31,
+      "charm": 0.45
+    }
+  },
+  {
+    "name": "Brij Bhushan Dubey",
+    "alias": "Pradhan Ji",
+    "universe": "Panchayat",
+    "series": "Panchayat",
+    "image_url": "",
+    "bio": "The acting Pradhan who is well-meaning but often caught in village politics.",
+    "traits": {
+      "charm": 0.7,
+      "loyalty": 0.8,
+      "cunning": 0.6,
+      "compassion": 0.7,
+      "leader": 0.7,
+      "smart": 0.52,
+      "kind": 0.69,
+      "brave": 0.49,
+      "calm": 0.51,
+      "funny": 0.59,
+      "loyal": 0.46,
+      "honest": 0.64,
+      "ambitious": 0.34,
+      "creative": 0.51,
+      "optimism": 0.67,
+      "sarcasm": 0.55,
+      "responsibility": 0.55,
+      "introversion": 0.61,
+      "resilience": 0.57,
+      "empathy": 0.47,
+      "logic": 0.54,
+      "rebelliousness": 0.53
+    }
+  },
+  {
+    "name": "Prahlad Pandey",
+    "alias": "",
+    "universe": "Panchayat",
+    "series": "Panchayat",
+    "image_url": "",
+    "bio": "The jovial deputy Pradhan who finds joy in simple things but harbors deep sorrow.",
+    "traits": {
+      "humor": 0.9,
+      "resilience": 1.0,
+      "empathy": 0.9,
+      "loyalty": 0.9,
+      "calm": 0.8,
+      "leader": 0.42,
+      "smart": 0.66,
+      "kind": 0.7,
+      "brave": 0.39,
+      "funny": 0.69,
+      "loyal": 0.39,
+      "honest": 0.51,
+      "ambitious": 0.46,
+      "creative": 0.56,
+      "cunning": 0.34,
+      "optimism": 0.31,
+      "sarcasm": 0.44,
+      "responsibility": 0.32,
+      "compassion": 0.31,
+      "introversion": 0.68,
+      "logic": 0.69,
+      "rebelliousness": 0.4,
+      "charm": 0.41
+    }
+  },
+  {
+    "name": "Vikas Shukla",
+    "alias": "",
+    "universe": "Panchayat",
+    "series": "Panchayat",
+    "image_url": "",
+    "bio": "The ever-helpful and loyal office assistant who is fiercely protective of his friends.",
+    "traits": {
+      "loyalty": 1.0,
+      "compassion": 0.9,
+      "humor": 0.7,
+      "responsibility": 0.8,
+      "empathy": 0.8,
+      "leader": 0.61,
+      "smart": 0.51,
+      "kind": 0.39,
+      "brave": 0.4,
+      "calm": 0.56,
+      "funny": 0.68,
+      "loyal": 0.45,
+      "honest": 0.39,
+      "ambitious": 0.54,
+      "creative": 0.3,
+      "cunning": 0.31,
+      "optimism": 0.47,
+      "sarcasm": 0.56,
+      "introversion": 0.58,
+      "resilience": 0.59,
+      "logic": 0.49,
+      "rebelliousness": 0.52,
+      "charm": 0.43
     }
   }
 ]

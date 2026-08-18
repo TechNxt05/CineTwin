@@ -18,7 +18,12 @@ const TRAIT_ICONS = {
   cunning: Brain,
   responsibility: CheckCircle,
   sarcasm: Brain,
-  optimism: Sun
+  optimism: Sun,
+  resilience: Shield,
+  empathy: Heart,
+  logic: Brain,
+  rebelliousness: Crown,
+  charm: Heart
 }
 
 const TRAIT_LABELS = {
@@ -31,7 +36,12 @@ const TRAIT_LABELS = {
   cunning: 'Cunning',
   responsibility: 'Responsibility',
   sarcasm: 'Sarcasm',
-  optimism: 'Optimism'
+  optimism: 'Optimism',
+  resilience: 'Resilience',
+  empathy: 'Empathy',
+  logic: 'Logic',
+  rebelliousness: 'Rebelliousness',
+  charm: 'Charm'
 }
 
 export default function Results() {
@@ -82,11 +92,18 @@ export default function Results() {
     }
   }
 
-  const getTopTraits = (character: any) => {
+  const getTopTraits = (character: any, limit: number = 3) => {
     const traits = character.traits
     return Object.entries(traits)
       .sort(([, a], [, b]) => (b as number) - (a as number))
-      .slice(0, 3)
+      .slice(0, limit)
+      .map(([trait, value]) => ({ trait, value: value as number }))
+  }
+
+  const getAllTraits = (character: any) => {
+    const traits = character.traits
+    return Object.entries(traits)
+      .sort(([, a], [, b]) => (b as number) - (a as number))
       .map(([trait, value]) => ({ trait, value: value as number }))
   }
 
@@ -205,6 +222,62 @@ export default function Results() {
                 )
               })()}
             </div>
+          </motion.div>
+        )}
+
+        {/* AI Personality Analysis & All Traits */}
+        {isGlobalMatch && result.ai_analysis && matchesList.length > 0 && (
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+            className="mb-20 space-y-8"
+          >
+            <Card className="border-primary/20 bg-slate-900/60 backdrop-blur-md">
+              <h3 className="text-2xl font-bold text-white mb-6 flex items-center">
+                <Brain className="w-6 h-6 text-purple-400 mr-3" />
+                AI Personality Analysis
+              </h3>
+              <p className="text-slate-300 text-lg leading-relaxed mb-6">
+                {result.ai_analysis.description}
+              </p>
+              <div className="grid md:grid-cols-2 gap-4">
+                <div className="bg-slate-800/50 p-4 rounded-lg border border-slate-700">
+                  <span className="text-sm text-slate-400 uppercase tracking-wider block mb-1">Dream City</span>
+                  <span className="text-lg text-white font-medium">{result.ai_analysis.dream_city}</span>
+                </div>
+                <div className="bg-slate-800/50 p-4 rounded-lg border border-slate-700">
+                  <span className="text-sm text-slate-400 uppercase tracking-wider block mb-1">Favourite Hobby</span>
+                  <span className="text-lg text-white font-medium">{result.ai_analysis.favourite_hobby}</span>
+                </div>
+              </div>
+            </Card>
+
+            <Card className="border-primary/20 bg-slate-900/60 backdrop-blur-md">
+              <h3 className="text-2xl font-bold text-white mb-6 flex items-center">
+                <CheckCircle className="w-6 h-6 text-green-400 mr-3" />
+                Full Trait Breakdown
+              </h3>
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                {getAllTraits(matchesList[0].character).map(({ trait, value }) => {
+                  const Icon = TRAIT_ICONS[trait as keyof typeof TRAIT_ICONS] || Heart
+                  return (
+                    <div key={trait} className="bg-slate-800/50 p-3 rounded-lg border border-slate-700">
+                      <div className="flex items-center text-slate-300 mb-2">
+                        <Icon className="w-4 h-4 mr-2 text-primary-500" />
+                        <span className="text-sm font-medium">{TRAIT_LABELS[trait as keyof typeof TRAIT_LABELS] || trait}</span>
+                      </div>
+                      <div className="flex items-center justify-between">
+                        <div className="flex-1 h-1.5 bg-slate-700 rounded-full mr-3 overflow-hidden">
+                          <div className="bg-primary h-full rounded-full" style={{ width: `${value * 100}%` }}></div>
+                        </div>
+                        <span className="text-xs font-bold text-white">{Math.round(value * 100)}%</span>
+                      </div>
+                    </div>
+                  )
+                })}
+              </div>
+            </Card>
           </motion.div>
         )}
 
